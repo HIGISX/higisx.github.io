@@ -1,0 +1,382 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>HISPCRT | High Intelligence Spatial Computing Research Team</title>
+
+    <meta name="description" content="Description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+        
+    <link rel="icon" href="../../assets/img/favicon/logo-ico.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="../../assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+	<style type="text/css">
+		#sub_menu{
+			display: none;
+
+		}
+		ul li:hover{
+			cursor: pointer;
+		}
+		p {text-indent:2em;} 
+		table {
+		border-collapse: collapse;
+		border-spacing:0;
+		width: 70%;
+		border: 4px solid #ddd;
+		margin:0px auto;
+		}
+		th{
+		text-align: left;
+		padding: 16px;
+		width:150px;
+		border: 1px solid #ddd;
+		}
+		td {
+		text-align: left;
+		padding: 16px;
+		border: 1px solid #ddd;
+		}
+		tr:nth-child(even) {
+		background-color: #f2f2f2;
+		}
+	</style>
+</head>
+
+<body>
+
+	<main class="main">
+		
+		<div class="main-inner">
+
+			<!-- Begin mobile main menu -->
+			<nav class="mmm">
+				<div class="mmm-content">	
+					<ul class="mmm-list">
+						<li>
+							<a href="../index.html">Home</a>
+						</li>
+						<li>
+							<a href="../about-us.html">About Us</a>
+						</li>
+						<li>
+							<a href="../ourteam.html">Our Team</a>
+						</li>
+						<li>
+							<a href="../publication.html">Publication</a>
+						</li>
+						<!-- <li>
+							<a href="tabs-and-accordions.html">Tabs & Accordions</a>
+						</li> -->
+						<li>
+							<a href="../news.html">News</a>
+						</li>
+						<li>
+							<a href="../contacts.html">Contacts</a>
+            </li>
+
+            <li class="sub_menu" onclick = "f('sub_menu')" >Languages
+                <ul id="sub_menu">
+                    <li><a class="sub_menu" href="../news/P20240119.html">English</a></li>
+                    <li><a class="sub_menu" href="../../zh/news/P20240119.html">简体中文</a></li>
+                </ul>
+            </li>
+						</li>
+					</ul>
+				</div>
+			</nav><!-- End mobile main menu -->
+<header class="header header-minimal">
+    <nav class="header-fixed">
+        <div class="container">
+            <div class="row flex-nowrap align-items-center justify-content-between">
+				<div class="col-auto header-fixed-col logo-wrapper">
+					<a href="../index.html" class="logo" title="HiGISX">
+						<img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+						<img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+					</a>
+				</div>
+                <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
+                    <div class="row flex-nowrap align-items-center justify-content-end">
+                        <div class="col header-fixed-col d-none d-xl-block col-static">
+                            <!-- Begin main menu -->
+							<nav class="main-mnu">
+								<ul class="main-mnu-list">
+									<li>
+										<a href="../index.html" data-title="Home">
+											<span>Home</span>
+										</a>
+									</li>
+									<li>
+										<a href="../about-us.html" data-title="About Us">
+											<span>About Us</span>
+										</a>
+									</li>
+									<li>
+										<a href="../ourteam.html" data-title="Our Team">
+											<span>Our Team</span>
+										</a>
+									</li>
+									<li>
+										<a href="../publication.html" data-title="Publication">
+											<span>Publication</span>
+										</a>
+									</li>
+									<!-- <li>
+										<a href="tabs-and-accordions.html" data-title="Tabs & Accordions">
+											<span>Tabs & Accordions</span>
+										</a>
+									</li> -->
+									<li>
+										<a href="../news.html" data-title="News">
+											<span>News</span>
+										</a>
+									</li>
+									<li>
+										<a href="../contacts.html" data-title="Contacts">
+											<span>Contacts</span>
+										</a>
+									</li>
+									<li class="dropdown">
+										<button class="earth">
+											<img src="../../assets\img\earth.png" width="20" alt="">
+										</button>
+										<div class="dropdown-content">
+										  <a href="../news/P20240119.html">English</a>
+										  <a href="../../zh/news/P20240119.html">简体中文</a>
+										</div>
+									</li>
+								</ul>
+							</nav><!-- End main menu -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-block d-xl-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+			<!-- Begin bread crumbs -->
+			<nav class="bread-crumbs">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<ul class="bread-crumbs-list">
+								<li><a href="../index.html">Home</a><i class="material-icons md-18">chevron_right</i></li>
+								<li><a href="../news.html">News</a><i class="material-icons md-18">chevron_right</i></li>
+								<li><a>Paper Delivery</a><i class="material-icons md-18">chevron_right</i></li>
+								<li>
+									A New Approach for Solving Location Routing Problems with Deep Reinforcement Learning of Emergency Medical Facility 
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav><!-- End bread crumbs -->
+
+			<div class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="news-post">
+								<header class="news-post-header">
+									<h2 class="news-post-title">
+										A New Approach for Solving Location Routing Problems with Deep Reinforcement Learning of Emergency Medical Facility 
+									</h2>
+									<div class="news-post-meta">
+										<div class="news-post-meta-item">
+											<i class="material-icons md-22">access_time</i>
+											<span>January 19, 2024</span>
+										</div>
+										<div class="news-post-meta-item">
+											<span>by &nbsp;</span>
+											<a href="../team/zhoujunyuan.html">Junyuan Zhou</a>
+										</div>
+									</div>
+									<div>
+										<!-- 论文名片 -->
+										<br>
+										<table style="font-size: 20px;">
+											<tr>
+											  <th>Conference</th>
+											  <td>Geoindustry@ACM SIGSPATIAL 2023</td>
+											</tr>
+											<tr>
+												<th>English Title</th>
+											   <td>A New Approach for Solving Location Routing Problems with Deep Reinforcement Learning of Emergency Medical Facility </td>
+											 </tr>
+											 <tr>
+												 <th>Chinese Title</th>
+												 <td>一种基于深度强化学习求解应急医疗设施选址-路径问题的新方法</td>
+											 </tr>
+											<tr>
+												<th>Authors</th>
+											  <td>Shaohua Wang, Junyuan Zhou, Haojian Liang, Zhenbo Wang, Cheng Su, Xiao Li</td>
+											</tr>
+											<tr>
+												<th>DOI</th>
+											  <td><a href=""></a></td>
+											</tr>
+											<tr>
+												<th>Empirical Research</th>
+											  <td><a href="https://github.com/HIGISX/hispot">https://github.com/HIGISX/hispot</a></td>
+											</tr>
+										  </table>
+									</div>
+								</header>
+								<article class="news-post-article content">
+									<h4>Abstract</h4>
+									<p>The Location Routing Problem (LRP) has extensive applications in emergency medical facility selection. It involves a complex spatial optimization problem of selecting the optimal facility locations from a set of demand points and candidate facility locations and planning the most efficient routes. This study introduces a two-stage solution approach based on deep reinforcement learning, which fully leverages the potential of deep reinforcement learning in handling sequential decision problems. Firstly, in the location selection stage, through the interaction between an agent and the environment, the agent needs to choose facility locations from numerous demand points to either maximize overall profit or minimize overall costs. This stage determines central points and allocates demand points to the nearest facility locations. Subsequently, in the route planning stage, the agent decides how to distribute deliveries among the pre-selected facility locations to minimize overall route length or costs. Experimental results demonstrate the effectiveness of this method in addressing location routing problems. It may provide valuable support for responding to emergencies and disaster events, helping decision-makers make more intelligent choices for facility locations and route planning, ultimately enhancing service response speed and efficiency. Furthermore, this method holds broad application potential in other domains, further advancing the development and utilization of deep reinforcement learning in spatial optimization problems. </p>
+									<hr>
+									<h4>Location Routing Problem</h4>
+									<p>LRP jointly considers the facility location problem (FLP) and the vehicle routing problem (VRP). Watson-Gandy and Dohrn, Salhi, S., & Rand, G. K. have proven that the strategy for solving LRP by dismantling LRP into FLP and VRP and solving those problems sequentially is not optimal. Therefore, constructing the solving strategy that could consider FLP and VRP as a unity and solve them simultaneously to find the optimal solution is critical in processing LRP. Currently, the exact and heuristic algorithms are mainly applied to solve LRP.</p>
+									<p>LRP is a traditional strategic-tactical-operational problem that considers a set of potential facilities and a set of customers. The main decisions of LRP are:<br>
+										&emsp;&emsp;&bull; The number and location of facilities to open,<br>
+										&emsp;&emsp;&bull; the allocation of customers to the opened facilities,<br>
+										&emsp;&emsp;&bull; The design of routes to serve customers of each facility using a fleet of vehicles.
+									</p>
+									<p>As with most other models, one cannot capture all aspects of a real-life LRP with one mathematical model. Considering the complex real-life scenarios, LRP has a lot of variant problems with different objectives and constraints. Therefore, identifying the constraints of each sub-problem, such as facility location, allocation, and routing problem, is essential for solving LRP.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240119/zjy1.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Figure 1: An illustrative example of LRP</p>
+									</div>
+									<hr>
+									<h4>Methodology</h4>
+									<p>In the Location Routing Problems (LRPs), there are two main problems to address: location problem and route planning. Both of these problems can be modeled as sequential decision processes. In this section, we propose a two-stage algorithm based on deep reinforcement learning (DRL) to solve LRP, comprising the location problem stage and the route planning stage. In the location problem and routing problem, there are three types of nodes: demand points, logistics centers, and distribution centers.</p>
+									<p><b>（1）Location Problem Stage</b></p>
+									<p>In the location selection stage, we model the problem as a Markov Decision Process (MDP). The intelligent agent needs to choose one or more locations from all demand points to construct facilities, aiming to maximize overall revenue or minimize overall costs. To achieve this, we follow these steps:<br>
+										&emsp;&emsp;&bull; State: Define a state representation that includes the current chosen facility locations, the status of demand points, and other relevant information.<br>
+										&emsp;&emsp;&bull; Action: Define an action space in which the agent can choose the locations for constructing facilities.<br>
+										&emsp;&emsp;&bull; Reward: Design a reward function so that the agent can receive appropriate reward signals based on the chosen locations. Rewards can consider factors such as costs, revenues, and the degree of demand fulfillment.
+									</p>
+									<p>Once this stage is completed, the facilities' deployment locations are determined, and these points are considered as central points, with each demand point assigned to the nearest facility point.</p>
+									<p><b>（2）Route Planning Stage</b></p>
+									<p>In the route planning stage, the routing problem can also be modeled as a Markov Decision Process. In this stage, the intelligent agent needs to decide how to allocate deliveries between the selected facility locations to minimize the overall path length or costs. </p>
+									<p>The two-stage algorithm's solution framework is illustrated as follows:</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240119/zjy2.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Figure 2: The structure of the two-stage algorithm for solving emergency medical facility location problem.</p>
+									</div>
+									<p><b>（3）Deep Reinforcement Learning Algorithm</b></p>
+									<p>We are using the REINFORCE algorithm to train our Attention Model- Facility Location Problem (AM-FLP) and Attention Model - Vehicle Routing Problem (AM-VRP). This algorithm is a type of policy gradient method. The algorithm steps are as follows:<br>
+										&emsp;&emsp;&bull; <b>Define Policy Functions π(a|s): </b>Define a policy function π(a|s) that describes the probability distribution of taking action a given a state s. We use π_FLP (a|s) and π_VRP (a|s) to represent the policy functions for the AM-FLP and AM-VRP, respectively.<br>
+										&emsp;&emsp;&bull; <b>Sample Trajectories:</b> For each trajectory, calculate the cumulative return. The return reflects the quality of executing the policy during a single attempt.<br>
+										&emsp;&emsp;&bull; <b>Compute Returns:</b> For each trajectory, compute the cumulative return. The return represents the quality of executing the policy in a single attempt.<br>
+										&emsp;&emsp;&bull; <b>Update Policy:</b> Based on the computed gradient information, employ gradient descent to update the parameters of the policy function, with the goal of increasing the expected return.<br>
+										&emsp;&emsp;&bull; <b>Repeat Training:</b> Continuously repeat the above steps until the policy function converges to a satisfactory policy or reaches a predefined number of training iterations.
+
+									</p>
+									<hr>
+									<h4>Experiments and Analysis</h4>
+									<p>Deep reinforcement learning, through continuous interaction between an agent and its environment to maximize rewards, is effective in handling sequential decision problems. We propose a new approach to the two-stage location routing problem (LRP) based on deep reinforcement learning. In this section, we first discuss how to utilize deep reinforcement learning to solve LRP, then implement problem-solving using this framework, and finally conduct generalization experiments.</p>
+									<p>For the LRP, we constructed two different attention model, AM-FLP and AM-VRP, for solving location problem and routing problem, respectively. We randomly generated 2000 instances for evaluating results. Each example consists of 50 demand points, and the task is to select 8 points out of the 50 demand points as central points. Then, following a greedy approach, the remaining demand points are assigned to the nearest central points, resulting in the classification of all nodes into 8 categories. Finally, for each category, the shortest path is chosen to traverse all the nodes. The experimental results are shown in Table 1. N represents the number of the demand points and p presents the number of the centers.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<p style = "text-align:center;color:dimgrey;">Table 1 The comparison results of Gurobi vs. GA vs. AM for location routing problem on N=50, p=8</p>
+										<img data-src="../../assets/img/news-photo/P20240119/zjy3.png" class="img-responsive lazy" alt="">
+									</div>
+									<p>We divided the solution of the location-routing problem into two stages. Table 1 illustrates three different methods in terms of their objective functions and solution times in the location selection stage and the path planning stage. Gurobi, being recognized as the best solver, performs exceptionally well in this problem. It consistently obtains optimal solutions quickly, even in instances with 50 nodes. On the other hand, Genetic Algorithm (GA) is a heuristic algorithm, and its results are relatively less favorable compared to the other two algorithms. The gap between its objective values and the optimal solutions is the widest, which may be attributed to the parameter settings within the genetic algorithm. Our proposed method, which employs deep reinforcement learning (AM), exhibits a smaller gap from the optimal solutions compared to GA. Furthermore, it boasts the shortest solution times among the three methods. This suggests that our proposed approach achieves a balance between solution time and accuracy to some extent, making it a highly promising method. Overall, the results demonstrate that our proposed approach has the potential to be a valuable contribution in addressing the trade-off between solution time and precision in the context of the location-routing problem. More details of the code is available at:<a href="https://github.com/HIGISX/hispot">https://github.com/HIGISX/hispot</a>.</p>
+									<hr>
+									<h4>Conclusion and Future Works</h4>
+									<p>The location routing problem holds significant importance in practical production. It directly impacts resource allocation, logistics efficiency, and service quality for businesses, making it crucial for their operations and competitiveness. This study has introduced an innovative solution—a two-stage approach based on deep reinforcement learning—to address the location routing problem, with a specific focus on emergency medical facility selection. This method leverages the full potential of deep reinforcement learning in tackling sequential decision problems. Through the interaction between the agent and the environment, it effectively optimizes the selection of emergency medical facility locations and route planning, enhancing overall efficiency and quality. This research provides a new and efficient approach for the selection of emergency medical facilities, holding significant promise for practical applications and offering robust support and decision-making tools for addressing emergencies and disasters. Future studies could further explore the method's generalization capabilities and its potential applications in other domains, thereby extending its practical value.</p>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+<!-- Begin footer -->
+<footer class="footer footer-minimal">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row items align-items-center">
+                <div class="col-lg-3 col-md-4 col-12 item">
+                    <div class="widget-brand-info">
+                        <div class="widget-brand-info-main">
+                            <a href="../index.html" class="logo" title="HiGISX">
+                                <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md item">
+                    <div class="footer-item">
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu footer-mnu-line">
+                                <li><a href="../index.html" class="hover-link" data-title="Home"><span>Home</span></a></li>
+                                <li><a href="../about-us.html" class="hover-link" data-title="About Us"><span>About Us</span></a></li>
+                                <li><a href="../ourteam.html" class="hover-link" data-title="Our Team"><span>Our Team</span></a></li>
+                                <li><a href="../publication.html" class="hover-link" data-title="Publications"><span>Publications</span></a></li>
+                                <li><a href="../news.html" class="hover-link" data-title="News"><span>News</span></a></li>
+                                <li><a href="../contacts.html" class="hover-link" data-title="Contacts"><span>Contacts</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between items">
+                <div class="col-md-auto col-12 item">
+                    <nav class="footer-links">
+                        <ul>
+                            <li><a>HiGISX</a></li>
+                            <!-- <li><a href="privacy-policy.html">Privacy Policy</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-auto col-12 item">
+                    <div class="copyright">© 2023 HiGISX. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End footer -->
+
+	</main><!-- End main -->
+
+	<script src="../../assets/libs/jquery/jquery.min.js"></script>
+    <script src="../../assets/libs/lozad/lozad.min.js"></script>
+    <script src="../../assets/libs/device/device.js"></script>
+    <script src="../../assets/libs/spincrement/jquery.spincrement.min.js"></script>
+    <script src="../../assets/libs/pristine/pristine.min.js"></script>
+    <script src="../../assets/js/custom.js"></script>
+    <script src="../../assets/js/forms.js"></script>
+	
+	<script type="text/javascript">
+		function f(str){
+                var sub_menu = document.getElementById(str);
+                var dis_v = sub_menu.style.display;
+                
+                if(dis_v == "block")
+                    sub_menu.style.display = "none";
+                else
+                    sub_menu.style.display = "block";
+                    
+            }
+	</script>
+	
+</body>
+</html>

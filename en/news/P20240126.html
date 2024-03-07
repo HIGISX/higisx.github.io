@@ -1,0 +1,367 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>HISPCRT | High Intelligence Spatial Computing Research Team</title>
+
+    <meta name="description" content="Description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+        
+    <link rel="icon" href="../../assets/img/favicon/logo-ico.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="../../assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+	<style type="text/css">
+		#sub_menu{
+			display: none;
+
+		}
+		ul li:hover{
+			cursor: pointer;
+		}
+		p {text-indent:2em;} 
+		table {
+		border-collapse: collapse;
+		border-spacing:0;
+		width: 70%;
+		border: 4px solid #ddd;
+		margin:0px auto;
+		}
+		th{
+		text-align: left;
+		padding: 16px;
+		width:150px;
+		border: 1px solid #ddd;
+		}
+		td {
+		text-align: left;
+		padding: 16px;
+		border: 1px solid #ddd;
+		}
+		tr:nth-child(even) {
+		background-color: #f2f2f2;
+		}
+	</style>
+</head>
+
+<body>
+
+	<main class="main">
+		
+		<div class="main-inner">
+
+			<!-- Begin mobile main menu -->
+			<nav class="mmm">
+				<div class="mmm-content">	
+					<ul class="mmm-list">
+						<li>
+							<a href="../index.html">Home</a>
+						</li>
+						<li>
+							<a href="../about-us.html">About Us</a>
+						</li>
+						<li>
+							<a href="../ourteam.html">Our Team</a>
+						</li>
+						<li>
+							<a href="../publication.html">Publication</a>
+						</li>
+						<!-- <li>
+							<a href="tabs-and-accordions.html">Tabs & Accordions</a>
+						</li> -->
+						<li>
+							<a href="../news.html">News</a>
+						</li>
+						<li>
+							<a href="../contacts.html">Contacts</a>
+            </li>
+
+            <li class="sub_menu" onclick = "f('sub_menu')" >Languages
+                <ul id="sub_menu">
+                    <li><a class="sub_menu" href="../news/P20240126.html">English</a></li>
+                    <li><a class="sub_menu" href="../../zh/news/P20240126.html">简体中文</a></li>
+                </ul>
+            </li>
+						</li>
+					</ul>
+				</div>
+			</nav><!-- End mobile main menu -->
+<header class="header header-minimal">
+    <nav class="header-fixed">
+        <div class="container">
+            <div class="row flex-nowrap align-items-center justify-content-between">
+				<div class="col-auto header-fixed-col logo-wrapper">
+					<a href="../index.html" class="logo" title="HiGISX">
+						<img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+						<img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+					</a>
+				</div>
+                <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
+                    <div class="row flex-nowrap align-items-center justify-content-end">
+                        <div class="col header-fixed-col d-none d-xl-block col-static">
+                            <!-- Begin main menu -->
+							<nav class="main-mnu">
+								<ul class="main-mnu-list">
+									<li>
+										<a href="../index.html" data-title="Home">
+											<span>Home</span>
+										</a>
+									</li>
+									<li>
+										<a href="../about-us.html" data-title="About Us">
+											<span>About Us</span>
+										</a>
+									</li>
+									<li>
+										<a href="../ourteam.html" data-title="Our Team">
+											<span>Our Team</span>
+										</a>
+									</li>
+									<li>
+										<a href="../publication.html" data-title="Publication">
+											<span>Publication</span>
+										</a>
+									</li>
+									<!-- <li>
+										<a href="tabs-and-accordions.html" data-title="Tabs & Accordions">
+											<span>Tabs & Accordions</span>
+										</a>
+									</li> -->
+									<li>
+										<a href="../news.html" data-title="News">
+											<span>News</span>
+										</a>
+									</li>
+									<li>
+										<a href="../contacts.html" data-title="Contacts">
+											<span>Contacts</span>
+										</a>
+									</li>
+									<li class="dropdown">
+										<button class="earth">
+											<img src="../../assets\img\earth.png" width="20" alt="">
+										</button>
+										<div class="dropdown-content">
+										  <a href="../news/P20240126.htm">English</a>
+										  <a href="../../zh/news/P20240126.html">简体中文</a>
+										</div>
+									</li>
+								</ul>
+							</nav><!-- End main menu -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-block d-xl-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+			<!-- Begin bread crumbs -->
+			<nav class="bread-crumbs">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<ul class="bread-crumbs-list">
+								<li><a href="../index.html">Home</a><i class="material-icons md-18">chevron_right</i></li>
+								<li><a href="../news.html">News</a><i class="material-icons md-18">chevron_right</i></li>
+								<li><a>Paper Delivery</a><i class="material-icons md-18">chevron_right</i></li>
+								<li>
+									Dynamic Visual Landscape Assessment of Disused Railway in Complex Terrain: A Study of Jingmen Railway
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav><!-- End bread crumbs -->
+
+			<div class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="news-post">
+								<header class="news-post-header">
+									<h2 class="news-post-title">
+										Dynamic Visual Landscape Assessment of Disused Railway in Complex Terrain: A Study of Jingmen Railway
+									</h2>
+									<div class="news-post-meta">
+										<div class="news-post-meta-item">
+											<i class="material-icons md-22">access_time</i>
+											<span>January 25, 2024</span>
+										</div>
+										<div class="news-post-meta-item">
+											<span>by &nbsp;</span>
+											<a href="../team/lixiao.html">Xiao Li</a>
+										</div>
+									</div>
+									<div>
+										<!-- 论文名片 -->
+										<br>
+										<table style="font-size: 20px;">
+											<tr>
+											  <th>Journal</th>
+											  <td>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing </td>
+											</tr>
+											<tr>
+												<th>English Title</th>
+											   <td>Dynamic Visual Landscape Assessment of Disused Railway in Complex Terrain: A Study of Jingmen Railway</td>
+											 </tr>
+											 <tr>
+												 <th>Chinese Title</th>
+												 <td>复杂地形下废旧铁路动态视觉景观评价：以京门铁路为研究对象</td>
+											 </tr>
+											<tr>
+												<th>Authors</th>
+											  <td>Yueyi Wang, Shaohua Wang*, Xin Wang, Xiaoyu Huang, Xiao Li, Xueyan Zhang, and Ziqiong Li</td>
+											</tr>
+											<tr>
+												<th>DOI</th>
+											  <td><a href="https://doi.org/10.1109/JSTARS.2023.3347530">https://doi.org/10.1109/JSTARS.2023.3347530</a></td>
+											</tr>
+										  </table>
+									</div>
+								</header>
+								<article class="news-post-article content">
+									<h4>Abstract</h4>
+									<p>Against the backdrop of the partially idle resources of conventional railways and the continuous growth of suburban leisure tourism demand, it is required to develop railway tourism by utilizing the disused resources of conventional railways in China. Therefore, restoring, analyzing, and evaluating the visual landscapes seen when travelling on conventional trains are extremely important. The innovation of this study is proposing a dynamic visual landscape interface for disused railways, which establishes a connection between the "seeing" and "perceiving" for passengers and describes the visual landscape they observe. By analyzing dynamic visual factors of passengers and combining DEM data, the temporal-spatial relationship of the visual landscapes along the railway is described as a dynamic visual landscape interface model. Based on this, the study proposes criteria and indicators for analyzing and evaluating the dynamic visual landscapes of railways, using typical landscapes along the Jingmen Railway as an example for evaluation and validation. The research results provide analytical and decision-making tools for repurposing disused railways as tourist railways.</p>
+									<hr>
+									<h4>Background</h4>
+									<p> In recent years, with the great construction of the high-speed railway network and the gradual improvement of the conventional railway network in China, Chinese railway transportation has realized development achievements with dedicated passenger high-speed railways as the backbone, conventional railways as the foundation, and intercity railways as the auxiliary. Some conventional railways have improved their speed, changed the lines, reduced trips, and separated passenger and cargo transportation. Also, point-to-point trunk node passenger transport has gradually replaced the universal passenger transport that used to connect urban and rural areas, which has led to the closure of numerous low-grade stations and small passenger platforms as well as the disused or abandoned of those passenger station buildings and their ancillary facilities. Meanwhile, the deepening of industrial restructuring and capacity reduction measures, and the increase in domestic rail freight volume stagnated led to the abandonment of some existing freight and industrial railway capacity, stations, and warehouses, resulting in a waste of resources. Therefore, updating and reusing these disused railways is an economic demand of railway operating units.</p>
+									<p>Due to the early construction of disused railways and the continuous expansion of urban areas, railway territory has gradually been surrounded by urban and rural construction land, becoming a negative space that hinders the development of urban transportation and affects the urban and rural landscape to a certain extent. Therefore, updating and reusing disused railways is required for urban planning and development.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240126/lx1.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 1：Location of stations of the Jingmen railway.</p>
+									</div>
+									<hr>
+									<h4>Framework</h4>
+									<p>This study first analyzes the dynamic visual landscape features of conventional railways and constructs a dynamic visual landscape interface model by incorporating DEM terrain data and perspective limitations of train passengers. Based on this model, the research further develops a dynamic visual landscape evaluation system by organizing assessment criteria and indicators and determining their weights using the AHP method. The framework is then applied to a case study of the Jingmen Railway, where typical landscape sections are evaluated by experts on the dynamic visual interface model. The results are discussed to analyze the influence of different factors and evaluate the effectiveness and implications of the proposed dynamic landscape interface and assessment system.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240126/lx2.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 2：The complete view of the dynamic visual landscape interface model of the Jingmen Railway.</p>
+									</div>
+									<hr>
+									<h4>Result</h4>
+									<p>This study used expert evaluation to assess the dynamic, perspective-limited, and narrative features of selected typical landscape areas. Thirty evaluators with three types of backgrounds were hired to obtain objective dynamic visual landscape evaluation results, including landscape planning and design experts, architecture and landscape professional graduate students, and undergraduate students in non-related majors. The evaluators first observed panoramic photos of typical landscape areas to understand the overall landscape characteristics of the area. Based on this, they were given a slide of sequential photos along the route to simulate the dynamic visual landscape experience from a passenger's perspective, establishing a more realistic dynamic, perspec-tive-limited, and narrative experience for the evaluators. The evaluators used a dynamic visual landscape evaluation system to rate each criterion on a five-point scale: excellent (5 points), good (4 points), fair (3 points), poor (2 points), and very poor (1 point). Based on the comprehensive evaluation results, the dynamic visual landscape scores of the typical landscape areas in the Jingmen Railway were obtained.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<p style = "text-align:center;color:dimgrey;">Tab 1：Dynamic visual landscape evaluation table of typical landscape areas in the Jingmen Railway.</p>
+										<img data-src="../../assets/img/news-photo/P20240126/lx3.png" class="img-responsive lazy" alt="">
+									</div>
+									<hr>
+									<h4>Innovation</h4>
+									<p><b>（1）Innovation of research object</b></p>
+									<p> In China, the problem of disused conventional railways has emerged recently with the development of the times, and there has been little research on the reuse of disused railways. Similar research mainly focuses on railway heritage conservation, and the research objects include only a few heritage railways, such as Jing-Zhang Railway, China Eastern Railway, Yunnan-Vietnam Railway, Jiaoji Railway, etc. There has been little research on the numerous disused conventional railways without heritage conservation value. The research object of this study, the Jingmen Railway, is a typical representative of these disused conventional railways. These disused conventional railways are generally well-preserved and suitable for renewal and reuse for diverse needs, rather than being demolished and rebuilt as greenways. The selection of the research object is one of the main innovative points of this article.</p>
+									<p><b>（2）Research on the dynamic visual landscape interface model combining macro and micro perspectives based on the passenger's viewing</b></p>
+									<p> Most existing research on railway heritage conservation and landscape analysis uses GIS to evaluate the landscape quality of the entire railway corridor. This paper analyzes the limitations of the actual viewing perspectives of passengers when taking the train and proposes that the visual landscape of disused railroads is dynamic and continuous, with limited perspectives, and has strong narrative qualities. Based on these landscape characteristics, the proposed dynamic visual landscape interface model contains the micro-level passenger viewing perspective and the macro-level geographic landscape. The railway landscape evaluation based on this model can more accurately reproduce the actual scenic experience of passengers.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240126/lx4.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 3：Typical viewshed analysis of a disused railway in a mountainous area.</p>
+									</div>
+									<hr>
+									<h4>Conclusion</h4>
+									<p>Based on the research in this manuscript, it is known that when utilizing the leisure and tourism value of the disused resources of the conventional railway and planning the railway landscape along the line, it is necessary to conduct investigations and organize the railway landscape in advance. Based on the appropriate train operating speeds and reasonable engineering costs, the main scenic areas along the railway line should be planned to ensure that the main scenic resources are within the appropriate viewing angle of the train. When an existing railway line is renovated, and tourist trains are put into operation, train operations can be arranged based on the dynamic visual landscape interface model in the context of the temporal-spatial relationship of the landscape. In areas where the landscape resources are abundant but the dynamic landscape viewing angle is not ideal, increasing train stops and transfers can be considered to expand the ways of sightseeing and enhance the viewing experience.</p>
+									<p>Furthermore, the dynamic visual landscape analysis and evaluation proposed in this article were completed under the premise of complex terrain. For railways with less visual landscape changes influenced by the spatiotemporal relationship, such as those in plain terrain, their railway landscapes exhibit relatively little change on the dynamic visual landscape interface. Therefore, further research is needed to explore the planning path of railway landscapes in plain areas based on the dynamic visual landscape interface. We will also consider multi-scale factors to evaluate the spatiotemporal effects in future work.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240126/lx5.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 4：Analysis of typical dynamic visual landscape along the Jingmen railway (Example diagram).</p>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+<!-- Begin footer -->
+<footer class="footer footer-minimal">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row items align-items-center">
+                <div class="col-lg-3 col-md-4 col-12 item">
+                    <div class="widget-brand-info">
+                        <div class="widget-brand-info-main">
+                            <a href="../index.html" class="logo" title="HiGISX">
+                                <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md item">
+                    <div class="footer-item">
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu footer-mnu-line">
+                                <li><a href="../index.html" class="hover-link" data-title="Home"><span>Home</span></a></li>
+                                <li><a href="../about-us.html" class="hover-link" data-title="About Us"><span>About Us</span></a></li>
+                                <li><a href="../ourteam.html" class="hover-link" data-title="Our Team"><span>Our Team</span></a></li>
+                                <li><a href="../publication.html" class="hover-link" data-title="Publications"><span>Publications</span></a></li>
+                                <li><a href="../news.html" class="hover-link" data-title="News"><span>News</span></a></li>
+                                <li><a href="../contacts.html" class="hover-link" data-title="Contacts"><span>Contacts</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between items">
+                <div class="col-md-auto col-12 item">
+                    <nav class="footer-links">
+                        <ul>
+                            <li><a>HiGISX</a></li>
+                            <!-- <li><a href="privacy-policy.html">Privacy Policy</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-auto col-12 item">
+                    <div class="copyright">© 2023 HiGISX. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End footer -->
+
+	</main><!-- End main -->
+
+	<script src="../../assets/libs/jquery/jquery.min.js"></script>
+    <script src="../../assets/libs/lozad/lozad.min.js"></script>
+    <script src="../../assets/libs/device/device.js"></script>
+    <script src="../../assets/libs/spincrement/jquery.spincrement.min.js"></script>
+    <script src="../../assets/libs/pristine/pristine.min.js"></script>
+    <script src="../../assets/js/custom.js"></script>
+    <script src="../../assets/js/forms.js"></script>
+	
+	<script type="text/javascript">
+		function f(str){
+                var sub_menu = document.getElementById(str);
+                var dis_v = sub_menu.style.display;
+                
+                if(dis_v == "block")
+                    sub_menu.style.display = "none";
+                else
+                    sub_menu.style.display = "block";
+                    
+            }
+	</script>
+	
+</body>
+</html>

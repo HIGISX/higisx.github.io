@@ -1,0 +1,352 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>HISPCRT | High Intelligence Spatial Computing Research Team</title>
+
+    <meta name="description" content="Description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+        
+    <link rel="icon" href="../../assets/img/favicon/logo-ico.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="../../assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+	<style type="text/css">
+		#sub_menu{
+			display: none;
+
+		}
+		ul li:hover{
+			cursor: pointer;
+		}
+		p {text-indent:2em;} 
+		table {
+		border-collapse: collapse;
+		border-spacing:0;
+		width: 70%;
+		border: 4px solid #ddd;
+		margin:0px auto;
+		}
+		th{
+		text-align: left;
+		padding: 16px;
+		width:150px;
+		border: 1px solid #ddd;
+		}
+		td {
+		text-align: left;
+		padding: 16px;
+		border: 1px solid #ddd;
+		}
+		tr:nth-child(even) {
+		background-color: #f2f2f2;
+		}
+	</style>
+</head>
+
+<body>
+
+	<main class="main">
+		
+		<div class="main-inner">
+
+			<!-- Begin mobile main menu -->
+			<nav class="mmm">
+				<div class="mmm-content">	
+					<ul class="mmm-list">
+						<li>
+							<a href="../index.html">Home</a>
+						</li>
+						<li>
+							<a href="../about-us.html">About Us</a>
+						</li>
+						<li>
+							<a href="../ourteam.html">Our Team</a>
+						</li>
+						<li>
+							<a href="../publication.html">Publication</a>
+						</li>
+						<!-- <li>
+							<a href="tabs-and-accordions.html">Tabs & Accordions</a>
+						</li> -->
+						<li>
+							<a href="../news.html">News</a>
+						</li>
+						<li>
+							<a href="../contacts.html">Contacts</a>
+            </li>
+
+            <li class="sub_menu" onclick = "f('sub_menu')" >Languages
+                <ul id="sub_menu">
+                    <li><a class="sub_menu" href="../news/P20240125.html">English</a></li>
+                    <li><a class="sub_menu" href="../../zh/news/P20240125.html">简体中文</a></li>
+                </ul>
+            </li>
+						</li>
+					</ul>
+				</div>
+			</nav><!-- End mobile main menu -->
+<header class="header header-minimal">
+    <nav class="header-fixed">
+        <div class="container">
+            <div class="row flex-nowrap align-items-center justify-content-between">
+				<div class="col-auto header-fixed-col logo-wrapper">
+					<a href="../index.html" class="logo" title="HiGISX">
+						<img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+						<img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+					</a>
+				</div>
+                <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
+                    <div class="row flex-nowrap align-items-center justify-content-end">
+                        <div class="col header-fixed-col d-none d-xl-block col-static">
+                            <!-- Begin main menu -->
+							<nav class="main-mnu">
+								<ul class="main-mnu-list">
+									<li>
+										<a href="../index.html" data-title="Home">
+											<span>Home</span>
+										</a>
+									</li>
+									<li>
+										<a href="../about-us.html" data-title="About Us">
+											<span>About Us</span>
+										</a>
+									</li>
+									<li>
+										<a href="../ourteam.html" data-title="Our Team">
+											<span>Our Team</span>
+										</a>
+									</li>
+									<li>
+										<a href="../publication.html" data-title="Publication">
+											<span>Publication</span>
+										</a>
+									</li>
+									<!-- <li>
+										<a href="tabs-and-accordions.html" data-title="Tabs & Accordions">
+											<span>Tabs & Accordions</span>
+										</a>
+									</li> -->
+									<li>
+										<a href="../news.html" data-title="News">
+											<span>News</span>
+										</a>
+									</li>
+									<li>
+										<a href="../contacts.html" data-title="Contacts">
+											<span>Contacts</span>
+										</a>
+									</li>
+									<li class="dropdown">
+										<button class="earth">
+											<img src="../../assets\img\earth.png" width="20" alt="">
+										</button>
+										<div class="dropdown-content">
+										  <a href="../news/P20240125.html">English</a>
+										  <a href="../../zh/news/P20240125.html">简体中文</a>
+										</div>
+									</li>
+								</ul>
+							</nav><!-- End main menu -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-block d-xl-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+			<!-- Begin bread crumbs -->
+			<nav class="bread-crumbs">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<ul class="bread-crumbs-list">
+								<li><a href="../index.html">Home</a><i class="material-icons md-18">chevron_right</i></li>
+								<li><a href="../news.html">News</a><i class="material-icons md-18">chevron_right</i></li>
+								<li><a>Paper Delivery</a><i class="material-icons md-18">chevron_right</i></li>
+								<li>
+									Development of Geographic Information System Architecture Feature Analysis and Evolution Trend Research
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav><!-- End bread crumbs -->
+
+			<div class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="news-post">
+								<header class="news-post-header">
+									<h2 class="news-post-title">
+										Development of Geographic Information System Architecture Feature Analysis and Evolution Trend Research
+									</h2>
+									<div class="news-post-meta">
+										<div class="news-post-meta-item">
+											<i class="material-icons md-22">access_time</i>
+											<span>January 25, 2024</span>
+										</div>
+										<div class="news-post-meta-item">
+											<span>by &nbsp;</span>
+											<a href="../team/lixiao.html">Xiao Li</a>
+										</div>
+									</div>
+									<div>
+										<!-- 论文名片 -->
+										<br>
+										<table style="font-size: 20px;">
+											<tr>
+											  <th>Journal</th>
+											  <td>Sustainability</td>
+											</tr>
+											<tr>
+												<th>English Title</th>
+											   <td>Development of Geographic Information System Architecture Feature Analysis and Evolution Trend Research</td>
+											 </tr>
+											 <tr>
+												 <th>Chinese Title</th>
+												 <td>地理信息系统体系结构特征分析与演进趋势研究</td>
+											 </tr>
+											<tr>
+												<th>Authors</th>
+											  <td>Xiao Li, Jianwei Yue, Shaohua Wang, Yifei Luo, Cheng Su, Junyuan Zhou, Dachuan Xu, Hao Lu</td>
+											</tr>
+											<tr>
+												<th>DOI</th>
+											  <td><a href="https://doi.org/10.3390/su16010137">https://doi.org/10.3390/su16010137</a></td>
+											</tr>
+										  </table>
+									</div>
+								</header>
+								<article class="news-post-article content">
+									<h4>Abstract</h4>
+									<p>A geographic information system (GIS) is a technical system which is supported by computer software and hardware systems. It focuses on the geographical information related to the whole or part of the earth’s surface. It is used for collecting, storing, managing, calculating, analyzing, displaying, and describing geographical information. It has inherent advantages in processing geographic data and plays an indispensable role in the sustainable detection of natural resources, natural disaster risk management, urban sustainable development planning, etc. With the continuous development of technology, the integration of GIS with emerging technologies such as big data, cloud services, and artificial intelligence creates new geographic information systems and entirely new development directions. The GIS architecture is of great value for the efficient execution of GIS systems. In this process, as the organizational form of GIS systems, the GIS architecture is also constantly evolving with the intersection and integration of GIS and other technologies. This research reviews a large amount of literature on component technologies, 3D technologies, cloud computing, big data, artificial intelligence, and so on, at home and abroad and analyzes and elaborates on the current development status and trends of GIS software architecture. It discusses in detail the characteristics and future development directions of different GIS software architectures in different periods and makes delicate descriptions of their hierarchical features. This study aims to summarize the advantages and disadvantages of architectures in different stages, the interactivity from the user’s perspective. On this basis, it studies the development trends of GIS integrated with big data and artificial intelligence, summarizes the laws and experience of the evolution of its system architecture, and analyzes the technological drivers of each evolution and their impact on GIS applications. Reviewing the evolution history of GIS frameworks is expected to provide guiding references for more efficient GIS system architecture research in the future.</p>
+									<hr>
+									<h4>Background</h4>
+									<p>GIS software architecture represents the organization mode of the GIS system in the whole GIS software system and throughout the entire life cycle researched and developed by the GIS system. Accurate architecture mode plays an important role in effectively executing GIS spatial operations. Currently, the popular GIS architecture organizations include Components GIS, Web GIS, mobile GIS, grid GIS, new 3D GIS, Cloud GIS, big data GIS, AI GIS, etc. Based on the above-mentioned architecture, this paper will illustrate and discover the status quo and trend of the GIS architecture system at home and abroad.</p>
+									<p>At present, the relevant literature on GIS architecture is relatively scarce, especially with the lack of a comprehensive review and systematic study of the development process of GIS architecture. Most of the studies focus on the development of GIS and one-sided analysis of the characteristics of a single architecture. There is little literature to summarize the inherent laws of GIS architecture evolution at different stages. Through the form of a literature review, this paper systematically combs the technological evolution process of mainstream GIS architecture in different stages from component GIS to AI GIS and makes up for the literature gap in this field. The purpose of this study is to explore the current situation and development trend of GIS architecture at home and abroad in recent years. Through the comparative analysis of GIS architectures in different stages, it is expected to summarize the advantages and disadvantages of different architectures and provide a reference for the design of future GIS architectures.</p>
+									<hr>
+									<h4>Methodology</h4>
+									<p>We conducted a comprehensive search and statistical analysis of Chinese and English academic papers on GIS architecture published between 1991 and 2023. For Chinese papers, we chose the China National Knowledge Infrastructure (CNKI) database as the paper source, which is widely recognized as an authoritative source in academia. CNKI includes a large number of high-quality papers published in core Chinese journals that adopt strict peer-review systems and are widely recognized for their quality. For English papers, we chose the well-known Google Scholar database, which extensively covers various high-impact factor English journals and contains papers that have gone through rigorous peer review, ensuring high quality. The richness of these two databases in terms of quantity and quality of papers meets the needs of our research in investigating GIS architecture literature.</p>
+									<p>After obtaining the paper samples, we carefully reviewed the authors, abstracts, introductions, and conclusions of the papers to eliminate duplicated content, ensuring the accuracy of the research papers. We used keywords related to GIS architecture such as “GIS architecture features”, “GIS architecture evolution”, and “emerging technologies in GIS” to search for literature. Eventually, we identified 127 high-quality research papers from the two databases as the literature basis for this study. Among them, there are 66 Chinese papers and 61 English papers. Furthermore, 25 papers directly studying GIS systems account for 20% of the total. There are 102 papers on different types of GIS, classified by category. Figure 1 shows the proportion of the number of different types of geographic information system (GIS) studies in the sample of papers included in this review.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240125/lx1.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 1：Percentage of different types of GIS studies.</p>
+									</div>
+									<hr>
+									<h4>Review and Discussion</h4>
+									<p>After decades of development, GIS has been integrated into the mainstream of information technology and will continue to be an important part of IT. Its significant advancement could present both opportunities and challenges to GIS. In addition to IT, the application of artificial intelligence could also drive the development and innovation of spatial information science, such as the application of GeoAI based on machine learning and deep learning in target detection, binary classification, feature classification, and scene classification. In GIS-center geoinformation science, artificial intelligence and remote sensing big data have facilitated the evolution of geoinformation science towards intelligence and promoted the reform of the geoscience research paradigm. In addition, the use of digital technology to create virtual models of objects throughout their life cycle enables predictive and control operations on physical models in the real world. Digital technologies such as digital twin technology, metaverse technology as a network of three-dimensional virtual worlds, and depth mapping where brain science intersects with cartography, all play a significant role in contributing to the various directions of GIS development. The application of equal distance weight feature space optimization model and other applications of space calculation algorithm is a multi-directional expansion of spatial big data, which further makes the development and application of GIS have a deeper expression.</p>
+									<hr>
+									<h4>Conclusions</h4>
+									<p>The evolution of GIS architecture is an ongoing process driven by application demands and technological advancements. From the early days of component-based GIS to today’s high-performance geographic information systems such as AI GIS, big data GIS, and cloud GIS, significant progress has been made. This evolution is reflected not only in the complexity and performance of the systems but also in their ability to handle diverse and complex geographic data, supporting decision making. Traditional GIS architectures faced challenges such as the complexity of data content, diverse service systems, and the demands of large-scale users. These challenges are gradually being addressed in the introduction of new technologies. The integration of cloud computing technology has enhanced resource management and data maintenance capabilities, enabling GIS to efficiently process large-scale data and support real-time analysis. Concurrently, the application of artificial intelligence and deep learning has made GIS systems more intelligent, improving spatial and temporal analysis as well as visualization capabilities. This trend of technological integration will continue to shape the future of GIS development, providing powerful tools for addressing a wide range of complex geographical problems. The evolution of the GIS architecture and the direction of its development is shown in Figure. In summary, the development of GIS architecture has made it a more scientific, efficient, engineering-oriented, and application-focused technology. In the future, GIS will continue to adapt to evolving demands, fostering interdisciplinary collaboration and cross-domain integration to better serve various industries. The direction of GIS evolution will prioritize cost savings, improved processing efficiency, and user-friendly operations to meet the needs of its users.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240125/lx2.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 2：The evolution stage of GIS system.</p>
+									</div>
+									<hr>
+									<h4>Future Research Directions</h4>
+									<p>In the era of the digital economy, the development of deep learning, big data, and cloud technology has promoted the innovation of GIS technology. These new technologies are further applied to GIS to solve various problems in GIS data processing and analysis, such as calculation, network communication, and spatiotemporal data-intensive issues. In the future, in the face of the increasing complexity of geographic data and the upgrading of computer hardware, the integration of parallel spatial databases into GIS systems will move towards new areas and solve new problems. At the same time, it is still necessary to continuously improve the algorithm, improve the index mechanism of the traditional algorithm, and focus more on the independent platform’s own redundancy control to improve the index effect and expand the performance of the GIS system. The rapid development of information technology will lead edge computing GIS, cloud-native GIS, geographic blockchain, digital twin, and metaverse to become research hotspots for GIS. The framework of the GIS software system runs through the whole life cycle of GIS development and represents the way GIS is organized. Studying the GIS framework system is of great significance to improve the operational efficiency of the GIS software system. It is inevitable for a multidisciplinary GIS to cooperate with metaverse, digital twin, and other emerging technologies. In this paper, the characteristics of the current mainstream GIS framework system and its development trend are comprehensively studied and analyzed to provide a guiding reference for GIS system framework research.</p>	
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+<!-- Begin footer -->
+<footer class="footer footer-minimal">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row items align-items-center">
+                <div class="col-lg-3 col-md-4 col-12 item">
+                    <div class="widget-brand-info">
+                        <div class="widget-brand-info-main">
+                            <a href="../index.html" class="logo" title="HiGISX">
+                                <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md item">
+                    <div class="footer-item">
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu footer-mnu-line">
+                                <li><a href="../index.html" class="hover-link" data-title="Home"><span>Home</span></a></li>
+                                <li><a href="../about-us.html" class="hover-link" data-title="About Us"><span>About Us</span></a></li>
+                                <li><a href="../ourteam.html" class="hover-link" data-title="Our Team"><span>Our Team</span></a></li>
+                                <li><a href="../publication.html" class="hover-link" data-title="Publications"><span>Publications</span></a></li>
+                                <li><a href="../news.html" class="hover-link" data-title="News"><span>News</span></a></li>
+                                <li><a href="../contacts.html" class="hover-link" data-title="Contacts"><span>Contacts</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between items">
+                <div class="col-md-auto col-12 item">
+                    <nav class="footer-links">
+                        <ul>
+                            <li><a>HiGISX</a></li>
+                            <!-- <li><a href="privacy-policy.html">Privacy Policy</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-auto col-12 item">
+                    <div class="copyright">© 2023 HiGISX. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End footer -->
+
+	</main><!-- End main -->
+
+	<script src="../../assets/libs/jquery/jquery.min.js"></script>
+    <script src="../../assets/libs/lozad/lozad.min.js"></script>
+    <script src="../../assets/libs/device/device.js"></script>
+    <script src="../../assets/libs/spincrement/jquery.spincrement.min.js"></script>
+    <script src="../../assets/libs/pristine/pristine.min.js"></script>
+    <script src="../../assets/js/custom.js"></script>
+    <script src="../../assets/js/forms.js"></script>
+	
+	<script type="text/javascript">
+		function f(str){
+                var sub_menu = document.getElementById(str);
+                var dis_v = sub_menu.style.display;
+                
+                if(dis_v == "block")
+                    sub_menu.style.display = "none";
+                else
+                    sub_menu.style.display = "block";
+                    
+            }
+	</script>
+	
+</body>
+</html>

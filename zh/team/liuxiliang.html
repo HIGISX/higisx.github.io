@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>HISPCRT | High Intelligence Spatial Computing Research Team</title>
+
+    <meta name="description" content="Description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+        
+    <link rel="icon" href="../../assets/img/favicon/logo-ico.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="../../assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+	<style type="text/css">
+		#sub_menu{
+			display: none;
+
+		}
+		ul li:hover{
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+
+	<main class="main">
+
+		<div class="main-inner">
+
+			<!-- Begin mobile main menu -->
+			<nav class="mmm">
+				<div class="mmm-content">	
+					<ul class="mmm-list">
+						<li>
+							<a href="../../index.html">首页</a>
+						</li>
+						<li>
+							<a href="../about-us.html">关于我们</a>
+						</li>
+						<li>
+							<a href="../ourteam.html">团队成员</a>
+						</li>
+						<li>
+							<a href="../publication.html">发表著作</a>
+						</li>
+						<!-- <li>
+							<a href="tabs-and-accordions.html">Tabs & Accordions</a>
+						</li> -->
+						<li>
+							<a href="../news.html">近期动态</a>
+						</li>
+						<li>
+							<a href="../contacts.html">联系我们</a>
+						</li>
+						<li class="sub_menu" onclick = "f('sub_menu')" >语言
+                            <ul id="sub_menu">
+                                <li><a class="sub_menu" href="../../en/index.html">English</a></li>
+                                <li><a class="sub_menu" href="../../index.html">简体中文</a></li>
+                            </ul>
+                        </li>
+					</ul>
+				</div>
+			</nav><!-- End mobile main menu -->
+            
+            <header class="header header-minimal">
+                <nav class="header-fixed">
+                    <div class="container">
+                        <div class="row flex-nowrap align-items-center justify-content-between">
+                            <div class="col-auto header-fixed-col logo-wrapper">
+                                <a href="../../index.html" class="logo" title="HiGISX">
+                                    <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                    <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                                </a>
+                            </div>
+                            <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
+                                <div class="row flex-nowrap align-items-center justify-content-end">
+                                    <div class="col header-fixed-col d-none d-xl-block col-static">
+                                        <!-- Begin main menu -->
+                                        <nav class="main-mnu">
+                                            <ul class="main-mnu-list">
+                                                <li>
+                                                    <a href="../../index.html" data-title="首页">
+                                                        <span>首页</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../about-us.html" data-title="关于我们">
+                                                        <span>关于我们</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../ourteam.html" data-title="团队成员">
+                                                        <span>团队成员</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../publication.html" data-title="出版专著">
+                                                        <span>出版专著</span>
+                                                    </a>
+                                                </li>
+                                                <!-- <li>
+                                                    <a href="tabs-and-accordions.html" data-title="Tabs & Accordions">
+                                                        <span>Tabs & Accordions</span>
+                                                    </a>
+                                                </li> -->
+                                                <li>
+                                                    <a href="../news.html" data-title="新闻动态">
+                                                        <span>新闻动态</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../contacts.html" data-title="联系我们">
+                                                        <span>联系我们</span>
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <button class="earth">
+                                                        <img src="../../assets\img\earth.png" width="20" alt="">
+                                                    </button>
+                                                    <div class="dropdown-content">
+                                                      <a href="../../en/index.html">English</a>
+                                                      <a href="../../index.html">简体中文</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </nav><!-- End main menu -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-block d-xl-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+			<!-- Begin bread crumbs -->
+			<nav class="bread-crumbs">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<ul class="bread-crumbs-list">
+								<li>
+									<a href="../../index.html">首页</a>
+									<i class="material-icons md-18">chevron_right</i>
+								</li>
+                                <li>
+									<a href="../ourteam.html">团队成员</a>
+									<i class="material-icons md-18">chevron_right</i>
+								</li>
+								<li>刘希亮</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav><!-- End bread crumbs -->
+
+			<div class="section">
+				<div class="container">
+					<div class="row items">
+						<header class="col-12">
+							<div class="section-heading heading-center">
+								<div class="section-subheading">Teacher</div>
+								<h1>刘希亮</h1>
+							</div>
+                            <div id="about" class="about-area section-top-spacing">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 ">
+                                            <div class="img-box">
+                                                <img src="../../assets/img/people_img/liuxiliang.png" alt="about" height="400">
+                                                <h5>刘希亮</h5>
+                                                <h6>北京工业大学
+                                                <br>讲师</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 ">
+                                            <div class="content-area">
+                                                <div class="inner-tile">
+                                                    <h3 class="inner-content-title"> 个人简介</h3>
+                                                    <p>刘希亮，男，1983年生，河北衡水人，博士，北京工业大学北京智慧城市研究院讲师。
+                                                    </p>
+                                                </div>
+                                                <div class="inner-text">
+                                                    <hr>
+                                                    <h3 class="inner-content-title"> 研究方向</h3>
+                                                    <div class="content">
+                                                        <ol>
+                                                            <li>智能交通</li>
+                                                            <li>智慧城市</li>
+                                                            <li>时空大数据</li>
+                                                            <li>区块链</li>
+                                                            <li>物联网</li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>教育经历</h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <ul>
+                                                            <li>
+                                                                <p><span>2015-07至2018-10，  </span> 中国科学院地理科学与资源研究所，博士后</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2011-09至2015-07，  </span> 中国科学院地理科学与资源研究所，资源与环境信息系统国家重点实验室，博士</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2009-09至2011-07，  </span> 中国矿业大学（北京），地球科学与测绘工程学院，硕士</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2002-09至2007-07，  </span> 同济大学，土木工程学院，学士</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>代表性著作</h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <p>
+                                                            [1]	Liu Xiliang, Lu Feng, Zhang Hengcai, Qiu Peiyuan. Intersection delay estimation from floating car data via principal curves: a case study on Beijing's road network, Frontiers of Earth Science, 2013.6, 7(2): 206-216.
+                                                            <br>[2]	X. Liu, K. Liu, M. Li and F. Lu, "A ST-CRF Map-Matching Method for Low-Frequency Floating Car Data," in IEEE Transactions on Intelligent Transportation Systems, vol. 18, no. 5, pp. 1241-1254, May 2017, doi: 10.1109/TITS.2016.2604484.
+                                                            <br>[3]	Shaofu Lin; Chang Zhang; Lei Ding; Jing Zhang; Xiliang Liu*; Guihong Chen; S K Wang; Jinchuan Chai ; Accurate Recognition of Building Rooftops and Assessment of Long-Term Carbon Emission Reduction from Rooftop Solar Photovoltaic Systems Fusing GF-2 and Multi-Source Data, Remote Sensing, 2022, 14(13): 3144-3144.
+                                                            <br>[4]	Shaofu Lin; Junjie Zhao; Jianqiang Li; Xiliang Liu*; Yumin Zhang; Shaohua Wang; Qiang Mei; Zhuodong Chen; Yuyao Gao ; A Spatial–Temporal Causal Convolution Network Framework for Accurate and Fine-Grained PM2.5 Concentration Prediction, Entropy, 2022, 24(8): 1125-1125.
+                                                            <br>[5]	Xiliang Liu; Junjie Zhao; Shaofu Lin; Jianqiang Li; Shaohua Wang; Yumin Zhang; Yuyao Gao; Jinchuan Chai ; Fine-Grained Individual Air Quality Index (IAQI) Prediction Based on SpatialTemporal Causal Convolution Network: A Case Study of Shanghai, Atmosphere, 2022, 13(6): 959-959.
+                                                            <br>[6]	Liu Xiliang, Lu Feng, Zhang Hengcai, Qiu Peiyuan. Estimating Beijing's travel delays at intersections with floating car data. In: ACM SIGSPATIAL IWCTS’12, November 6, 2012, Redondo Beach, CA, USA.
+                                                            <br>[7]	Xiliang Liu, Feng Lu*, Kang Liu, Peiyuan Qiu, Li Yu, Mingxiao Li. A Principal Curve-based method for Geospatial Data Smoothing. GIScience 2016.
+                                                            <br>[8]	Xiliang Liu, Feng Lu*. ST-CRF: A Novel Map Matching Approach for Low-frequency Floating Car Data. IWGS 2015.
+                                                            <br>[9]	Xiliang Liu, Kang Liu, Mingxiao Li, Feng Lu, Mengdi Liao, Ren Yang. SHE: Stepwise Heterogeneous Ensemble Method for Citywide Traffic Analysis. 1st Workshop on Prediction of Human Mobility at ACM SIGSPATIAL 2017.
+                                                            <br>[10]Kang Liu, Peiyuan Qiu, Mingxiao Li, Xiliang Liu*, and Feng Lu. 2016. Exploring urban travel routes’ characteristics from a geometric perspective. In Proceedings of the 24th International Conference on Geoinformatics (Geoinformatics 2016), 1–6.
+                                                            <br>[11]u Junjie Zhao, Shaofu Lin, Xiliang Liu*, Jinhai Chen, Yumin Zhang, and Qiang Mei. 2021.ST-CCN-PM2.5:Fine-grained PM2.5 concentration prediction via spatialtemporal causal convolution network. In ARIC’21: 4th SIGSPATIAL International Workshop on Advances in Resilient and Intelligent Cities Proceedings, November 2-5, 2021, Beijing, China. ACM, New York, NY, USA, 8 pages.
+                                                            <br>[12]刘希亮，陆锋*. 适于城市交通时序空间数据预测的层叠泛化模型. 地球信息科学学报, 2015,17(12 ): 1474-1482.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>科研项目</h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <p>
+                                                            [1]	国家重点研发计划，“物联网与智慧城市关键技术及示范”2020年度重点专项，面向城市宜居的认知计算与一体化服务平台及其应用示范（2020YFB2104400），2020-2023，在研；
+                                                            <br>[2] 国家自然科学基金委, 国家自然科学基金青年基金, 62202018, 基于路网层次超图和时空知识图谱的深度学习交通预测方法研究, 2023-01 至 2025-12, 在研；
+                                                            <br>[3]	国家自然科学基金青年基金，41601421，时序地理空间数据层叠泛化建模，2017/01-2019/12，已结题；
+                                                            <br>[4]	中国科学院重点部署项目，ZDRW-ZS-2016-6-3-3，印度洋运输网络健壮性评价与扰动因子分析，2016/01-2018/12，已结题；
+                                                            <br>[5]	中国博士后科学基金第58批面上资助，2015M581158，2015/11-2018/11，已结题；
+                                                            <br>[6]	北京工业大学 2019年“筑基工程”新入校博士教师启动经费项目，融合非参数分析与机器学习的时序空间数据挖掘，2019-01至2019-12,5万元，已结题；
+                                                            <br>[7]	北京市残联，北京市残疾人基层服务机构免费上网运维经费政府采购项目数据资源体系规划咨询服务，2019-01至2019-12，已结题；
+                                                            <br>[8]	北京工业大学, 实验室专项及开放课题, 040000514122609, 基于高分遥感影像与多源数据建筑物屋顶光伏长时序碳减排量精算, 2022-01 至 2022-12, 5万元, 结题；
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>申请或授权发明专利</h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <p>
+                                                            [1]陆锋, 刘希亮, 张恒才, 孙伟. 一种利用低采样率浮动车数据计算信号灯控制道路交叉口延误的方法.
+                                                            <br>[2]陈华敏, 宋钢, 刘希亮, 林绍福. 一种室内智慧照明的数据传输控制方法及系统.
+                                                            <br>[3]陆锋, 刘希亮, 彭澎, 刘康, 李明晓, 牟乃夏. 一种面向稀疏浮动车数据条件的随机场地图匹配方法.
+                                                        </p>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>获奖情况 </h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <p>
+                                                            1.2022年第一届“创青春”中国青年碳中和创新创业大赛华北赛区学术组优胜奖；
+                                                            <br>2. 2022 年第三届北京工业大学教师教学创新大赛教学设计创新奖；
+                                                            <br>3.《地球信息科学学报》优秀审稿专家（2020,2021）；
+                                                            <br>4. 2022年北京工业大学第三批抗“疫”主题课程思政优秀案例奖
+                                                            <br>5.2021年第十届“中国软件杯”大学生软件设计大赛全国二等奖；
+                                                            <br>6. 2021年全国创新创业优秀博士后；
+                                                            <br>7. 2021年第一届全国博士后创新创业大赛揭榜领题赛金奖；
+                                                            <br>8. Liu Xiliang，A stacked generalization framework for city traffic related geospatial data analysis, Asia-Pacific Web Conference on Web Technologies and Applications, APWeb 2016，最佳论文奖。
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                    
+ 
+                                    </div>
+                                </div>
+                            </div>
+
+						</header>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+<!-- Begin footer -->
+<footer class="footer footer-minimal">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row items align-items-center">
+                <div class="col-lg-3 col-md-4 col-12 item">
+                    <div class="widget-brand-info">
+                        <div class="widget-brand-info-main">
+                            <a href="../../index.html" class="logo" title="HiGISX">
+                                <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md item">
+                    <div class="footer-item">
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu footer-mnu-line">
+                                <li><a href="../../index.html" class="hover-link" data-title="Home"><span>Home</span></a></li>
+                                <li><a href="../about-us.html" class="hover-link" data-title="About Us"><span>About Us</span></a></li>
+                                <li><a href="../ourteam.html" class="hover-link" data-title="Our Team"><span>Our Team</span></a></li>
+                                <li><a href="../publication.html" class="hover-link" data-title="Publications"><span>Publications</span></a></li>
+                                <li><a href="../news.html" class="hover-link" data-title="News"><span>News</span></a></li>
+                                <li><a href="../contacts.html" class="hover-link" data-title="Contacts"><span>Contacts</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between items">
+                <div class="col-md-auto col-12 item">
+                    <nav class="footer-links">
+                        <ul>
+                            <li><a>HiGISX</a></li>
+                            <!-- <li><a href="privacy-policy.html">Privacy Policy</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-auto col-12 item">
+                    <div class="copyright">© 2023 HiGISX. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End footer -->
+
+	</main><!-- End main -->
+
+	<script src="../../assets/libs/jquery/jquery.min.js"></script>
+    <script src="../../assets/libs/lozad/lozad.min.js"></script>
+    <script src="../../assets/libs/device/device.js"></script>
+    <script src="../../assets/libs/spincrement/jquery.spincrement.min.js"></script>
+    <script src="../../assets/libs/pristine/pristine.min.js"></script>
+    <script src="../../assets/js/custom.js"></script>
+    <script src="../../assets/js/forms.js"></script>
+	
+	<script type="text/javascript">
+		function f(str){
+                var sub_menu = document.getElementById(str);
+                var dis_v = sub_menu.style.display;
+                
+                if(dis_v == "block")
+                    sub_menu.style.display = "none";
+                else
+                    sub_menu.style.display = "block";
+                    
+            }
+	</script>
+
+</body>
+
+</html>
