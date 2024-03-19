@@ -1,0 +1,365 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>HISPCRT | High Intelligence Spatial Computing Research Team</title>
+
+    <meta name="description" content="Description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+        
+    <link rel="icon" href="../../assets/img/favicon/logo-ico.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="../../assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+	<style type="text/css">
+		#sub_menu{
+			display: none;
+
+		}
+		ul li:hover{
+			cursor: pointer;
+		}
+		p {text-indent:2em;} 
+		table {
+		border-collapse: collapse;
+		border-spacing:0;
+		width: 70%;
+		border: 4px solid #ddd;
+		margin:0px auto;
+		}
+		th{
+		text-align: left;
+		padding: 16px;
+		width:150px;
+		border: 1px solid #ddd;
+		}
+		td {
+		text-align: left;
+		padding: 16px;
+		border: 1px solid #ddd;
+		}
+		tr:nth-child(even) {
+		background-color: #f2f2f2;
+		}
+	</style>
+</head>
+
+<body>
+
+	<main class="main">
+		
+		<div class="main-inner">
+
+			<!-- Begin mobile main menu -->
+			<nav class="mmm">
+				<div class="mmm-content">	
+					<ul class="mmm-list">
+						<li>
+							<a href="../index.html">Home</a>
+						</li>
+						<li>
+							<a href="../about-us.html">About Us</a>
+						</li>
+						<li>
+							<a href="../ourteam.html">Our Team</a>
+						</li>
+						<li>
+							<a href="../publication.html">Publication</a>
+						</li>
+						<!-- <li>
+							<a href="tabs-and-accordions.html">Tabs & Accordions</a>
+						</li> -->
+						<li>
+							<a href="../news.html">News</a>
+						</li>
+						<li>
+							<a href="../contacts.html">Contacts</a>
+            </li>
+
+            <li class="sub_menu" onclick = "f('sub_menu')" >Languages
+                <ul id="sub_menu">
+                    <li><a class="sub_menu" href="../news/P20240319.html">English</a></li>
+                    <li><a class="sub_menu" href="../../zh/news/P20240319.html">简体中文</a></li>
+                </ul>
+            </li>
+						</li>
+					</ul>
+				</div>
+			</nav><!-- End mobile main menu -->
+<header class="header header-minimal">
+    <nav class="header-fixed">
+        <div class="container">
+            <div class="row flex-nowrap align-items-center justify-content-between">
+				<div class="col-auto header-fixed-col logo-wrapper">
+					<a href="../index.html" class="logo" title="HiGISX">
+						<img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+						<img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+					</a>
+				</div>
+                <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
+                    <div class="row flex-nowrap align-items-center justify-content-end">
+                        <div class="col header-fixed-col d-none d-xl-block col-static">
+                            <!-- Begin main menu -->
+							<nav class="main-mnu">
+								<ul class="main-mnu-list">
+									<li>
+										<a href="../index.html" data-title="Home">
+											<span>Home</span>
+										</a>
+									</li>
+									<li>
+										<a href="../about-us.html" data-title="About Us">
+											<span>About Us</span>
+										</a>
+									</li>
+									<li>
+										<a href="../ourteam.html" data-title="Our Team">
+											<span>Our Team</span>
+										</a>
+									</li>
+									<li>
+										<a href="../publication.html" data-title="Publication">
+											<span>Publication</span>
+										</a>
+									</li>
+									<!-- <li>
+										<a href="tabs-and-accordions.html" data-title="Tabs & Accordions">
+											<span>Tabs & Accordions</span>
+										</a>
+									</li> -->
+									<li>
+										<a href="../news.html" data-title="News">
+											<span>News</span>
+										</a>
+									</li>
+									<li>
+										<a href="../contacts.html" data-title="Contacts">
+											<span>Contacts</span>
+										</a>
+									</li>
+									<li class="dropdown">
+										<button class="earth">
+											<img src="../../assets\img\earth.png" width="20" alt="">
+										</button>
+										<div class="dropdown-content">
+										  <a href="../news/P20240319.htm">English</a>
+										  <a href="../../zh/news/P20240319.html">简体中文</a>
+										</div>
+									</li>
+								</ul>
+							</nav><!-- End main menu -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-block d-xl-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+			<!-- Begin bread crumbs -->
+			<nav class="bread-crumbs">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<ul class="bread-crumbs-list">
+								<li><a href="../index.html">Home</a><i class="material-icons md-18">chevron_right</i></li>
+								<li><a href="../news.html">News</a><i class="material-icons md-18">chevron_right</i></li>
+								<li><a>Paper Delivery</a><i class="material-icons md-18">chevron_right</i></li>
+								<li>
+									Dynamic Visual Landscape Assessment of Disused Railway in Complex Terrain: A Study of Jingmen Railway
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav><!-- End bread crumbs -->
+
+			<div class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="news-post">
+								<header class="news-post-header">
+									<h2 class="news-post-title">
+										Dynamic Visual Landscape Assessment of Disused Railway in Complex Terrain: A Study of Jingmen Railway
+									</h2>
+									<div class="news-post-meta">
+										<div class="news-post-meta-item">
+											<i class="material-icons md-22">access_time</i>
+											<span>January 25, 2024</span>
+										</div>
+										<div class="news-post-meta-item">
+											<span>by &nbsp;</span>
+											<a href="../team/lixiao.html">Xiao Li</a>
+										</div>
+									</div>
+									<div>
+										<!-- 论文名片 -->
+										<br>
+										<table style="font-size: 20px;">
+											<tr>
+											  <th>Journal</th>
+											  <td>Remote Sensing </td>
+											</tr>
+											<tr>
+												<th>English Title</th>
+											   <td>A Single Data Extraction Algorithm for Oblique Photographic Data Based on the U-Net</td>
+											 </tr>
+											 <tr>
+												 <th>Chinese Title</th>
+												 <td>一种基于U-Net的倾斜摄影数据的单一数据提取算法</td>
+											 </tr>
+											<tr>
+												<th>Authors</th>
+											  <td>Shaohua Wang and Xiao Li et al.</td>
+											</tr>
+											<tr>
+												<th>DOI</th>
+											  <td><a href="https://doi.org/10.3390/rs16060979">https://doi.org/10.3390/rs16060979</a></td>
+											</tr>
+										  </table>
+									</div>
+								</header>
+								<article class="news-post-article content">
+									<h4>Abstract</h4>
+									<p>In the automated modeling generated by oblique photography, various terrains cannot be physically distinguished individually within the triangulated irregular network (TIN). To utilize the data representing individual features, such as a single building, a process of building monomer construction is required to identify and extract these distinct parts. This approach aids subsequent analyses by focusing on specific entities, mitigating interference from complex scenes. A deep convolutional neural network is constructed, combining U-Net and ResNeXt architectures. The network takes as input both digital orthophoto map (DOM) and oblique photography data, effectively extracting the polygonal footprints of buildings. Extraction accuracy among different algorithms is compared, with results indicating that the ResNeXt-based network achieves the highest intersection over union (IOU) for building segmentation, reaching 0.8255. The proposed “dynamic virtual monomer” technique binds the extracted vector footprints dynamically to the original oblique photography surface through rendering. This enables the selective representation and querying of individual buildings. Empirical evidence demonstrates the effectiveness of this technique in interactive queries and spatial analysis. The high level of automation and excellent accuracy of this method can further advance the application of oblique photography data in 3D urban modeling and geographic information system (GIS) analysis.</p>
+									<hr>
+									<h4>Background</h4>
+									
+									<p>Three-dimensional (3D) building modeling involves selecting a single building in the aerial image and the queries for building information, which has significant implications in various fields. For instance, 3D building modeling can aid architects, urban planners, and policymakers in making informed decisions about the development, design, and sustainability of buildings and urban spaces. The accurate 3D models of buildings can help in civil engineering and construction by detecting potential design conflicts, and in disaster management and emergency response by assessing vulnerability or planning evacuation routes. Three-dimensional modeling is closer to human visual habits, providing more information than two-dimensional (2D) modeling and expressing more spatial relationships. Both group users and individual users have an urgent need for a 3D geographic information system (GIS). Three-dimensional building modeling is one of the major functions in 3D GIS applications, the development of which is affected by various factors. The economic cost and time cost of 3D data acquisition were the most critical constraints affecting the wide application of 3D GIS in the early days. With the continuous development of various theories and technologies, such as computer graphics, virtual reality technology, and mapping technology, 3D GIS has gradually become one of the mainstream directions of GIS research in recent years. Instead of manual modeling of 3D data production, new 3D data acquisition methods, such as oblique photogrammetry, have emerged. Oblique photogrammetry uses aircraft to move from vertical to tilt, with multiple sensing devices capturing images simultaneously. The oblique photographic model is generated by automatic batch modeling. The oblique photographic model has the potential to become an important data source of 3D GIS with the advantages of high precision, high efficiency, high realism, and low cost.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240319/lx1.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 1：Building selection by overlaying of polygon on remote sensing images.</p>
+									</div>
+									<hr>
+									<h4>Framework</h4>
+									<p>The deep convolution neural network was applied for building bottom extraction, and the shadow volume rendering technique was proposed for attaching the bottom polygon to the building surface provided by the oblique photographic model. Firstly, the oblique photography model data was preprocessed by conversion into DOM and digital surface model (DSM) raster data, serving as the input for a deep convolutional neural network. Then, a deep convolutional neural network based on U-Net was constructed, with ResNeXt50 serving as the backbone network. It was employed to automatically extract building outlines from oblique aerial photography data, comparing its accuracy with that of different algorithms. Following this, shadow volume rendering techniques were utilized to bind the extracted vector base data to the building surfaces of the oblique photography model, thereby realizing the dynamic virtual method of building monomer construction using oblique photography.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240319/lx2.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 2：Overall workflow.</p>
+									</div>
+									<hr>
+									<h4>Result</h4>
+									<p>From the experimental results in Table 1, it can be seen that, for each algorithm, the accuracy of extracting buildings based on oblique photographic modeling data is higher than that of extracting buildings using DOM alone. The gap of IOU between the DOM and oblique photographic modeling data in random forest experiments is larger than in the other two algorithms. The gap of IOU under U-Net based on the ResNeXt50 experiment has the smallest number. Since the oblique photographic modeling data can provide a more detailed feature for deep learning, the IOU of three algorithms for oblique photographic data are compared. The IOU for the extraction building footprint using U-Net based on the ResNeXt50 has a value of 0.8255, which is higher than the 0.8143 in U-Net based on the VGG-19 and also higher than that in random forest, which is 0.7532. This result indicates that the accuracy of extracting the building footprint polygon using the U-Net based on the ResNeXt50 is higher than the accuracy of the other two algorithms. The above findings prove that the extraction from an oblique photograph by U-Net based on the ResNeXt50 would be the most accurate and optimal.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<p style = "text-align:center;color:dimgrey;">Tab 1：Experimental results.</p>
+										<img data-src="../../assets/img/news-photo/P20240319/lx3.png" class="img-responsive lazy" alt="">
+									</div>
+									<hr>
+									<h4>Innovation</h4>
+									
+									<p> The successful selection of the building by the dynamic virtual method of building monomer construction using oblique photography proposed in this study provides a solid base for its various applications with different functions. One of the applications is the interactive query of the oblique photographic model. Clicking the building in the 3D scene with the mouse obtains the intersection point O. The point O in the Cartesian coordinate system is converted into the point P in the geographic coordinate system. The geometric data, including ID value and attribute information of the found polygon, are returned by finding the underlying polygon where point P is located (as shown in Figure 3a). In addition, the implementation of the structured query language (SQL) query and spatial query of the oblique photographic model can also be realized by the dynamic virtual method of building monomer construction using oblique photography (as shown in Figure 3b,d). The set of polygon objects satisfying the SQL query and the spatial query condition in the database is selected, the polygons are attached to the oblique photographic modeling data by rendering the stencil shadow volume, and the corresponding building surface is highlighted with a specific color. This function contributes to the thematic map and other productions (as shown in Figure 3c).</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240319/lx4.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 3：Dynamic virtual monomer of oblique photographic model: (a) query properties, (b) buffer query, (c) thematic map representation, (d) peripheral query.</p>
+									</div>
+									<hr>
+									<h4>Conclusion</h4>
+									
+									<p>Fully automated oblique photographic modeling technology solves the problem of 3D data sources for 3D GIS applications. However, oblique photographic modeling data are full-element slice data, which makes it impossible to operate on a single building. This research proposes a dynamic virtual monomer method for oblique photographic modeling data. The vector building footprint is attached to the surface of the oblique photographic modeling data by the shadow volume rendering technique, and the dynamic correlation between the vector underlying data and the oblique photographic modeling data is built. In the case of not cutting data, the singular expression and object-oriented query of oblique photographic modeling data are realized. A deep convolutional neural network based on a U-Net deep convolution neural network structure is proposed to extract the underside of the building from the oblique geographic image and thus improve the effectiveness of the fully automated oblique photographic model monomer process. This study proposes a deep-learning-based approach for extracting monomeric data from oblique photography, thereby achieving dynamic virtual monomerization of oblique photographic modeling data. The deep learning network employed in this method is based on the U-Net architecture, with ResNeXt50 serving as the backbone network for the U-Net structure. Comparative experiments indicate that this method is efficient and feasible, with higher extraction accuracy compared to traditional algorithms. It achieves full automation in representing oblique photography singularly, supports the two-dimensional integration of oblique photographic modeling data into GIS applications, and effectively promotes the widespread application of oblique photographic modeling data in industries such as surveying, planning, and smart cities.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240319/lx5.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 4：Building extraction from oblique photographic data based on U-Net.</p>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+<!-- Begin footer -->
+<footer class="footer footer-minimal">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row items align-items-center">
+                <div class="col-lg-3 col-md-4 col-12 item">
+                    <div class="widget-brand-info">
+                        <div class="widget-brand-info-main">
+                            <a href="../index.html" class="logo" title="HiGISX">
+                                <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md item">
+                    <div class="footer-item">
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu footer-mnu-line">
+                                <li><a href="../index.html" class="hover-link" data-title="Home"><span>Home</span></a></li>
+                                <li><a href="../about-us.html" class="hover-link" data-title="About Us"><span>About Us</span></a></li>
+                                <li><a href="../ourteam.html" class="hover-link" data-title="Our Team"><span>Our Team</span></a></li>
+                                <li><a href="../publication.html" class="hover-link" data-title="Publications"><span>Publications</span></a></li>
+                                <li><a href="../news.html" class="hover-link" data-title="News"><span>News</span></a></li>
+                                <li><a href="../contacts.html" class="hover-link" data-title="Contacts"><span>Contacts</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between items">
+                <div class="col-md-auto col-12 item">
+                    <nav class="footer-links">
+                        <ul>
+                            <li><a>HiGISX</a></li>
+                            <!-- <li><a href="privacy-policy.html">Privacy Policy</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-auto col-12 item">
+                    <div class="copyright">© 2023 HiGISX. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End footer -->
+
+	</main><!-- End main -->
+
+	<script src="../../assets/libs/jquery/jquery.min.js"></script>
+    <script src="../../assets/libs/lozad/lozad.min.js"></script>
+    <script src="../../assets/libs/device/device.js"></script>
+    <script src="../../assets/libs/spincrement/jquery.spincrement.min.js"></script>
+    <script src="../../assets/libs/pristine/pristine.min.js"></script>
+    <script src="../../assets/js/custom.js"></script>
+    <script src="../../assets/js/forms.js"></script>
+	
+	<script type="text/javascript">
+		function f(str){
+                var sub_menu = document.getElementById(str);
+                var dis_v = sub_menu.style.display;
+                
+                if(dis_v == "block")
+                    sub_menu.style.display = "none";
+                else
+                    sub_menu.style.display = "block";
+                    
+            }
+	</script>
+	
+</body>
+</html>
