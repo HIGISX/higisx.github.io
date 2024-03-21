@@ -1,0 +1,382 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>HISPCRT | High Intelligence Spatial Computing Research Team</title>
+
+    <meta name="description" content="Description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+        
+    <link rel="icon" href="../../assets/img/favicon/logo-ico.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="../../assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+	<style type="text/css">
+		#sub_menu{
+			display: none;
+
+		}
+		ul li:hover{
+			cursor: pointer;
+		}
+		p {text-indent:2em;} 
+		table {
+		border-collapse: collapse;
+		border-spacing:0;
+		width: 70%;
+		border: 4px solid #ddd;
+		margin:0px auto;
+		}
+		th{
+		text-align: left;
+		padding: 16px;
+		width:150px;
+		border: 1px solid #ddd;
+		}
+		td {
+		text-align: left;
+		padding: 16px;
+		border: 1px solid #ddd;
+		}
+		tr:nth-child(even) {
+		background-color: #f2f2f2;
+		}
+	</style>
+</head>
+
+<body>
+
+	<main class="main">
+		
+		<div class="main-inner">
+
+			<!-- Begin mobile main menu -->
+			<nav class="mmm">
+				<div class="mmm-content">	
+					<ul class="mmm-list">
+						<li>
+							<a href="../index.html">Home</a>
+						</li>
+						<li>
+							<a href="../about-us.html">About Us</a>
+						</li>
+						<li>
+							<a href="../ourteam.html">Our Team</a>
+						</li>
+						<li>
+							<a href="../publication.html">Publication</a>
+						</li>
+						<!-- <li>
+							<a href="tabs-and-accordions.html">Tabs & Accordions</a>
+						</li> -->
+						<li>
+							<a href="../news.html">News</a>
+						</li>
+						<li>
+							<a href="../contacts.html">Contacts</a>
+            </li>
+
+            <li class="sub_menu" onclick = "f('sub_menu')" >Languages
+                <ul id="sub_menu">
+                    <li><a class="sub_menu" href="../news/P20240321.html">English</a></li>
+                    <li><a class="sub_menu" href="../../zh/news/P20240321.html">简体中文</a></li>
+                </ul>
+            </li>
+						</li>
+					</ul>
+				</div>
+			</nav><!-- End mobile main menu -->
+<header class="header header-minimal">
+    <nav class="header-fixed">
+        <div class="container">
+            <div class="row flex-nowrap align-items-center justify-content-between">
+				<div class="col-auto header-fixed-col logo-wrapper">
+					<a href="../index.html" class="logo" title="HiGISX">
+						<img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+						<img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+					</a>
+				</div>
+                <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
+                    <div class="row flex-nowrap align-items-center justify-content-end">
+                        <div class="col header-fixed-col d-none d-xl-block col-static">
+                            <!-- Begin main menu -->
+							<nav class="main-mnu">
+								<ul class="main-mnu-list">
+									<li>
+										<a href="../index.html" data-title="Home">
+											<span>Home</span>
+										</a>
+									</li>
+									<li>
+										<a href="../about-us.html" data-title="About Us">
+											<span>About Us</span>
+										</a>
+									</li>
+									<li>
+										<a href="../ourteam.html" data-title="Our Team">
+											<span>Our Team</span>
+										</a>
+									</li>
+									<li>
+										<a href="../publication.html" data-title="Publication">
+											<span>Publication</span>
+										</a>
+									</li>
+									<!-- <li>
+										<a href="tabs-and-accordions.html" data-title="Tabs & Accordions">
+											<span>Tabs & Accordions</span>
+										</a>
+									</li> -->
+									<li>
+										<a href="../news.html" data-title="News">
+											<span>News</span>
+										</a>
+									</li>
+									<li>
+										<a href="../contacts.html" data-title="Contacts">
+											<span>Contacts</span>
+										</a>
+									</li>
+									<li class="dropdown">
+										<button class="earth">
+											<img src="../../assets\img\earth.png" width="20" alt="">
+										</button>
+										<div class="dropdown-content">
+										  <a href="../news/P20240321.htm">English</a>
+										  <a href="../../zh/news/P20240321.html">简体中文</a>
+										</div>
+									</li>
+								</ul>
+							</nav><!-- End main menu -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-block d-xl-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+			<!-- Begin bread crumbs -->
+			<nav class="bread-crumbs">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<ul class="bread-crumbs-list">
+								<li><a href="../index.html">Home</a><i class="material-icons md-18">chevron_right</i></li>
+								<li><a href="../news.html">News</a><i class="material-icons md-18">chevron_right</i></li>
+								<li><a>Paper Delivery</a><i class="material-icons md-18">chevron_right</i></li>
+								<li>
+									ReCovNet: Reinforcement learning with covering information for solving maximal coverage billboards location problem
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav><!-- End bread crumbs -->
+
+			<div class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="news-post">
+								<header class="news-post-header">
+									<h2 class="news-post-title">
+										ReCovNet: Reinforcement learning with covering information for solving maximal coverage billboards location problem
+									</h2>
+									<div class="news-post-meta">
+										<div class="news-post-meta-item">
+											<i class="material-icons md-22">access_time</i>
+											<span>March 21, 2024</span>
+										</div>
+										<div class="news-post-meta-item">
+											<span>by &nbsp;</span>
+											<a href="../team/weiwenyu.html">Wenyu Wei</a>
+										</div>
+									</div>
+									<div>
+										<!-- 论文名片 -->
+										<br>
+										<table style="font-size: 20px;">
+											<tr>
+											  <th>Journal</th>
+											  <td>International Journal of Applied Earth Observation and Geoinformation </td>
+											</tr>
+											<tr>
+												<th>English Title</th>
+											   <td>ReCovNet: Reinforcement learning with covering information for solving maximal coverage billboards location problem</td>
+											 </tr>
+											 <tr>
+												 <th>Chinese Title</th>
+												 <td>ReCovNet：使用覆盖信息进行强化学习，以解决最大覆盖广告牌位置问题</td>
+											 </tr>
+											<tr>
+												<th>Authors</th>
+											  <td>Yang Zhong and Shaohua Wang et al.</td>
+											</tr>
+											<tr>
+												<th>DOI</th>
+											  <td><a href="https://doi.org/10.1016/j.jag.2024.103710">https://doi.org/10.1016/j.jag.2024.103710</a></td>
+											</tr>
+										  </table>
+									</div>
+								</header>
+								<article class="news-post-article content">
+									<h4>Abstract</h4>
+									<p>Under limited resources and different objectives, maximizing the coverage of billboards plays a crucial role in social activities. The Maximal Coverage Billboards Location Problem (MCBLP) is very complex, especially for multi-objective functions. Based on the MCBLP, a mixed integer linear programming (MILP) model is established to determine the spatial optimization problem of billboard locations. Combining the salient features of the location problem, this study develops a new method called ReCovNet, which utilizes deep reinforcement learning (DRL) to solve the MCBLP. This study applies ReCovNet to solve the actual billboard location problem in New York City. To evaluate its performance, we implement various algorithms, such as Gurobi solver, genetic algorithm (GA), and a deep learning baseline called attention model (AM). Gurobi reports the best solution, while GA and AM are used as benchmark algorithms. The method proposed in this study achieves a good balance between efficiency and accuracy and effectively solves the MCBLP. The ReCovNet introduced in the study has the potential to improve advertising effectiveness and provides new insights for solving the MCBLP.</p>
+									<hr>
+									<h4>Background</h4>
+									
+									<p>Outdoor advertising on billboards has proven to be a popular marketing medium because it can effectively establish a commercial brand image. Due to the fixed billboards in specific locations that are visible to all passers-by, it can reach multiple target groups simultaneously, thereby enhancing the market share of the product in the surrounding area. Although the passing audience may only have a few seconds to notice the advertisement, a certain percentage of customers will be exposed to it regularly. Therefore, the information on the billboard will automatically deepen the audience's photographic memory, enabling them to remember the advertising information. In short, when companies want to increase the market awareness of products or brands in specific areas, outdoor advertising is particularly effective.</p>
+									
+									<p>When using billboards, companies decide where to use them based on their marketing budget. The goal is to choose the best set of billboard display locations that can maximize the aggregate effect within their marketing constraints. Among them, how to choose the best billboard locations to maximize their overall effectiveness has been a classic problem in recent years.</p>
+									<p>In this study, New York City, known for its high population density, was selected. This urban area consists of five boroughs, namely Brooklyn, Queens, Manhattan, the Bronx, and Staten Island, and is often considered to be the southernmost region of New York State. This location is ideal for research because of its high population density, heavy traffic, diverse demographic structure, and complex transportation patterns, including both car and pedestrian traffic, especially in Manhattan where public transportation is crucial.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240321/wwy1.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 1：Spatial units in New York City.</p>
+									</div>
+									<hr>
+									<h4>Framework</h4>
+									<p>The entire system workflow includes five layers: infrastructure layer, dataset layer, processing layer, ReCovNet layer, and representation layer. The infrastructure layer consists of hardware and software for processing data and running spatial models. The dataset layer includes LandScan data, two research areas of Uber Movement dataset, and billboard dataset. These datasets are cleaned and converted into a format that can be used in the data processing layer. When processing data, KD tree is used to perform effective nearest neighbor search on point-based datasets, thus constructing a spatial index. This spatial index improves the computational efficiency of spatial analysis for spatial optimization problems. The ReCovNet layer takes location and coverage information as input, combines the neighboring information between nodes, and generates end-to-end solutions for optimization problems. Finally, the representation layer displays the visualization results of the solution.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240321/wwy2.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 2：Workflow of solving the problem of billboard site location.</p>
+									</div>
+									<hr>
+									<h4>Result</h4>
+									<p>This article proposes a reinforcement method called ReCovNet, which combines attention mechanisms to solve the problem of maximizing the coverage of billboard locations. The location coordinates of billboards and LandScan populations are input into ReCovNet. The model processes the raw data to obtain the probability of selecting each point as a billboard site. Subsequently, a set of locations is selected and a target value is given, representing the demand that the selected billboard location set satisfies. Figure 2 shows the LandScan dataset sites and candidate billboard sites.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240321/wwy3.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 3：LandScan spatial units and candidate billboard sites.</p>
+									</div>
+									<p>After demonstrating the effectiveness of the model on generated datasets, we attempted to verify the applicability of ReCovNet. Compared to the Gurobi solver, the ReCovNet model proposed in this study exhibited superior efficiency and provided competitive objective outputs. Although there are still some gaps between the objective values of ReCovNet and the optimal solutions, these gaps are usually small compared to GA. More importantly, our method shows significant advantages in solving time. Compared to genetic algorithms, this method reduces the solving time by half, and compared to the Gurobi solver, it achieves more than ten times the solving time.</p>
+									<p>In Table 1, a similar trend can be observed, with Gurobi providing the highest objective value and ReCovNet having the fastest speed. ReCovNet always provides better solutions than GA in a relatively short period of time. Figures 4 and 5 provide visualizations of the problems for 20 billboard sites and 30 billboard sites within a radius of influence.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<p style = "text-align:center;color:dimgrey;">Tab 1：Comparison of Gurobi, GA, and ReCovNet with M=20, 30, 40 and R=2000.</p>
+										<img data-src="../../assets/img/news-photo/P20240321/wwy8.png" class="img-responsive lazy" alt="">
+									</div>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240321/wwy5.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 4：Visualization of billboard locations in New York City, with a service distance of 2000 meters and 30 stops.</p>
+									</div>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240321/wwy6.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 5：Visualization of billboard locations in New York City, with a service distance of 2000 meters and 20 stops.</p>
+									</div>
+									<hr>
+									<h4>Innovation</h4>
+									<p> (1) Innovation of research model</p>
+									<p> A new method, the RecovNet model, which uses deep reinforcement learning (DRL) to solve the MCBLP problem, is introduced to accurately describe the process of billboard location selection, as shown in Figure 6.</p>
+									<p> By applying our model and method to solve the real-world billboard placement challenge in New York, involving 1,109 demand points and 839 billboards, our method has significant efficiency advantages compared to other methods and effectively narrows the gap with the optimal solution.</p>
+									<p> (2) Innovation of research objects</p>
+									<p> It has been applied in New York, a city with high population density, busy traffic, diverse population and complex transportation patterns, and has demonstrated significant efficiency advantages compared to other methods, effectively narrowing the gap with the optimal solution.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240321/wwy7.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Fig 6：Network structure of ReCovNet.</p>
+									</div>
+									<hr>
+									<h4>Conclusion</h4>
+									<p>The maximum coverage billboard location problem (MCBLP) is a variant of the maximum coverage location problem, which has wide and critical applications in the real world. Modern solvers (such as Gurobi solver) can generate optimal solutions. However, as the size of the dataset increases, the running time increases exponentially. Therefore, in order to overcome this challenge, this paper considers a new method to more effectively handle MCBLP while maintaining comparable objective values. We integrate the structure of reinforcement learning and the idea of attention model to construct the ReCovNet model. In experiments, Gurobi solver undoubtedly performs best in terms of optimal coverage. There is a trade-off between optimal value and running time: although ReCovNet cannot surpass Gurobi when considering the target value, ReCovNet's running time is significantly less than Gurobi. This proves the advantage of ReCovNet when efficiency is a key factor.</p>
+									<p>In the future, we will continue to develop the ReCovNet model and study MCBLP from two different perspectives. The geospatial big data computing framework (Heitzler et al., 2017; Wang et al., 2019) is worth developing to improve the performance of the model. Secondly, we intend to study the integration of ReCovNet with deep learning models. This integration can further improve the efficiency of the model. By pursuing these directions, we are keen to optimize the ReCovNet model to make it suitable for solving more real-world problems with high efficiency and accuracy.</p>
+									
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+<!-- Begin footer -->
+<footer class="footer footer-minimal">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row items align-items-center">
+                <div class="col-lg-3 col-md-4 col-12 item">
+                    <div class="widget-brand-info">
+                        <div class="widget-brand-info-main">
+                            <a href="../index.html" class="logo" title="HiGISX">
+                                <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md item">
+                    <div class="footer-item">
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu footer-mnu-line">
+                                <li><a href="../index.html" class="hover-link" data-title="Home"><span>Home</span></a></li>
+                                <li><a href="../about-us.html" class="hover-link" data-title="About Us"><span>About Us</span></a></li>
+                                <li><a href="../ourteam.html" class="hover-link" data-title="Our Team"><span>Our Team</span></a></li>
+                                <li><a href="../publication.html" class="hover-link" data-title="Publications"><span>Publications</span></a></li>
+                                <li><a href="../news.html" class="hover-link" data-title="News"><span>News</span></a></li>
+                                <li><a href="../contacts.html" class="hover-link" data-title="Contacts"><span>Contacts</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between items">
+                <div class="col-md-auto col-12 item">
+                    <nav class="footer-links">
+                        <ul>
+                            <li><a>HiGISX</a></li>
+                            <!-- <li><a href="privacy-policy.html">Privacy Policy</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-auto col-12 item">
+                    <div class="copyright">© 2023 HiGISX. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End footer -->
+
+	</main><!-- End main -->
+
+	<script src="../../assets/libs/jquery/jquery.min.js"></script>
+    <script src="../../assets/libs/lozad/lozad.min.js"></script>
+    <script src="../../assets/libs/device/device.js"></script>
+    <script src="../../assets/libs/spincrement/jquery.spincrement.min.js"></script>
+    <script src="../../assets/libs/pristine/pristine.min.js"></script>
+    <script src="../../assets/js/custom.js"></script>
+    <script src="../../assets/js/forms.js"></script>
+	
+	<script type="text/javascript">
+		function f(str){
+                var sub_menu = document.getElementById(str);
+                var dis_v = sub_menu.style.display;
+                
+                if(dis_v == "block")
+                    sub_menu.style.display = "none";
+                else
+                    sub_menu.style.display = "block";
+                    
+            }
+	</script>
+	
+</body>
+</html>
