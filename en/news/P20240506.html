@@ -1,0 +1,400 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>HISPCRT | High Intelligence Spatial Computing Research Team</title>
+
+    <meta name="description" content="Description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+        
+    <link rel="icon" href="../../assets/img/favicon/logo-ico.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="../../assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+	<style type="text/css">
+		#sub_menu{
+			display: none;
+
+		}
+		ul li:hover{
+			cursor: pointer;
+		}
+		p {text-indent:2em;} 
+		table {
+		border-collapse: collapse;
+		border-spacing:0;
+		width: 70%;
+		border: 4px solid #ddd;
+		margin:0px auto;
+		}
+		th{
+		text-align: left;
+		padding: 16px;
+		width:150px;
+		border: 1px solid #ddd;
+		}
+		td {
+		text-align: left;
+		padding: 16px;
+		border: 1px solid #ddd;
+		}
+		tr:nth-child(even) {
+		background-color: #f2f2f2;
+		}
+	</style>
+</head>
+
+<body>
+
+	<main class="main">
+		
+		<div class="main-inner">
+
+			<!-- Begin mobile main menu -->
+			<nav class="mmm">
+				<div class="mmm-content">	
+					<ul class="mmm-list">
+						<li>
+							<a href="../index.html">Home</a>
+						</li>
+						<li>
+							<a href="../about-us.html">About Us</a>
+						</li>
+						<li>
+							<a href="../ourteam.html">Our Team</a>
+						</li>
+						<li>
+							<a href="../publication.html">Publication</a>
+						</li>
+						<!-- <li>
+							<a href="tabs-and-accordions.html">Tabs & Accordions</a>
+						</li> -->
+						<li>
+							<a href="../news.html">News</a>
+						</li>
+						<li>
+							<a href="../contacts.html">Contacts</a>
+            </li>
+
+            <li class="sub_menu" onclick = "f('sub_menu')" >Languages
+                <ul id="sub_menu">
+                    <li><a class="sub_menu" href="../news/P20240506.html">English</a></li>
+                    <li><a class="sub_menu" href="../../zh/news/P20240506.html">简体中文</a></li>
+                </ul>
+            </li>
+						</li>
+					</ul>
+				</div>
+			</nav><!-- End mobile main menu -->
+<header class="header header-minimal">
+    <nav class="header-fixed">
+        <div class="container">
+            <div class="row flex-nowrap align-items-center justify-content-between">
+				<div class="col-auto header-fixed-col logo-wrapper">
+					<a href="../index.html" class="logo" title="HiGISX">
+						<img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+						<img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+					</a>
+				</div>
+                <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
+                    <div class="row flex-nowrap align-items-center justify-content-end">
+                        <div class="col header-fixed-col d-none d-xl-block col-static">
+                            <!-- Begin main menu -->
+							<nav class="main-mnu">
+								<ul class="main-mnu-list">
+									<li>
+										<a href="../index.html" data-title="Home">
+											<span>Home</span>
+										</a>
+									</li>
+									<li>
+										<a href="../about-us.html" data-title="About Us">
+											<span>About Us</span>
+										</a>
+									</li>
+									<li>
+										<a href="../ourteam.html" data-title="Our Team">
+											<span>Our Team</span>
+										</a>
+									</li>
+									<li>
+										<a href="../publication.html" data-title="Publication">
+											<span>Publication</span>
+										</a>
+									</li>
+									<!-- <li>
+										<a href="tabs-and-accordions.html" data-title="Tabs & Accordions">
+											<span>Tabs & Accordions</span>
+										</a>
+									</li> -->
+									<li>
+										<a href="../news.html" data-title="News">
+											<span>News</span>
+										</a>
+									</li>
+									<li>
+										<a href="../contacts.html" data-title="Contacts">
+											<span>Contacts</span>
+										</a>
+									</li>
+									<li class="dropdown">
+										<button class="earth">
+											<img src="../../assets\img\earth.png" width="20" alt="">
+										</button>
+										<div class="dropdown-content">
+										  <a href="../news/P20240506.html">English</a>
+										  <a href="../../zh/news/P20240506.html">简体中文</a>
+										</div>
+									</li>
+								</ul>
+							</nav><!-- End main menu -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-block d-xl-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+			<!-- Begin bread crumbs -->
+			<nav class="bread-crumbs">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<ul class="bread-crumbs-list">
+								<li><a href="../index.html">Home</a><i class="material-icons md-18">chevron_right</i></li>
+								<li><a href="../news.html">News</a><i class="material-icons md-18">chevron_right</i></li>
+								<li><a>Paper Delivery</a><i class="material-icons md-18">chevron_right</i></li>
+								<li>
+									Optimization of Shared Electric Scooter Deployment Stations Based on Distance Tolerance
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav><!-- End bread crumbs -->
+
+			<div class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="news-post">
+								<header class="news-post-header">
+									<h2 class="news-post-title">
+										ReCovNet: Reinforcement learning with covering information for solving maximal coverage billboards location problem
+									</h2>
+									<div class="news-post-meta">
+										<div class="news-post-meta-item">
+											<i class="material-icons md-22">access_time</i>
+											<span>May 6, 2024</span>
+										</div>
+										<div class="news-post-meta-item">
+											<span>by &nbsp;</span>
+											<a href="../team/longyingqiu.html">Yingqiu Long</a>
+										</div>
+									</div>
+									<div>
+										<!-- 论文名片 -->
+										<br>
+										<table style="font-size: 20px;">
+											<tr>
+											  <th>Journal</th>
+											  <td>ISPRS International Journal of Geo-Information</td>
+											</tr>
+											<tr>
+												<th>English Title</th>
+											   <td>Optimization of Shared Electric Scooter Deployment Stations Based on Distance Tolerance</td>
+											 </tr>
+											 <tr>
+												 <th>Chinese Title</th>
+												 <td>基于距离容忍度的电动滑板车投放点选址优化</td>
+											 </tr>
+											<tr>
+												<th>Authors</th>
+											  <td>Jianwei Yue, Yingqiu Long, Shaohua Wang, and Haojian Liang</td>
+											</tr>
+											<tr>
+												<th>DOI</th>
+											  <td><a href="https://www.mdpi.com/2220-9964/13/5/147">https://www.mdpi.com/2220-9964/13/5/147</a></td>
+											</tr>
+										  </table>
+									</div>
+								</header>
+								<article class="news-post-article content">
+									<h4>Abstract</h4>
+									<p>The proliferation of shared electric scooters (E-scooters) has brought convenience to urban transportation but has also introduced challenges such as disorderly parking and an imbalance between supply and demand. Given the current inconsistent quantity and spatial distribution of shared E-scooters, coupled with inadequate research on deployment stations selection, we propose a novel maximal covering location problem (MCLP) based on distance tolerance. The model aims to maximize the coverage of user demand while minimizing the sum of distances from users to deployment stations. A deep reinforcement learning (DRL) was devised to address this optimization model. An experiment was conducted focusing on areas with high concentrations of shared E-scooter trips in Chicago. The solutions of location selection were obtained by DRL, the Gurobi solver, and the genetic algorithm (GA). The experimental results demonstrated the effectiveness of the proposed model in optimizing the layout of shared E-scooter deployment stations. This study provides valuable insights into facility location selection for urban shared transportation tools, and showcases the efficiency of DRL in addressing facility location problems (FLPs).</p>
+									<hr>
+									<h4>Background</h4>
+									
+									<p>In recent years, the flourishing micro-mobility market has provided a new solution to urban transportation issues. Shared E-scooters, as representative micro-mobility vehicles, have been widely used in cities around the world for their compactness, mobility, easy maneuverability, and adaptability to urban environments, which can bring convenience and efficiency to urban travel by saving travel time and reducing traffic congestion.</p>
+									
+									<p>However, the widespread adoption of shared E-scooters comes with a series of problems. The use of dockless operating systems for shared E-scooters services leads to irregular parking, occupying urban space, hindering the normal use of public facilities, and seriously affecting the safety and comfort of pedestrians. This not only disrupts urban order and negatively impacts traffic fluency but also increases the management difficulty for shared E-scooter providers. The unreasonable quantity and spatial layout of shared E-scooter deployments make it challenging for users to access shared E-scooters, thus reducing the quality of the travelling experience.</p>
+									<p>To better meet the travel demand of users in different regions, increase the utilization rate of shared E-scooters, reduce improper parking behavior, and improve the travel experience of urban residents, it is crucial to research the travel demand for shared E-scooters and deployment stations selection. In previous studies, the analysis of potential demand for shared E-scooters often considered the demand within a certain distance range as the same, without considering the potential impact of distance on the intensity of demand. Therefore, we propose a Distance Tolerance MCLP, which fully considers users’ acceptance of walking distance to shared E-scooter deployment stations. In our study, Chicago serves as the study area. By analyzing shared E-scooter travel patterns, target users, traffic conditions, and points of interest (POIs) within Chicago, we utilize DRL to ascertain the optimal layout for deploying shared E-scooter stations in the study area, thus validating the efficacy of our model. Our study provides decision support for optimizing the urban micro-mobility layout for the Chicago city government and vehicle dispatching for shared E-scooter providers. Additionally, it offers an efficient solution for FLPs.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240506/lyq1.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Figure 1. The count of shared E-scooter trips and the census tracts of the study area. Darker colors correspond to a greater number of trips.</p>
+									</div>
+									<hr>
+									<h4>Methodology</h4>
+									<h5>1. Formulation of the Problem</h5>
+									<p>The MCLP makes a group of facilities maximize the coverage of the target area by cleverly setting the number of facilities and coverage radius. However, nearly all MCLPs assume a binary perspective regarding coverage, whereby if the distance between demand points and service facilities is less than the coverage radius, it is considered completely covered; otherwise, it is not covered. This simplistic treatment of distance fails to account for users’ tolerance thresholds regarding facility proximity, resulting in instances where certain facilities, although capable of covering a substantial user base, exceed users’ travel tolerances, consequently leading to low actual utilization rates and suboptimal user experiences. In contrast to public transportation, users are more sensitive to the distance of dockless shared E-scooter deployment stations, with an accepted threshold typically not exceeding 300 m. Thus, in the process of optimizing layout decisions, it is imperative to ensure the distance acceptance of users for shared E-scooter deployment stations.</p>
+									<p>The traditional MCLP predominantly focuses on meeting the travel demand of shared E-scooters quantitatively while disregarding users’ perceptions of the convenience of deployment stations. Therefore, we propose a Distance Tolerance MCLP, which comprehensively considers users’ tolerance for deployment station distances, taking maximizing coverage of user demand and minimizing the sum of distances between users and deployment stations as the optimization objectives, so that the accessibility and convenience of users to shared E-scooter deployment stations are perceived as the best.</p>
+									<h5>2. Distance Tolerance MCLP</h5>
+									<p>To formulate shared E-scooter deployment stations covering location model, the parameters and symbols involved in the model are defined as follows:</p>
+									<p>•	Sets:</p>
+									<p>I: the set of demand points for shared E-scooters.</p>
+									<p>J: the set of candidate points for deploying shared E-scooters.</p>
+									<p>𝑁𝑖: the set of candidate points covering demand point i.</p>
+									<p>•	Parameters:</p>
+									<p>𝑖: a demand point for shared E-scooters.</p>
+									<p>𝑗: a candidate point for shared E-scooters.</p>
+									<p>𝑑𝑖𝑗: the walking distance from demand point 𝑖 to candidate point 𝑗.</p>
+									<p>𝐷𝑚𝑎𝑥: the maximum covering distance from any demand point to a shared E-scooter deployment station.</p>
+									<p>𝐹(𝑑𝑖𝑗): the distance tolerance function.</p>
+									<p>𝑝: the number of candidate points to be established.</p>
+									<p>𝑆: the maximum covering distance for candidate point 𝑗.</p>
+									<p>𝑤𝑖: the demand intensity for demand point 𝑖.</p>
+									<p>𝑌𝑖𝑗: the coverage status of whether demand point 𝑖 is covered by candidate point 𝑗.</p>
+									<p>The distance tolerance function is defined as follows:</p>
+									<p>When the distance from the user to the deployment stations is within 𝑑𝑎 meters, the user’s acceptance of that deployment station is optimal. When the distance exceeds 𝑑𝑎 meters but is within 𝑑𝑏 meters, the user acceptance decreases with increasing distance. When the distance surpasses 𝑑𝑏 meters, the user’s acceptance of that deployment station is 0.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240506/lyq2.png" class="img-responsive lazy" alt="">
+									</div>
+									<p>In this model, the first objective is to maximize the coverage of demand points by maximizing the total weight of demand. The second objective is to minimize the distances between users and deployment stations, including the pick-up and drop-off distances. To unify these objectives, a linear weighted approach is employed:</p>
+									<div class="news-post-img item-bordered item-border-radius">
+						
+										<img data-src="../../assets/img/news-photo/P20240506/lyq3.png" class="img-responsive lazy" alt="">
+									</div>
+									<h5>3. Deep Reinforcement Learning</h5>
+									<p>In the realm of DRL, an intelligent agent engages with its environment, employing a trial-and-error methodology to learn decision-making strategies aimed at maximizing cumulative rewards. This iterative process involves five essential components: the Agent, the Environment, the State, Action, and Reward. We adopted the Attention Model proposed by Kool et al. and employed the REINFORE algorithm with a greedy rollout baseline for model training.</p>
+									<p>The algorithm’s design unfolds as follows:</p>
+									<p>Objective: Maximize the coverage of demand points while minimizing the distance between users and shared E-scooter deployment stations.</p>
+									<p>States: Represent the environment’s state, including the locations of potential deployment stations, demand points, and their respective weights.</p>
+									<p>Actions: Define possible actions as the selection of locations to establish shared E-scooter deployment stations.</p>
+									<p>Rewards: Design a reward function according to Formula (12) that integrates travel demand and distance tolerance.</p>
+									<p>Model: Utilize the Attention Model to estimate the policy 𝑝𝜃(𝜋|𝑠), where 𝜃 represents model parameters, 𝜋 is the action sequence, and 𝑠 is the current state. Incorporate problem-specific features (e.g., locations, demand, distances) into the model’s encoder to generate node embeddings. Sequentially select deployment station locations based on the decoder’s output, ensuring that the action choices align with the problem’s constraints.</p>
+									<p>Baseline: Utilize the deterministic greedy rollout of the policy to estimate the baseline, reducing the variance of the reward.</p>
+									<p>Reinforce: Compute the policy gradient using the difference between obtained reward and baseline, adjusting the model parameters to maximize expected rewards. Use Adam optimizer to update the model parameters based on the computed gradients.</p>
+									<p>Training Loop: For each epoch, sample a set of instances, perform action selection, calculate rewards, and update the model using the REINFORE algorithm. Stop training when there is minimal change in the reward function value or when the maximum number of epochs is reached.</p>
+									<p>Validation: Periodically validate the model against a separate set of instances to ensure generalization and avoid overfitting.</p>
+									<hr>
+									<h4>Results and Validation</h4>
+									<p>The 992nd training epoch with the largest reward return value was selected for solving the Distance Tolerance MCLP. The results of shared E-scooter deployment stations aligned with the spatial characteristics of travel patterns, mainly distributed in the densely populated Loop and River North census tracts, exhibiting a uniform distribution pattern and avoiding excessive clustering. These points adequately covered demand points, achieving a coverage rate of 16.58%. The model’s objective function value stood at 73.06, meeting the optimization requirements for deployment station selection.</p>
+									<p>To validate the effectiveness and feasibility of the DRL in FLPs, we compared and analyzed the results obtained by the Gurobi solver and the GA under the same conditions of scale and model parameters. The comparative analysis included the solving time, objective function value, demand points coverage rate (Table 3), and spatial distribution of deployment stations (Figure 4). The results showed that in terms of objective function value and coverage, the gap between the results of DRL and Gurobi solver was smaller and they outperformed the GA. In terms of solution time, DRL showed a clear advantage, being more than 5 times faster than the GA and more than 20 times faster than the Gurobi solver, demonstrating its ability to solve quickly. Comparing the spatial distribution of the stations obtained by the three methods, we found that the overlap between the DRL results and the Gurobi solver results was high, but DRL selected one or two stations in the Lake View and Near West Side census tracts, which did not exist in the Gurobi solver results. Further analysis revealed that the Lake View and Near West census tracts had a very large count of trips, which indicates that the DRL results were more in line with the actual situation of users using shared E-scooters. Although its results were not as good as those of the Gurobi solver in terms of objective function value and coverage, it was better than the Gurobi solver in terms of spatial distribution uniformity.</p>
+									
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240506/lyq4.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Figure 4. The results of different solving methods: (a) results of DRL; (b) results of Gurobi solver; (c) results of GA. Demand points are color-coded based on their demand intensity, with darker colors indicating higher demand.</p>
+									</div>
+									<div class="news-post-img item-bordered item-border-radius">
+										<p style = "text-align:center;color:dimgrey;">Table 3. The comparative results of different solving methods.</p>
+										<img data-src="../../assets/img/news-photo/P20240506/lyq5.png" class="img-responsive lazy" alt="">
+
+									</div>
+									<hr>
+									<h4>Conclusions</h4>
+									<p>Aiming to improve the current distribution of shared E-scooter deployment stations and demand in Chicago, we proposed a maximal covering location problem model based on distance tolerance. This model considers the distance from the user’s location to the shared E-scooter deployment stations, introducing a distance tolerance function to enhance the MCLP. By accurately reflecting the change of user demand with distance, it addresses a limitation of traditional coverage models, which prioritize quantity while overlooking the distance factor.</p>
+									<p>To validate the feasibility of the model, we designed a DRL based on the attention mechanism for our experiment. By comparing and analyzing the results with those of the Gurobi solver and the GA, we found that the results of DRL were better in terms of spatial distribution, which verified the efficiency of DRL in the field of FLPs.</p>
+									
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+<!-- Begin footer -->
+<footer class="footer footer-minimal">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row items align-items-center">
+                <div class="col-lg-3 col-md-4 col-12 item">
+                    <div class="widget-brand-info">
+                        <div class="widget-brand-info-main">
+                            <a href="../index.html" class="logo" title="HiGISX">
+                                <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md item">
+                    <div class="footer-item">
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu footer-mnu-line">
+                                <li><a href="../index.html" class="hover-link" data-title="Home"><span>Home</span></a></li>
+                                <li><a href="../about-us.html" class="hover-link" data-title="About Us"><span>About Us</span></a></li>
+                                <li><a href="../ourteam.html" class="hover-link" data-title="Our Team"><span>Our Team</span></a></li>
+                                <li><a href="../publication.html" class="hover-link" data-title="Publications"><span>Publications</span></a></li>
+                                <li><a href="../news.html" class="hover-link" data-title="News"><span>News</span></a></li>
+                                <li><a href="../contacts.html" class="hover-link" data-title="Contacts"><span>Contacts</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between items">
+                <div class="col-md-auto col-12 item">
+                    <nav class="footer-links">
+                        <ul>
+                            <li><a>HiGISX</a></li>
+                            <!-- <li><a href="privacy-policy.html">Privacy Policy</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-auto col-12 item">
+                    <div class="copyright">© 2023 HiGISX. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End footer -->
+
+	</main><!-- End main -->
+
+	<script src="../../assets/libs/jquery/jquery.min.js"></script>
+    <script src="../../assets/libs/lozad/lozad.min.js"></script>
+    <script src="../../assets/libs/device/device.js"></script>
+    <script src="../../assets/libs/spincrement/jquery.spincrement.min.js"></script>
+    <script src="../../assets/libs/pristine/pristine.min.js"></script>
+    <script src="../../assets/js/custom.js"></script>
+    <script src="../../assets/js/forms.js"></script>
+	
+	<script type="text/javascript">
+		function f(str){
+                var sub_menu = document.getElementById(str);
+                var dis_v = sub_menu.style.display;
+                
+                if(dis_v == "block")
+                    sub_menu.style.display = "none";
+                else
+                    sub_menu.style.display = "block";
+                    
+            }
+	</script>
+	
+</body>
+</html>
