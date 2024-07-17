@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>HISPCRT | High Intelligence Spatial Computing Research Team</title>
+
+    <meta name="description" content="Description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+        
+    <link rel="icon" href="../../assets/img/favicon/logo-ico.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="../../assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+	<style type="text/css">
+		#sub_menu{
+			display: none;
+
+		}
+		ul li:hover{
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+
+	<main class="main">
+
+		<div class="main-inner">
+
+			<!-- Begin mobile main menu -->
+			<nav class="mmm">
+				<div class="mmm-content">	
+					<ul class="mmm-list">
+						<li>
+							<a href="../../index.html">首页</a>
+						</li>
+						<li>
+							<a href="../about-us.html">关于我们</a>
+						</li>
+						<li>
+							<a href="../ourteam.html">团队成员</a>
+						</li>
+						<li>
+							<a href="../publication.html">发表著作</a>
+						</li>
+						<!-- <li>
+							<a href="tabs-and-accordions.html">Tabs & Accordions</a>
+						</li> -->
+						<li>
+							<a href="../news.html">近期动态</a>
+						</li>
+						<li>
+							<a href="../contacts.html">联系我们</a>
+						</li>
+						<li class="sub_menu" onclick = "f('sub_menu')" >语言
+                            <ul id="sub_menu">
+                                <li><a class="sub_menu" href="../../en/index.html">English</a></li>
+                                <li><a class="sub_menu" href="../../index.html">简体中文</a></li>
+                            </ul>
+                        </li>
+					</ul>
+				</div>
+			</nav><!-- End mobile main menu -->
+            
+            <header class="header header-minimal">
+                <nav class="header-fixed">
+                    <div class="container">
+                        <div class="row flex-nowrap align-items-center justify-content-between">
+                            <div class="col-auto header-fixed-col logo-wrapper">
+                                <a href="../../index.html" class="logo" title="HiGISX">
+                                    <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                    <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                                </a>
+                            </div>
+                            <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
+                                <div class="row flex-nowrap align-items-center justify-content-end">
+                                    <div class="col header-fixed-col d-none d-xl-block col-static">
+                                        <!-- Begin main menu -->
+                                        <nav class="main-mnu">
+                                            <ul class="main-mnu-list">
+                                                <li>
+                                                    <a href="../../index.html" data-title="首页">
+                                                        <span>首页</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../about-us.html" data-title="关于我们">
+                                                        <span>关于我们</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../ourteam.html" data-title="团队成员">
+                                                        <span>团队成员</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../publication.html" data-title="出版专著">
+                                                        <span>出版专著</span>
+                                                    </a>
+                                                </li>
+                                                <!-- <li>
+                                                    <a href="tabs-and-accordions.html" data-title="Tabs & Accordions">
+                                                        <span>Tabs & Accordions</span>
+                                                    </a>
+                                                </li> -->
+                                                <li>
+                                                    <a href="../news.html" data-title="新闻动态">
+                                                        <span>新闻动态</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../contacts.html" data-title="联系我们">
+                                                        <span>联系我们</span>
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <button class="earth">
+                                                        <img src="../../assets\img\earth.png" width="20" alt="">
+                                                    </button>
+                                                    <div class="dropdown-content">
+                                                      <a href="../../en/index.html">English</a>
+                                                      <a href="../../index.html">简体中文</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </nav><!-- End main menu -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-block d-xl-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+			<!-- Begin bread crumbs -->
+            <div class="section">
+                <div class="container">
+                    <div class="row items">
+                        <header class="col-12">
+                            <div class="section-heading heading-center">
+                                <div class="section-subheading">Teacher</div>
+                                <h1>张春晓</h1>
+                            </div>
+                            <div id="about" class="about-area section-top-spacing">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 ">
+                                            <div class="img-box">
+                                                <img src="../../assets/img/people_img/zhangchunxiao.jpg" alt="about" height="400">
+                                                <h5>张春晓</h5>
+                                                <h6>中国地质大学（北京）
+                                                <br>信息工程学院地理信息科学系主任</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 ">
+                                            <div class="content-area">
+                                                <div class="inner-tile">
+                                                    <h3 class="inner-content-title"> 个人简介</h3>
+                                                    <p>张春晓（1984-），女，河北邯郸人，副教授，博士生导师。2007年本科毕业于中国地质大学（武汉）地理信息科学专业；2010年毕业于中国科学院大学地理科学与资源研究所（资源与环境信息系统国家重点实验室）地图学与地理信息系统专业，获硕士学位；2014年毕业于香港中文大学（太空与地球信息科学研究所）地球系统与地理信息科学专业，获哲学博士学位。2015年至今在中国地质大学（北京）工作，现任信息工程学院地理信息科学系主任。
+                                                        <br><br>主要从事知识与数据驱动的地理模拟、知识图谱、虚拟地理环境、城市热环境模拟分析等相关方面研究。在Nature Reviews Earth & Environment、Environmental Modelling & Software, Computers Environment and Urban Systems、Remote Sensing、Applied Geography、Ecological Modelling、Land Use Policy、Ecological Indicators、地理学报、遥感学报等国内外有影响力的期刊和学术会议上发表论文40余篇，其中以第一作者/通讯作者发表SCI/SSCI论文18篇（含JCR一区期刊论文9篇、ESI高被引文章1篇），EI论文2篇。主编科学出版社“十三五”普通高等教育本科规划教材《景观格局空间分析技术及应用》（第二版），参编全国高校地理信息科学教学丛书、普通高等教育“十一五”国家级规划教材《GIS空间分析》（第三版）。</p>
+                                                </div>
+                                                <div class="inner-text">
+                                                    <p>
+                                                        主持国家自然科学基金3项，北京市自然科学基金1项，中国博士后科学基金资助项目一等资助1项，实验室开放基金等项目多项。获得测绘科技进步奖二等奖，中国地质大学（北京）信息工程学院青年教师教学比赛一等奖，第六届高校GIS论坛“高校GIS新锐”奖，国际地理学会（IGU）Travel Grant，联合国亚太经社会实习证书等。
+                                                        <br><br> 
+                                                    </p>
+                                                    <hr>
+                                                    <h3 class="inner-content-title"> 研究方向</h3>
+                                                    <div class="content">
+                                                        <ol>
+                                                            <li>知识与数据驱动的地理模拟</li>
+                                                            <li>知识图谱</li>
+                                                            <li>虚拟地理环境</li>
+                                                            <li>城市热环境模拟分析</li>
+                                                            <li>城市洪涝治理</li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>教育经历</h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <ul>
+                                                            <li>
+                                                                <p><span>2010年-2014年，  </span> 香港中文大学（太空与地球信息科学研究所）地球系统与地理信息科学专业，博士研究生，获博士学位</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2007年-2010年，  </span> 中国科学院地理科学与资源研究所（资源与环境信息系统国家重点实验室）地图学与地理信息系统专业，硕士研究生，获硕士学位</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2003年-2007年，  </span> 中国地质大学（武汉）地理信息科学专业，本科，获学士学位</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>从业经历</h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <ul>
+                                                            <li>
+                                                                <p><span>2015年-至今，  </span> 中国地质大学（北京）信息工程学院，副教授，地理信息科学系主任</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>代表性著作</h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <p>
+                                                            [1] Wenhao Chu, Chunxiao Zhang, Heng Li, Laifu Zhang, Dingtao Shen, Rongrong Li，SHAP-powered insights into spatiotemporal effects: Unlocking explainable Bayesian-neural-network urban flood forecasting，International Journal of Applied Earth Observation and Geoinformation, Volume 131, July 2024, 103972. 
+                                                            <br>[2] Heng Li, Chunxiao Zhang, Min Chen, Dingtao Shen, Yunyun Niu, Data-driven surrogate modeling: Introducing spatial lag to consider spatial autocorrelation of flooding within urban drainage systems, Environmental Modelling & Software,2023,161:105623. DOI: 10.1016/j.envsoft.2023.105623
+                                                            <br>[3] Heng Li, Chunxiao Zhang, Ziwei Xiao, Min Chen, Dequan Lu, Shuhui Liu，A Web-based geo-simulation approach integrating knowledge graph and model-services，Environmental Modelling & Software,2021,144:105160.
+                                                            <br>[4] Wenhao Chu, Chunxiao Zhang, Heng Li, Bridging the Data Gap: Enhancing the Spatiotemporal Accuracy of Hourly PM2.5 Concentration through the Fusion of Satellite-Derived Estimations and Station Observations, Remote Sensing,2023,15(20):4973
+                                                            <br>[5] Wenjing Wang , Chunxiao Zhang, Heng Li, Ziwei Xiao，Construction of bilingual knowledge graph based on meteorological simulation，Transactions in GIS, 2022,26(3): 1355-1375.
+                                                            <br>[6] Ruifang Ma, Xinqi Zheng, Peipei Wang, Haiyan Liu, Chunxiao Zhang，The prediction and analysis of COVID-19 epidemic trend by combining LSTM and Markov method，Scientific Reports，2021(1). 
+                                                            <br>[7] Jiayang Li, Xinqi Zheng, Chunxiao Zhang, Retrospective research on the interactions between land-cover change and global warming using bibliometrics during 1991–2018，Environmental Earth Sciences，2021(17). 
+                                                            <br>[8] Jiayang Li, Chunxiao Zhang, Xinqi Zheng, Youmin Chen，Temporal-Spatial Analysis of the Warming Effect of Different Cultivated Land Urbanization of Metropolitan Area in China，Scientific Reports，2020
+                                                            <br>[9] Dongya Liu, Xinqi Zheng, Hongbin Wang, Chunxiao Zhang, Jiayang Li, Yongqiang Lv，Interoperable scenario simulation of land-use policy for Beijing–Tianjin–Hebei region, China. Land Use Policy, 2018(75).
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>著作和教材</h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <p>
+                                                            [1] 景观格局空间分析技术及其应用（第二版），参编，2022年，科学出版社
+                                                            <br>[2] GIS空间分析（第三版），参编，2017年，科学出版社
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>科研项目</h3>
+
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>专利及软件著作权</h3>
+                                                </div>
+                                                <hr>
+
+                                            </div>
+                                        </div>
+                    
+ 
+                                    </div>
+                                </div>
+                            </div>
+
+                        </header>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+<!-- Begin footer -->
+<footer class="footer footer-minimal">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row items align-items-center">
+                <div class="col-lg-3 col-md-4 col-12 item">
+                    <div class="widget-brand-info">
+                        <div class="widget-brand-info-main">
+                            <a href="../../index.html" class="logo" title="HiGISX">
+                                <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md item">
+                    <div class="footer-item">
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu footer-mnu-line">
+                                <li><a href="../../index.html" class="hover-link" data-title="Home"><span>Home</span></a></li>
+                                <li><a href="../about-us.html" class="hover-link" data-title="About Us"><span>About Us</span></a></li>
+                                <li><a href="../ourteam.html" class="hover-link" data-title="Our Team"><span>Our Team</span></a></li>
+                                <li><a href="../publication.html" class="hover-link" data-title="Publications"><span>Publications</span></a></li>
+                                <li><a href="../news.html" class="hover-link" data-title="News"><span>News</span></a></li>
+                                <li><a href="../contacts.html" class="hover-link" data-title="Contacts"><span>Contacts</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between items">
+                <div class="col-md-auto col-12 item">
+                    <nav class="footer-links">
+                        <ul>
+                            <li><a>HiGISX</a></li>
+                            <!-- <li><a href="privacy-policy.html">Privacy Policy</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-auto col-12 item">
+                    <div class="copyright">© 2023 HiGISX. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End footer -->
+
+	</main><!-- End main -->
+
+	<script src="../../assets/libs/jquery/jquery.min.js"></script>
+    <script src="../../assets/libs/lozad/lozad.min.js"></script>
+    <script src="../../assets/libs/device/device.js"></script>
+    <script src="../../assets/libs/spincrement/jquery.spincrement.min.js"></script>
+    <script src="../../assets/libs/pristine/pristine.min.js"></script>
+    <script src="../../assets/js/custom.js"></script>
+    <script src="../../assets/js/forms.js"></script>
+	
+	<script type="text/javascript">
+		function f(str){
+                var sub_menu = document.getElementById(str);
+                var dis_v = sub_menu.style.display;
+                
+                if(dis_v == "block")
+                    sub_menu.style.display = "none";
+                else
+                    sub_menu.style.display = "block";
+                    
+            }
+	</script>
+
+</body>
+
+</html>
