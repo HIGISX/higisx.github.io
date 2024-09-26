@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>HISPCRT | High Intelligence Spatial Computing Research Team</title>
+
+    <meta name="description" content="Description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+        
+    <link rel="icon" href="../../assets/img/favicon/logo-ico.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="../../assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+	<style type="text/css">
+		#sub_menu{
+			display: none;
+
+		}
+		ul li:hover{
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+
+	<main class="main">
+
+		<div class="main-inner">
+
+			<!-- Begin mobile main menu -->
+			<nav class="mmm">
+				<div class="mmm-content">	
+					<ul class="mmm-list">
+						<li>
+							<a href="../../index.html">首页</a>
+						</li>
+						<li>
+							<a href="../about-us.html">关于我们</a>
+						</li>
+						<li>
+							<a href="../ourteam.html">团队成员</a>
+						</li>
+						<li>
+							<a href="../publication.html">发表著作</a>
+						</li>
+						<!-- <li>
+							<a href="tabs-and-accordions.html">Tabs & Accordions</a>
+						</li> -->
+						<li>
+							<a href="../news.html">近期动态</a>
+						</li>
+						<li>
+							<a href="../contacts.html">联系我们</a>
+						</li>
+						<li class="sub_menu" onclick = "f('sub_menu')" >语言
+                            <ul id="sub_menu">
+                                <li><a class="sub_menu" href="../../en/team/caochunxiang.html">English</a></li>
+                                <li><a class="sub_menu" href="../../index.html">简体中文</a></li>
+                            </ul>
+                        </li>
+					</ul>
+				</div>
+			</nav><!-- End mobile main menu -->
+            
+            <header class="header header-minimal">
+                <nav class="header-fixed">
+                    <div class="container">
+                        <div class="row flex-nowrap align-items-center justify-content-between">
+                            <div class="col-auto header-fixed-col logo-wrapper">
+                                <a href="../../index.html" class="logo" title="HiGISX">
+                                    <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                    <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                                </a>
+                            </div>
+                            <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
+                                <div class="row flex-nowrap align-items-center justify-content-end">
+                                    <div class="col header-fixed-col d-none d-xl-block col-static">
+                                        <!-- Begin main menu -->
+                                        <nav class="main-mnu">
+                                            <ul class="main-mnu-list">
+                                                <li>
+                                                    <a href="../../index.html" data-title="首页">
+                                                        <span>首页</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../about-us.html" data-title="关于我们">
+                                                        <span>关于我们</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../ourteam.html" data-title="团队成员">
+                                                        <span>团队成员</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../publication.html" data-title="出版专著">
+                                                        <span>出版专著</span>
+                                                    </a>
+                                                </li>
+                                                <!-- <li>
+                                                    <a href="tabs-and-accordions.html" data-title="Tabs & Accordions">
+                                                        <span>Tabs & Accordions</span>
+                                                    </a>
+                                                </li> -->
+                                                <li>
+                                                    <a href="../news.html" data-title="新闻动态">
+                                                        <span>新闻动态</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../contacts.html" data-title="联系我们">
+                                                        <span>联系我们</span>
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <button class="earth">
+                                                        <img src="../../assets\img\earth.png" width="20" alt="">
+                                                    </button>
+                                                    <div class="dropdown-content">
+                                                      <a href="../../en/team/caochunxiang.html">English</a>
+                                                      <a href="../../index.html">简体中文</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </nav><!-- End main menu -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-block d-xl-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+           <!-- Begin bread crumbs -->
+            <nav class="bread-crumbs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="bread-crumbs-list">
+                                <li>
+                                    <a href="../../index.html">首页</a>
+                                    <i class="material-icons md-18">chevron_right</i>
+                                </li>
+                                <li>
+                                    <a href="../ourteam.html">团队成员</a>
+                                    <i class="material-icons md-18">chevron_right</i>
+                                </li>
+                                <li>曹春香</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav><!-- End bread crumbs -->
+
+            <div class="section">
+                <div class="container">
+                    <div class="row items">
+                        <header class="col-12">
+                            <div class="section-heading heading-center">
+                                <div class="section-subheading">Teacher</div>
+                                <h1>曹春香</h1>
+                            </div>
+                            <div id="about" class="about-area section-top-spacing">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 ">
+                                            <div class="img-box">
+                                                <img src="../../assets/img/people_img/caochunxiang.jpg" alt="about" height="400">
+                                                <h5>曹春香</h5>
+                                                <h6>中国科学院空天信息创新研究院
+                                                <br>二级研究员</h6>
+                                                <h7>电话：13911610226</h7>
+                                                <h7>邮箱: caocx@aircas.ac.cn</h7>
+                                                <h7>网址: www.slors.cn</h7>
+
+                                            
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 ">
+                                            <div class="content-area">
+                                                <div class="inner-tile">
+                                                    <h3 class="inner-content-title"> 个人简介</h3>
+                                                    <p>曹春香 中国科学院空天信息创新研究院二级研究员兼博士生导师，现担任中国科学院空天信息研究院公共卫生领域空间信息技术应用研究中心执行主任；曾担任中国科学院遥感应用研究所科技处处长，遥感科学国家重点实验室环境健康遥感研究室主任等；兼任国家重大计划评委、863地球观测与导航技术领域重大项目总体专家组专家、中国湿地保护协会理事、国家湿地科学技术第一届、第二届专家委员会、国家林草局咨询专家、中国卫生信息学会卫生地理信息系统专业委会等；《Geomatics Natural Hazards & Risk》、《International Journal of Remote Sensing》等国际学术期刊编委或特邀审稿及《中国植物保护百科全书》编委等；曾受邀到美国、日本、法国、德国、韩国、泰国的科研院所访问交流。1985年被选为中国七位在校大学生的代表之一，随刘延东副总理率领的“中日友好之船”为中日友好做出重要贡献，2017年被选为唯一的中国科学院大学的教授代表，陪同科学院白春礼院长和中国科学院大学丁仲礼校长等接待了泰国公主玛哈·扎克里·诗琳通（Maha Chakri Sirindhorn）一行；2017年被选为中国科学院的代表，作为国家谈判团成员参加了UNCCD-COP13，并获联合国防治荒漠化缔约方大会颁发的“一带一路先绿色锋奖”。</p>
+                                                    <p>在科学研究方面，面向全球创立的“环境健康遥感诊断”交叉学科方向拖齐了中国在全球该学科方向的首席国地位。开拓的“遥感诊断”技术应用到环境健康研究方面，实现了环境健康遥感诊断框架体系构建、指标体系制定、关键技术研发、诊断系统构筑等，为全国乃至全球典型区域进行适时环境健康遥感诊断提供了科学支撑。围绕带领团队提出的交叉学科方向共发表论文200余篇、主持或参与国家及部委等项目40余项、获软件著作权12项、申请/获得专利14项、出版专著或合著15本、主办专刊6期。为了实现给中国创造配牌学术会议的目标，从2011年以来集成社会各界支援成功主办了10次“环境健康遥感诊断国际学术研讨会”及各级学术讨论系列会议等。历时10年，为了更有效应用环境健康遥感诊断研究成果，研发了全球首台便携式“地基多参数智能环境健康遥感诊断仪”。</p>
+                                                    <p>在人才培养与合作交流方面，为了培养世界一流高端科技人才，面向全球首次开讲了中国科学院大学的环境健康遥感诊断博士生精品课程，精心培养了包括来自美国、伊朗、泰国、巴基斯坦、尼泊尔、蒙古、印度尼西亚、斯里兰卡的留学生和本土的研究生和实习生70余名，引领行业部门等培训遥感诊断技术人才3000余人，在国内外做学术报告100余次。获中国第十二届新世纪女性健康生活大型公益活动形象大使奖。</p>
+                                                    <p>面向科研成果应用推广及社会公益活动，2003年联合军事医学科学院创立了《公共卫生领域空间信息技术应用研究中心》，并在不遗余力地推广国产卫星数据及遥感技术应用的同时，与地方联合共建了分布于北京、上海、成都、河北、深圳、福建、江西、内蒙古、陕西、贵州的10个分中心，为地方人才培养/培训和科研成果落地搭建了虚拟现实平台；有效利用社会资源完成了8次“毛乌素沙地星地同步遥感科学实验”，为荒漠化遥感诊断取得第一手资料；积极关注内蒙古的“一湖两海”生态建设，近四年开展了6次实地考察与科学实验。为了推动国产卫星数据的应用和面向行业部门形成实质性的科学支撑，曾带领我国湿地领域等的9家单位的专家学者研发了首套“湿地生态评价指标体系”，该指标体系对我国的73块国际湿地及部分国家重要湿地从湿地功能、健康、价值进行了评价。
+                                                    </p>
+                                                </div>
+                                                
+                                                <div class="personal-info">
+                                                    <h3>教育经历</h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <ul>
+                                                            <li>
+                                                                <p><span>1996.04－2000.03  </span> 日本国广岛大学院生物圏科学研究科（环境计划遥感）获博士学位</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>1994.04－1996.03  </span> 日本国京都府立大学农学部林学研究科获硕士学位</p> 
+</li>
+                                                            <li>
+                                                                <p><span>1982.09－1986.07  </span> 内蒙古农业大学林学系获学士学位</p>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>从业经历</h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <ul>
+                                                            <li>
+                                                                <p><span>2024至今，  </span> 中国科学院空天信息创新研究院 二级研究员、环境健康遥感诊断首席科学家</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2019至2024，  </span> 中国科学院空天信息创新研究院 研究员</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2013至2019，  </span> 遥感科学国家重点实验室环境健康遥感研究室主任</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2012至2013，  </span> 中国科学院遥感与数字地球研究所创新研究员</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2008至2012，  </span> 中国科学院遥感应用研究所创新研究员</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2003至今，  </span> 公共卫生空间信息技术应用研究中心执行主任</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2003至2006，  </span> 中国科学院遥感应用研究所科技处处长</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2000至2008，  </span> 中国科学院遥感应用研究所项目研究员</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>1986至1993，  </span> 内蒙古呼和浩特市赛汗区林业局工程师</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info"></div>
+                                                    <h3>党内及群众团体兼职</h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <ul>
+
+                                                            <li>
+                                                                <p><span>2023至今，  </span> “中国科学院空天信息创新研究院武术协会”并任会长</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2013.03－2017.08，  </span> 任中国科学院遥感与数字地球研究所遥感科学国家重点实验室第二党支部支部书记</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2007.01－2011.01，  </span> 中国科学院遥感应用研究所研究室一支部支部书记</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2007.06－2012.09，  </span> 中国科学院遥感应用研究所分工会主席</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2007.05－2011.09，  </span> 中国科学院遥感应用研究所第五届职代会代表</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2003.06－2007.06，  </span> 中国科学院遥感应用研究所第四届职代会代表</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>1986.12－1993.03，  </span> 内蒙古呼和浩特市赛汗区林业局党支部宣传委员</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="inner-tile">
+                                                    <h3 class="inner-content-title"> 学术成果</h3>
+                                                    <p>曹春香研究员回国后，经过十余年的潜心研究于2011年面向全球正式提出了环境健康遥感诊断交叉研究学科方向；于2013年在遥感科学国家重点实验室建立环境健康遥感研究室；通过牵引围绕环境健康遥感诊断交叉学科联合攻关的国际合作工作组来华一起开启了每年一届的“环境健康遥感诊断国际学术研讨会”，为遥感学子们的国际合作与交流搭建了平台。尤其在科学产出方面发表论文近300篇，其中SCI检索论文100余篇， 2013年与美国知名教授联合在《Nature》子刊《Nature Climate Change》上发表的论文（Temperature and Vegetation Seasonality Diminishment over Northern Lands）实现了遥感所在“自然”子刊上论文零的突破；2016年再次在《Nature》子刊《Nature Climate Change》上联合发表论文（Greening of the Earth and its Drivers），与科学出版社签订的《环境健康遥感诊断》、《环境健康遥感诊断指标体系》、《环境健康遥感诊断关键技术》、《环境健康遥感诊断系统》、《环境健康遥感诊断典型应用》系列专著出版合同，历时十多年已全部出版。面向国家重大战略需求提出的多份建议报告得到过省部级以上领导的批示。</p>
+                                                </div>
+                                                <hr>
+                                                <div class="inner-tile">
+                                                    <h3 class="inner-content-title"> 同行评议</h3>
+                                                    <p>世界著名遥感科学家Ranga B. Myneni 教授给予曹春香研究员创立的“环境健康遥感诊断”学科方向给予了高度评价，并认为“环境健康遥感诊断”学科方向应该做为遥感科学国家重点实验室最值得重视的研究方向。以下为Ranga B. Myneni 教授评议原文：</p>
+                                                    <p>The Committee agrees with the Laboratory’s efforts to study how remote sensing can improve environmental health. This is a unique aspect of remote sensing that deserves more research attention and effort.</p>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>主办期刊</h3>
+                                                    <div class="content-paper">
+                                                        <ol>
+                                                            <li>《Remote Sensing》期刊“Spatial Calculation and Remote Sensing Diagnosis for Environmental Health”(面向环境健康的空间计算与遥感诊断)专刊</li>
+                                                            <li>《Land》期刊“Vegetation Cover Changes Monitoring Using Remote Sensing Data”(使用遥感数据进行植被覆盖变化监测)专刊</li>
+                                                            <li>《Frontiers in Public Health》期刊“Application of Spatial Information Technology in Infectious Disease Surveillance”（空间信息技术在传染病监测领域的应用）专刊</li>
+                                                            <li>《Remote Sensing》期刊“Environmental Health Diagnosis Based on Remote Sensing”(环境健康遥感诊断)专刊</li>
+                                                            <li>《Science China D: Earth Sciences（中国科学：D辑）》“Key technologies in application of HJ-1A/B satellite Data”（ HJ-1A/B 卫星应用关键技术研究）专刊</li>
+                                                            <li>《International Journal of Remote Sensing 》（国际遥感）“Prior knowledge-based retrieval and validation of information from remote-sensing data at various scales（基于先验知识的多尺度遥感定量反演及验证）”专刊</li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>软件著作权</h3>
+                                                    <div class="content-paper">
+                                                        <ol>
+                                                            <li>深圳市传染病多维可视化与预测预警系统（2011SR008993）</li>
+                                                            <li>城市级传染病模拟与分析系统（2011SR014750）</li>
+                                                            <li>环境健康遥感诊断与预警演示软件（2012SR030629）</li>
+                                                            <li>传染病多维立体可视化系统（2012SR023343）</li>
+                                                            <li>生态环境评价数据资源管理系统（2013SR149979）</li>
+                                                            <li>环境评价因子综合反演系统（2013SR149975）</li>
+                                                            <li>地球遥感诊所资源管理系统（2013SR029223）</li>
+                                                            <li>全球生态环境遥感诊断系统V1.0 (2017SR059166)</li>
+                                                            <li>全球生态环境遥感监测专题产品生产系统V1.0 (2017SR059163)</li>
+                                                            <li>区域人工林资源遥感动态监测系统（2019SR0888476）</li>
+                                                            <li>森林结构参数遥感反演系统V1.0(2020RS211775)</li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>发明专利申请</h3>
+                                                    <div class="content-paper">
+                                                        <ol>
+                                                            <li>一种基于几何光学模型的森林郁闭度反演方法(申请号：202011462801.1)</li>
+                                                            <li>区域森林蓄积量遥感监测方法(申请号：202011462620.9)</li>
+                                                            <li>利用资源3号立体像对数据反演森林高度的方法(申请号：202011462619.6)</li>
+                                                            <li>环境健康遥感诊断方法（申请号：201210033100.5）</li>
+                                                            <li>一种森林覆盖度及有效叶面积指数的主被动协同反演方法（申请号：201010198113.9）</li>
+                                                            <li>地表反射率计算方法和装置（申请号：201010237614.3盛）</li>
+                                                            <li>利用海洋遥感数据进行霍乱预测的方法（申请号：2011100474818）</li>
+                                                            <li>鼠疫自然疫源地空间分布预测方法（申请号：201110047449.X）</li>
+                                                            <li>一种城市级传染病模拟的方法及装置（申请号：201110061059.8）</li>
+                                                            <li>利用遥感数据和专家知识库进行洪水引发腹泻爆发风险遥感诊断的算法 (申请号：201510800990.1)</li>
+                                                            <li>双色红外成像系统（已获授权：ZL201520107128.8，授权日期：2015年7月8日）</li>
+                                                            <li>检测森林斑块变化的方法和装置(申请号：201710878295.6)</li>   
+                                                            <li>光谱测量系统、多光谱相机及遥感监控系统. （已获授权：201721230775.3）</li>
+                                                            <li>基于无人机的图像采集系统及遥感监控系统. （已获授权：201721230780.4.）</li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>专著</h3>
+                                                    <div class="content-paper">
+                                                        <ol>
+                                                            <li>李小文，黄瑞秋，曹春香等编著，《强震应急与次生灾害防范》，中国科学技术出版社，2012年12月</li>
+                                                            <li>曹春香著，《环境健康遥感诊断》，科学出版社，2013年1月</li>
+                                                            <li>曹春香等，《森林地上生物量遥感诊断》，科学出版社，2015年10月</li>
+                                                            <li>马广仁，鲍达明，曹春香等编著，《中国国际重要湿地生态系统评价》，科学出版社，2016年9月</li>
+                                                            <li>马广仁，鲍达明，…，曹春香编写《中国湿地资源总卷》，中国林业出版社,2015年12月</li>
+                                                            <li>曹春香等，《环境健康遥感诊断指标体系》，科学出版社，2017年6月</li>
+                                                            <li>曹春香等，《环境健康遥感诊断关键技术》，科学出版社，2017年12月</li>
+                                                            <li>曹春香等，《典型脆弱区生态环境综合评价》，科学出版社，2017年12月</li>
+                                                            <li>曹春香等，《环境健康遥感诊断系统》，科学出版社，2018年12月</li>
+                                                            <li>张煜星，…，曹春香等《三峡库区森林及生态效益监测与评估研究》，科学出版，2018年12月</li>
+                                                            <li>张兵， …，曹春香等编. 《从天空看地球－对地观测大装置》，科学出版社，2019</li>
+                                                            <li>Cao.CX, et al. Environmental remote sensing in flooding areas. Higher education press & Springer, 2020.</li>
+                                                            <li>曹春香等，《环境健康遥感诊断典型应用》，科学出版社，2020年7月</li>
+                                                            <li>曹春香等，《“树流感”爆发风险遥感诊断》，中国林业出版社，2021年5月</li>
+                                                            <li>方荣祥,…,曹春香等， 《]中国植物保护百科全书-综合卷》，中国林业出版社， 2022年6月</li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>荣誉及社会政治与公益活动</h3>
+                                                    <div class="content-paper">
+                                                        <ol>
+                                                            <li>1991年 获《我为首府添风采》四美大赛团体乙组一等奖；</li>
+                                                            <li>1985年 作为内蒙古唯一的在校大学生代表跟随刘延东团长参加了《中日友好之船》的国家之间的交流活动；</li>
+                                                            <li>2007年 成果推动了国家航天企业支援青海的“圆梦行动”；</li>
+                                                            <li>2008年度中国科学院遥感应用研究所优秀职工；</li>
+                                                            <li>2012年建立星光遥感爱心基金，不定期为北京太阳村孤儿捐赠衣服、文具等；</li>
+                                                            <li>2012年荣获第十二届新世纪女性健康生活大型公益活动“健康形象大使”称号；</li>
+                                                            <li>2014年出席“健康与我同行——中国女性健康系列活动十周年”活动，并与多名老艺术家同台表演；</li>
+                                                            <li>2014年参加由中国女科技工作者协会主办，中央音乐学院和清华大学承办的《美丽人生•中国梦——相约国际劳动妇女节》音乐晚会；</li>
+                                                            <li>2017年度中国科学遥感与数字地球研究所优秀职工；</li>
+                                                            <li>2017年获果壳网科学人第二届“全能导师”评选活动中的“叱咤风云”导师称号；</li>
+                                                            <li>2018年度中国科学院空天信息创新研究院优秀职工。</li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>对学术活动和研究生培养的重大贡献</h3>
+                                                    <div class="content-paper">
+                                                        <ol>
+                                                            <li>1994年，参加日本京都府立大学组织的日本海酸雨林考察；</li>
+                                                            <li>2004年，代表中国参加了联合国主题为“Water for the World:Space Solutions for Water Management”研讨会，并做了“Determining Soil Moisture and Land Cover to Assist in Flood Prediction and Early Warning”的主报告；</li>
+                                                            <li>2009年，在曹春香研究员建议下第三十届亚洲遥感会议上首次设立了“空间信息与人类健康”专题，标志着人类健康问题正式纳入到亚洲遥感科学研究领域，并或杰出贡献奖；</li>
+                                                            <li>2010年，在日本举行的第28届国际摄影测量与遥感大会上，曹春香研究员被邀请为第八工作组成员，组织并参与人类健康研究工作组，进一步推动了中国与其他国家在空间信息与公共卫生领域的国际交流与合作；</li>
+                                                            <li>2012年代表中国女科学家参加了第四届中日韩女科学家论坛，共同讨论了面向核能源与核安全的中日韩三方合作问题；</li>
+                                                            <li>应邀担任IGARSS2012“Earth Observation for Public Health”分会主席，并于2013年继续担任IGARSS学术委员会成员及审稿人；</li>
+                                                            <li>2013年为中国科学院遥感应用研究所在“自然”期刊的“气候子刊”实现了零的突破；</li>
+                                                            <li>2013年4月22-25日，参与第35届国际环境遥感大会，并主办“健康与福祉”专题；</li>
+                                                            <li>2013年8月2日-6日，组织中泰项目“中泰卫星数据在泰国洪灾多发区的洪灾管理应用”启动会，期间与中国资源卫星应用中心、中国科学院遥感与数字地球研究所新技术园区、中国水利水电科学研究院进行了交流访问。曹春香研究员领导的研究团队突出的成果受到新闻媒体的关注；</li>
+                                                            <li>2014年，科技日版两会专刊对曹春香研究员进行了专访；</li>
+                                                            <li>2011-2019年连续9届主办环境健康遥感诊断国际学术研讨会，为环境健康遥感诊断学科方向建立了国际化的交流平台；</li>
+                                                            <li>2017年，作为中国代表团成员在联合国的UNCCD-COP13会议上主持了有关环境健康遥感诊断用于防止土地退化零增长的2个边会；</li>
+                                                            <li>2018年，在AGU100 FALL Meeting上与美国查普曼大学地球信息系统研究中心主任签订了合作协议；参加了第一届空间地球科学学术研讨会；</li>
+                                                            <li>2019年， 参加了第一届中国空间科学大会，在第四届中美省州立法机关合作论坛上做了主旨发言；</li>
+                                                            <li>2019年为科学院招收美国学生实现了零突破；</li>
+                                                            <li>2020年，在第三届中国空间地球科学学术研讨会上主持了人类活动对地球系统影响观测与分析；</li>
+                                                            <li>2021年1月5日组织了内蒙古农业大学校长带着6位院长来空天院访问学习。</li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>面向国家的重要建议报告</h3>
+                                                    <div class="content-paper">
+                                                        <p>面向国家重大需求提出的多项建议受到有关部门采纳，具体包括：</p>
+                                                        <ol>
+                                                            <li>有关青海省积极向航天局争取建设国产卫星示范应用基地的建议报告，得到了青海省省委强卫书记的批示；</li>
+                                                            <li>向国务院南水北调办公室建议《有关建议将遥感技术直接应用于国家南水北调工程建设的报告》，得到了李津成副主任的批示；</li>
+                                                            <li>向国务院扶贫开发领导小组办公室建议《关于“导入空间信息技术进一步促进我国农村扶贫工作”的建议报告》，得到了范小建主任的亲自接见和批示；</li>
+                                                            <li>关于进行“全球典型应用领域定量遥感产品生产指标体系及系统关键技术研究”的建议书获丁仲礼副院长的肯定和批示;</li>
+                                                            <li>为国家遥感中心提交的“生态环境健康遥感诊断”建议书被采纳，并以此思路遥感中心组织相关项目正在为国家撰写“生态环境遥感诊断”公报。</li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>自主或联合培养研究生的博士和硕士学位论文题目</h3>
+                                                    <div class="content-paper">
+                                                        <ol>
+                                                            <li>钟少波 博士：《GIS和遥感应用于传染病流行病学研究-以乙肝和高致病性禽流感为例》 2006</li>
+                                                            <li>郭建平 博士：《陆地下垫面气溶胶及地表反射率遥感定量反演建模研究》 2007</li>
+                                                            <li>白林燕 博士：《高时相陆表大气气溶胶卫星遥感定量反演》2009</li>
+                                                            <li>鲍云飞 博士：《基于多源遥感数据的森林参数提取方法研究》2009</li>
+                                                            <li>何祺胜 博士：《基于多源遥感数据的森林生物量协同反演研究》2010</li>
+                                                            <li>徐  敏 博士：《基于空间信息技术的中国霍乱时空分布及预测研究》2011</li>
+                                                            <li>高孟绪 博士：《青藏高原喜马拉雅旱獭鼠疫疫源地空间分布规律研究》 2011</li>
+                                                            <li>倪希亮 博士：《基于尺度生长理论的中国森林生物量遥感反演研究》 2013</li>
+                                                            <li>赵坚 硕博：《毛乌素沙地灌木生物量遥感估算研究》 2013</li>
+                                                            <li>PEERA YOMWAN（泰国留学生） 博士：《基于多时相卫星影像和 BP 神经网络模型的洪水引发的水媒传染病研究》 2014</li>
+                                                            <li>项海兵 博士：《LiDAR 与 PolInSAR 协同反演树高研究》 2014</li>
+                                                            <li>方  舟 博士：《栎树猝死病在中国的潜在爆发风险预测预警研究》 2014</li>
+                                                            <li>郑  盛 硕博：《北京市空气污染特征和对人类健康影响遥感诊断》2015</li>
+                                                            <li>田  蓉 硕博：《湿地健康遥感诊断》2015</li>
+                                                            <li>Apitach INSOM（泰国留学生） 博士：《基于地理空间信息技术的洪水引发传染病的监测》2015</li>
+                                                            <li>杨  斌 博士：《结合影像和激光雷达的三维绿度遥感提取研究》2015</li>
+                                                            <li>赵小杰 博士：《基于多源遥感数据竹柳全球分布遥感诊断研究》2017</li>
+                                                            <li>Patcharin Insom（泰国留学生） 博士：《状态估计技术在地类识别中的应用研究:以洪水淹没面积识别和湿地变化监测为例》2016</li>
+                                                            <li>田海静 硕博：《基于多源遥感数据的毛乌素沙地灌木生物量反演研究》2017</li>
+                                                            <li>刘  迪 硕博：《湿地生物量遥感诊断》2017</li>
+                                                            <li>Bipin Kumar Acharya（尼泊尔留学生） 博士：《尼泊尔登革热制图和时空风险评估》2018</li>
+                                                            <li>Shahid Naeem（巴基斯坦留学生） 博士：《中国和巴基斯坦首都圈地表温度对植被影响的遥感诊断》2018</li>
+                                                            <li>包姗宁 博士：《桑树总初级生产力遥感诊断》2019</li>
+                                                            <li>尹  航 博士：《青藏高原地区积雪与植被NPP变化响应的遥感诊断》2018</li>
+                                                            <li>Sornkitja  Boonprong（泰国留学生） 博士：《CANFET 新型分类器在植被分类和森林火灾监测中的应用》2018</li>
+                                                            <li>杨天宇 硕博：《心血管病时空分布及其环境因子遥感诊断》2019</li>
+                                                            <li>Mehdi Zamani （伊朗留学生） 博士：《地震前土壤水分和云异常遥感诊断》 2019</li>
+                                                            <li>刘明博 博士：《基于资源三号卫星数据的森林冠层高度遥感反演研究》 2018</li>
+                                                            <li>谢  波 直博：《适地适树遥感诊断研究》 2022</li>
+                                                            <li>BASHIR BARJEECE（巴基斯坦留学生） 硕博连读：《毛乌素沙地环境健康遥感诊断》 2023</li>
+                                                            <li>黄志彬 直博： 《城市高发非传染性疾病相关地理环境暴露因子遥感诊断》2023</li>
+                                                            <li>王凯民 直博：《…………………..》2025</li>
+                                                            <li>国和一 直博：《………………..》 2025</li>
+                                                            <li>Basanta Kumar Neupane(尼泊尔)博士：《………………….》2025</li>
+                                                            <li>高晓彤 直博：《…………….》2026</li>
+                                                            <li>李京博 直博：《…………….》2026</li>
+                                                            <li>仰玉洁 直博：《……………》 2027</li>
+                                                            <li>胡睿晨 直博：《………..》 2028</li>
+                                                            <li>吴仕虹 直博：《………..》 2029</li>
+                                                            <li>陈  伟 硕士：《毛乌素沙地植被覆盖度遥感反演对比分析研究》 2012</li>
+                                                            <li>刘  诚 硕士：《基于 GIS 的“树流感”在中国适生区预测及风险评估》 2013</li>
+                                                            <li>汪梦雅 硕士：《北京沙尘气溶胶光学特性与辐射效应分析》2015</li>
+                                                            <li>吴春莹 硕士：《长江经济带中下游湿地生态健康遥感诊断》2018</li>
+                                                            <li>江厚志 硕士：《“树流感”爆发风险预测预警研究》 2018</li>
+                                                            <li>张  敏 硕士：《基于随机森林的内蒙古乌审旗乌审旗土地退化遥感诊断》 2019</li>
+                                                            <li>林晓娟 硕士：《区域人工林树高遥感诊断研究》2021</li>
+                                                            <li>ROBERT SHEA DUERLER（美国留学生） 硕士：《一带一路环境健康遥感诊断》 2022</li>
+                                                            <li>陈逸雨 硕士： 《山西省典型煤炭矿区生态健康遥感诊断》2022</li>
+                                                            <li>张  宇 硕士：《………………》 2026</li>
+                                                            <li>关心驰 硕士：《……………………》 2027</li>
+                                                            <li>向国务院南水北调办公室建议《有关建议将遥感技术直接应用于国家南水北调工程建设的报告》，得到了李津成副主任的批示；</li>
+                                                            <li>向国务院扶贫开发领导小组办公室建议《关于“导入空间信息技术进一步促进我国农村扶贫工作”的建议报告》，得到了范小建主任的亲自接见和批示；</li>
+                                                            <li>关于进行“全球典型应用领域定量遥感产品生产指标体系及系统关键技术研究”的建议书获丁仲礼副院长的肯定和批示;</li>
+                                                            <li>为国家遥感中心提交的“生态环境健康遥感诊断”建议书被采纳，并以此思路遥感中心组织相关项目正在为国家撰写“生态环境遥感诊断”公报。</li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3>发表论文</h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <p>共计290篇，其中SCI：118、EI：54、CSCD：41、其他：61。</p>
+                                                        <p>科学引文索引（Science Citation Index, SCI ）</p>
+                                                        <p>
+                                                            [118]. Yang Y, Wang Z, Cao C, et al. Estimation of pm2. 5 concentration across china based on multi-source remote sensing data and machine learning methods. Remote Sensing, 2024, 16(3): 467.
+                                                            <br>[117]. Li J, Cao C, Xu M, et al. A 20-Year Analysis of the Dynamics and Driving Factors of Grassland Desertification in Xilingol, China. Remote Sensing, 2023, 15(24): 5716.
+                                                            <br>[116]. Gao X, Cao C, Xu M, et al. Ecological risk assessment of grassland vegetation change based on Bayesian model in Xilin Gol League, China. Ecological Indicators, 2023, 157: 111199.
+                                                            <br>[115]. Huang Z, Cao C, Xu M, et al. Impact of Environmental Exposure on Chronic Diseases in China and Assessment of Population Health Vulnerability. ISPRS International Journal of Geo-Information, 2023, 12(4): 155.
+                                                            <br>[114]. Guo H, Cao C, Xu M, et al. Spatiotemporal Distribution Pattern and Driving Factors Analysis of GPP in Beijing-Tianjin-Hebei Region by Long-Term MODIS Data. Remote Sensing, 2023, 15(3): 622.
+                                                            <br>[113]. Wang K, Cao C, Xie B, et al. Analysis of the Spatial and Temporal Evolution Patterns of Grassland Health and Its Driving Factors in Xilingol. Remote Sensing, 2022, 14(20): 5179.
+                                                            <br>[112]. Xie B, Cao C, Xu M, et al. Improved forest canopy closure estimation using multispectral satellite imagery within Google Earth Engine. Remote Sensing, 2022, 14(9): 2051.
+                                                            <br>[111]. Xu M, Cao C, Guo H, et al. Exploring the association between infectious diarrheal diseases and sea surface temperatures—coastal areas of China, 2009–2018. China CDC Weekly, 2022, 4(7): 126.
+                                                            <br>[110]. Xie B, Cao C, Xu M, et al. Analysis of regional distribution of tree species using multi-seasonal sentinel-1&2 imagery within google earth engine. Forests, 2021, 12(5): 565.
+                                                            <br>[109]. Xu M, Cao C, Zhang X, et al. Fine-scale space-time cluster detection of COVID-19 in Mainland China using retrospective analysis. International Journal of Environmental Research and Public Health, 2021, 18(7): 3583.
+                                                            <br>[108]. Chen Y, Cao C, Cao Y, et al. Observed evidence of the growing contributions to aerosol pollution of wildfires with diverse spatiotemporal distinctions in China. Journal of Cleaner Production, 2021, 298: 126860.
+                                                            <br>[107]. Ni X, Xu M, Cao C, et al. Forest height estimation and change monitoring based on artificial neural network using Geoscience Laser Altimeter System and Landsat data. Journal of Applied Remote Sensing, 2020, 14(2): 022207-022207. 
+                                                            <br>[106]. Xiaojuan Lin,Min Xu, Chunxiang Cao,Yongfeng Dang,Barjeece Bashir,Bo Xie, Zhibin Huang. Estimates of Forest Canopy Height Using a Combination of ICESat-2/ATLAS Data and Stereo-Photogrammetry. Remote Sensing. 2020,21(12).
+                                                            <br>[105]. Bashir, Barjeece; Cao, Chunxiang; Joharestani, Mehdi Zamani; Bo, Xie; Mumtaz, Faisal. Spatio-Temporal Vegetation Dynamic and Persistence under Climatic and Anthropogenic Factors. Remote Sensing. 2020,12(16).
+                                                            <br>[104]. Min Xu, Chunxiang Cao, Peng Jia. Mapping Fine-Scale Urban Spatial Population Distribution Based on High-Resolution Stereo Pair Images, Points of Interest, and Land Cover Data. Remote Sens. 2020, 12(4), 608.
+                                                            <br>[103]. Bo Xie, Chunxiang Cao, Min Xu, Barjeece Bashir, Ramesh P. Singh, Zhibin Huang and Xiaojuan Lin. Regional Forest Volume Estimation by Expanding LiDAR Samples Using Multi-Sensor Satellite Data. Remote Sens. 2020, 12(3), 360.
+                                                            <br>[102]. Zhibin Huang, Chunxiang Cao, Wei Chen, Min Xu, Yongfeng Dang, Ramesh P. Singh, Barjeece Bashir, Bo Xie and Xiaojuan Lin. Remote Sensing Monitoring of Vegetation Dynamic Changes after Fire in the Greater Hinggan Mountain Area: The Algorithm and Application for Eliminating Phenological Impacts. Remote Sens. 2020, 12(1), 156.
+                                                            <br>[101]. Xiliang Ni, Min Xu, Chunxiang Cao, Wei Chen, Bin Yang, Bo Xie. Forest height estimation and change monitoring based on artificial neural network using Geoscience Laser Altimeter System and Landsat data. Journal of Applied Remote Sensing. 2019, 14(2): 1931-3195.
+                                                            <br>[100]. Xie, Bo, Chunxiang Cao, Wei Chen, and Bing Yu. Prediction and Analysis of the Potential Risk of Sudden Oak Death in China. Journal of Forestry Research, 2019,30, 2357–2366.
+                                                            <br>[99]. Acharya, B. K.; Chen, W.; Ruan, Z.; Pant, G. P.; Yang, Y.; Shah, L. P.; Cao, C. X.; Xu, Z.; Dhimal, M.; Lin, H. L.， Mapping Environmental Suitability of Scrub Typhus in Nepal Using MaxEnt and Random Forest Models，International Journal of Environmental Research and Public Health，2019，16, 4845.
+                                                            <br>[98]. Min Xu, Haibing Xiang, Hongquan Yun, Xiliang Ni, Wei Chen, Chunxiang Cao. Retrieval of forest canopy height jointly using airborne LiDAR and ALOS PALSAR Data. Journal of Applied Remote Sensing. 2019, 14(2).
+                                                            <br>[97]. Xiliang Ni, Min Xu, Chunxiang Cao, Wei Chen, Bin Yang, Bo Xie. Forest height estimation and change monitoring based on artificial neural network using Geoscience Laser Altimeter System and Landsat data. Journal of Applied Remote Sensing. 19, 14(2).
+                                                            <br>[96]. Yang Tianyu, Cao Chunxiang, Guo Jianhong, Xu Min, Tian Haijing. Analysis of factors evident in the relation between railways and the incidence of dysentery using linear regression. GEOMATICS NATURAL HAZARDS & RISK. 2019,10(1):1459-1474.
+                                                            <br>[95]. Chen W, Cao C, Liu D, Tian R, Wu C, Wang Y, Qian Y, Ma G, Bao D. An evaluating system for wetland ecological health: Case study on nineteen major wetlands in Beijing-Tianjin-Hebei region, China. ci Total Environ. 2019 May 20;666:1080-1088.
+                                                            <br>[94]. Mingbo Liu , Chunxiang Cao, Wei Chen and Xuejun Wang. Mapping Canopy Heights of Poplar Plantations in Plain Areas Using ZY3-02 Stereo and Multispectral Data. ISPRS Int. J. Geo-Inf. 2019, 8(3), 106.
+                                                            <br>[93]. Joharestani, Mehdi Zamani; Cao, Chunxiang; Ni, Xiliang; Bashir, Barjeece; Talebiesfandarani, Somayeh. PM2.5 Prediction Based on Random Forest, XGBoost, and Deep Learning Using Multisource Remote Sensing Data. ATMOSPHERE,2019,10(7): 2073-4433.
+                                                            <br>[92]. Liu, Mingbo，Cao, Chunxiang，Dang, Yongfeng. Mapping Forest Canopy Height in Mountainous Areas Using ZiYuan-3 Stereo Images and Landsat Data. FORESTS. 2019,10(2): 1999-4907
+                                                            <br>[91]. Bao, Shanning; Cao, Chunxiang; Chen, Wei; Yang, Tianyu; Wu, Chunying. Towards a subtropical forest spectral library: spectra consistency and spectral separability. GEOCARTO INTERNATIONAL,2019, 1010-6049. 
+                                                            <br>[90]. Acharya BK,Cao C, Lakes T, Chen W, Naeem S. Pandit S, Modeling the spatiallyvarying risk factors of dengue fever in Jhapa district Nepal using the semi parametric geographically weighted regression model, International Journal of Biometrology. pp:1-14. https://doi.org/10.1007/s00484-018-1601-8
+                                                            <br>[89]. Acharya, BK.; Cao, C.; Xu, M.; Khanal, L.; Naeem, S.; Pandit, S. Present and Future of Dengue Fever in Nepal: Mapping Climatic Suitability by Ecological Niche Model. Int. J. Environ. Res. Public. Health2018, 15, 187, doi:10.3390/ijerph15020187.
+                                                            <br>[88]. Bipin Kumar Acharya, Chunxiang Cao, Min Xu, Wei Chen,  Shreejana Pandit. Spatiotemporal Distribution and Geospatial Diffusion Patterns of 2013 Dengue Outbreak in Jhapa District, Nepal. Asia Pacific Journal of Public Health, 2018, doi: 10.1177/1010539518769809
+                                                            <br>[87]. Bipin Kumar Acharya ID , Chunxiang Cao, Min Xu, Laxman Khanal D Shahid Naeem，Shreejana Pandit.Temporal Variations and Associated Remotely Sensed Environmental Variables of Dengue Fever in Chitwan District, Nepal. ISPRS Int. J. Geo-Inf. 2018, 7, 275; doi:10.3390/ijgi7070275
+                                                            <br>[86]. Shahid Naeem, Chunxiang Cao, Waqas Ahmed Qazi, Mehdi Zamani, Chen Wei Bipin Kumar Acharya and Asid Ur Rehman, “Studying the Association between Green Space Characteristics and Land Surface Temperature for Sustainable Urban Environments: An Analysis of Beijing and Islamabad”. ISPRS Int. J Geo-Inf. 2018;7(2):38.
+                                                            <br>[85]. Shahid Naeem, Chunxiang Cao, Mirza Muhammad Waqar, Chen Wei and Bipin Kumar Acharya. “Vegetation role in controlling the eco-environmental conditions for sustainable urban environments: a comparison of Beijing and Islamabad”. J. Appl. Remote Sens. 2018;12(1):1.
+                                                            <br>[84]. Shahid Naeem, Chunxiang Cao, Khunsa Fatima, Omaid Najmuddin and Bipin Kumar Acharya, “Landscape Greening Policies-Based Land Use / Land Cover Simulation for Beijing and Islamabad-An Implication of Sustainable Urban Ecosystems”, Sustainability .2018,10(4), 1049
+                                                            <br>[83]. Boonprong, S.; Cao, C.; Chen, W.; Ni, X.; Xu, M.; Acharya, B.K.	The Classification of Noise-Afflicted Remotely Sensed Data Using Three Machine-Learning Techniques: Effect of Different Levels and Types of Noise on Accuracy. ISPRS Int. J. Geo-Inf. 2018, 7, 274.
+                                                            <br>[82]. Xie B., Cao C., Chen W., et al. Prediction and analysis of the potential risk of sudden oak death in China[J]. Journal of Forestry Research, 2018, 10.1007/s11676-018-0755-x:
+                                                            <br>[81]. Lin, X.; Xu, M.; Cao, C.; P. Singh, R.; Chen, W.; Ju, H. Land-Use/Land-Cover Changes and Their Influence on the Ecosystem in Chengdu City, China during the Period of 1992–2018. Sustainability 2018, 10.. 10.3390/su10103580 
+                                                            <br>[80]. Zhibin Huang , Min Xu , Wei Chen , Xiaojuan Lin , Chunxiang Cao, Ramesh P. Singh. Postseismic Restoration of the Ecological Environment in the Wenchuan Region Using Satellite Data. Sustainability. 2018, 10(11): 1-16
+                                                            <br>[79]. Wei Chen, Chunxiang Cao, Jian Zhao, Haijing Tian. Shrub biomass estimation in semi-arid sandland ecosystem based on remote sensing technology. Global Ecology and Conservation. 2018.16:e00479.
+                                                            <br>[78]. Wei Chen, Houzhi Jiang, Kazuyuki Moriya, Tetsuro Sakai, Chunxiang Cao. Monitoring of post-fire forest regeneration under different restoration treatments based on ALOS/PALSAR data. New Forests, 2018, 49(1): 105-121.
+                                                            <br>[77]. Ni, X.; Cao, C.; Zhou, Y.; Cui, X.; P. Singh, R.	Spatio-Temporal Pattern Estimation of PM2.5 in Beijing-Tianjin-Hebei Region Based on MODIS AOD and Meteorological Data Using the Back Propagation Neural Network. Atmosphere 2018, 9, 105. 
+                                                            <br>[76]. Chunying Wu, Wei Chen, Chunxiang Cao, Rong Tian, Di Liu, Daming Bao. Diagnosis of Wetland Ecosystem Health in the Zoige Wetland, Sichuan of China. Wetlands, 2018 (3) :1-16.
+                                                            <br>[75]. Boonprong, S.; Cao, C.; Chen, W.; Bao, S. Random Forest Variable Importance Spectral Indices Scheme for Burnt Forest Recovery Monitoring—Multilevel RF-VIMP. Remote Sens. 2018, 10, 807.
+                                                            <br>[74]. Xiliang Ni, Chunxiang Cao, Yuke Zhou, Lin Ding et al. Estimation of Forest Biomass Patterns across Northeast China Based on Allometric Scale Relationship. Forests, 2017, 8(8), 288. (SCI)
+                                                            <br>[73]. Chen Wei, Jiang H. Z., Moriya K., Sakai T., Cao C. X. Monitoring of post-fire forest regeneration under different restoration treatments based on ALOS/PALSAR data. New Forests, 2017, DOI 10.1007/s11056-017-9608-2. (SCI)
+                                                            <br>[72]. Di Liu, C.X. Cao, O. Dubovyk, R. Tian, W. Chen, Q.F. Zhuang, Y.J. Zhao, G. Menz. Using fuzzy analytic hierarchy process for spatio-temporal analysis of eco-environmental vulnerability change during 1990–2010 in Sanjiangyuan region, China. Ecological Indicators, 2017, 73: 612-625. (SCI)
+                                                            <br>[71]. Wei Chen, Chunxiang Cao et al. Retrieval and comparison of forest Leaf Area Index based on remote sensing data from AVNIR-2, Landsat-5 TM, MODIS, and PALSAR sensors. ISPRS Int. J. Geo-Inf. 2017, 6(6), 179. (SCI)
+                                                            <br>[70]. Boonprong, S.; Cao, C.; Torteeka, P.; Chen, W. A Novel Classification Technique of Landsat-8 OLI Image-Based Data Visualization: The Application of Andrews’ Plots and Fuzzy Evidential Reasoning. Remote Sens. 2017, 9, 427.(SCI)
+                                                            <br>[69]. Chen Xue-juan, Wu Xiang, Yuan Zhong-qiang, Chen Xiang, Zhang Yu-wu and Cao Chun-xiang. Spectral characteristics and species identification of rhododendrons using a discriminative restricted Boltzmann machine. Spectroscopy Letters, 50(2): 65-72.2017.(SCI)
+                                                            <br>[68]. Bao S, Cao C, Chen W, et al. Spectral Features and Separability of Alpine Wetland Grass Species in the Northeastern Qinghai-Tibet Plateau[J]. Spectroscopy Letters, 2017, 50(5) (SCI)
+                                                            <br>[67]. Zhu Z, Piao S, Myneni R B, Huang, MT, Zeng, ZZ , Canadell, JG, Ciais, P, Sitch, S , Friedlingstein, P , Arneth, A, Cao, CX, et al. Greening of the Earth and its drivers[J]. Nature Climate Change, 2016, 6(8). (SCI)
+                                                            <br>[66]. Yin H, Cao C, Xu M, et al. Long-term snow disasters during 1982–2012 in the Tibetan Plateau using satellite data[J]. Geomatics Natural Hazards & Risk ,2016:1-12.(SCI)
+                                                            <br>[65]. Zhao X, Cao C, Ni X, et al. Retrieval and application of leaf area index over China using HJ-1 data[J]. 2016:1-18.(SCI)
+                                                            <br>[64]. Liu D, Cao C, Chen W, et al. Monitoring and predicting the degradation of a semi-arid wetland due to climate change and water abstraction in the Ordos Larus relictus National Nature Reserve, China[J]. 2016:1-17.(SCI)
+                                                            <br>[63]. Acharya B K, Chunxiang Cao, Lakes T, et al. Spatiotemporal analysis of dengue fever in Nepal from 2010 to 2014[J]. Bmc Public Health, 2016, 16(1). (SCI)
+                                                            <br>[62]. Cao C, Ni X, Wang X, et al. Allometric scaling theory-based maximum forest tree height and biomass estimation in the Three Gorges reservoir region using multi-source remote-sensing data[J]. International Journal of Remote Sensing, 2016, 37(5):1210-1222.(SCI)
+                                                            <br>[61]. Xu M, Cao C, Li Q, et al. Ecological Niche Modeling of Risk Factors for H7N9 Human Infection in China. International Journal of Environmental Research & Public Health, 2016, 13(6).(SCI)
+                                                            <br>[60]. Sungho Choi, Christopher P. Kempes, Taejin Park, Ganguly, Sangram, Wang, WeileXu, Liang, Basu, Saikat, Dungan, Jennifer L, Simard, Marc, Saatchi, Sassan S., Piao, Shilong, Ni, Xiliang, Shi, Yuli, Cao, Chunxiang et al. Application of the metabolic scaling theory and water–energy balance equation to model large-scale patterns of maximum forest canopy height[J]. Global Ecology and Biogeography, 2016.(SCI)
+                                                            <br>[59]. Chunxiang Cao, Wei Chen, Sheng Zheng, Jian Zhao, Chaoyi Chang, Jinfeng Wang & Wuchun Cao. “Analysis of Spatiotemporal Characteristics of Pandemic SARS Spread in Mainland China”. BioMed Research International, 2016. (SCI)
+                                                            <br>[58]. Cao C, Yang B, Xu M, et al. Evaluation and analysis of post-seismic restoration of ecological security in Wenchuan using remote sensing and GIS. Geomatics Natural Hazards & Risk, 2015:1-18.(SCI)
+                                                            <br>[57]. Xu M, Cao C X, Wang D C, et al. Environmental factor analysis of cholera in China using remote sensing and geographical information systems.. Epidemiology & Infection, 2015, -1(5):1-12.(SCI)
+                                                            <br>[56]. Patcharin Insom, Chunxiang Cao, Pisit Boonsrimuang, Di Liu, Apitach Saokarn, Peera Yomwan, and Yunfei Xu. A Support Vector Machine-Based Particle Filter Method for Improved Flooding Classification. IEEE GEOSCIENCE AND REMOTE SENSING LETTERS, 2015, 12(9): 1943-1947.(SCI)
+                                                            <br>[55]. Bin Yang, Chunxiang Cao, Ying Xing, and Xiaowen Li. Automatic Classification of Remote Sensing Images Using Multiple Classifier Systems. Mathematical Problems in Engineering, 2015, 954086.(SCI)
+                                                            <br>[54]. S. Zheng, A. Pozzer, C. X. Cao, and J. Lelieveld. Long-term (2001–2012) concentrations of fine particulate matter (PM2:5) and the impact on human health in Beijing, China. Atmos. Chem. Phys., 2015, 15: 5715–5725.(SCI)
+                                                            <br>[53]. Xiliang Ni, Yuke Zhou, Chunxiang Cao, Xuejun Wang, Yuli Shi, Taejin Park, Sungho Choi and Ranga B. Myneni. Mapping Forest Canopy Height over Continental China Using Multi-Source Remote Sensing Data, Remote Sensing, 2015, 7:8436-8452.(SCI)
+                                                            <br>[52]. Mengya Wang, Chunxiang Cao, Guoshuai Li, Ramesh P. Singh. Analysis of a severe prolonged regional haze episode in the Yangtze River Delta, China. Atmospheric Environment, 2015, 102:112-121.(SCI)
+                                                            <br>[51]. Chunxiang Cao, Haijing Tian, Yuxing Zhang, Yongfeng Dang, Xiliang Ni, Yunfei Xu, Min Xu, Xiaowen Li, Haibing Xiang and Tianyu Yang. Deriving Regional Crown Closure Using Spectral Mixture Analysis Based on Up-Scaling Endmember Extraction Approach and Validation. IEEE Journal of Selected Topics in Applied Earth Observations & Remote Sensing, 2015:1-9.(SCI)
+                                                            <br>[50]. Haijing Tian, Chunxiang Cao, Wei Chen, Shanning Bao, Bin Yang, Ranga B. Myneni. Response of vegetation activity dynamic to climatic change and ecological restoration programs in Inner Mongolia from 2000 to 2012. Ecological Engineering, 2015, 82:276–289.(SCI)
+                                                            <br>[49]. Chunxiang Cao, Di Liu, Ramesh P. Singh, Sheng Zheng, Rong Tian & Haijing Tian. Integrated detection and analysis of earthquake disaster information using airborne data. Geomatics Natural Hazards & Risk, 2015.(SCI)
+                                                            <br>[48]. PEERA YOMWAN, CHUNXIANG CAO, PREESAN RAKWATIN, WARAWUT SUPHAMITMONGKO, RONG TIAN and APITACH SAOKARN. A study of waterborne diseases during flooding using Radarsat-2 imagery and a back propagation neural network algorithm. Geomatics, Natural Hazards & Risk, 2015,6(4): 289-307.(SCI)
+                                                            <br>[47]. Chengdong Xu, Jinfeng Wang, Li Wang and Chunxiang Cao. Spatial pattern of severe acute respiratory syndrome in-out flow in 2003 in Mainland China. Bmc Infectious Diseases, 2014, 14:3843-3843.(SCI)
+                                                            <br>[46]. Min Xu, Chunxiang Cao, Duochun Wang and Biao Kan. Identifying Environmental Risk Factors of Cholera in a Coastal Area with Geospatial Technologies. International Journal of Environmental Research & Public Health, 2014, 12(1):354-370.(SCI)
+                                                            <br>[45]. Wei Chen, Kazuyuki Moriya, Tetsuro Sakai, Lina Koyama, Chunxiang Cao. Post-fire forest regeneration under different restoration treatments in the Greater Hinggan Mountain area of China. Ecological Engineering, 2014, 70(3):304-311.(SCI)
+                                                            <br>[44]. Sheng Z, Cao C X, Singh R P. Comparison of ground based indices (API and AQI) with satellite based aerosol products. Science of the Total Environment, 2014, 488:398-412.(SCI)
+                                                            <br>[43]. Xiliang Ni, Taejin Park, Sungho Choi, Yuli Shi, Chunxiang Cao, Xuejun Wang, Michael A. Lefsky, Marc Simard and Ranga B. Myneni. Allometric Scaling and Resource Limitations Model of Tree Heights: Part 3. Model Optimization and Testing over Continental China. Remote Sensing, 2014, 6: 3533-3553.(SCI)
+                                                            <br>[42]. Wei Chen, Kazuyuki Moriya, Tetsuro Sakai, Lina Koyama and Chunxiang Cao. Monitoring of post-fire forest recovery under different restoration modes based on time series Landsat data. European Journal of Remote Sensing, 2014, 47(1):153-168.(SCI)
+                                                            <br>[41]. Chen W, Moriya K, Sakai T, L. Koyama & C.X. Cao. Mapping a burned forest area from Landsat TM data by multiple methods. Geomatics Natural Hazards & Risk, 2014.(SCI)
+                                                            <br>[40]. S. ZHENG, C.X. CAO, Y.F. DANG, H.B. XIANG, J. ZHAO, Y.X. ZHANG, X.J. WANG, and H.W. GUO. Retrieval of forest growing stock volume by two different methods using Landsat TM images. International Journal of Remote Sensing, 2014, 35(1): 29-43.(SCI)
+                                                            <br>[39]. S. ZHENG, C. X. CAO, J. Q. CHENG, Y. S. WU, X. XIE, M. XU. Epidemiological features of hand-foot-and-mouth disease in Shenzhen, China from 2008 to 2010.. Epidemiology & Infection, 2014, 142(8):1751-1762.(SCI)
+                                                            <br>[38]. Cao C, Zheng S, Singh R P. Characteristics of aerosol optical properties and meteorological parameters during three major dust events (2005–2010) over Beijing, China. Atmospheric Research, 2014, 150(1): 129-142.(SCI)
+                                                            <br>[37]. Fang Z, Cao C. Estimation of Forest Canopy Height Over Mountainous Areas Using Satellite Lidar. IEEE Journal of Selected Topics in Applied Earth Observations & Remote Sensing, 2014, 7(7): 3157-3166.(SCI)
+                                                            <br>[36]. Tian, Rong, Chunxiang Cao, Ling Peng, Guangren Ma, Daming Bao, Jianhong Guo, and Peera Yomwan. The use of HJ-1A/B satellite data to detect changes in the size of wetlands in response in to a sudden turn from drought to flood in the middle and lower reaches of the Yangtze River system in China. Geomatics, Natural Hazards and Risk ahead-of-print (2014): 1-21.(SCI)
+                                                            <br>[35]. Haijing Tian, Chunxiang Cao, Min Xu, Zaichun Zhu, Di Liu, Xiaoqin Wang, Shenghui Cui. Estimation of chlorophyll- a concentration in coastal waters with HJ-1A HSI data using a three-band bio-optical model and validation. International Journal of Remote Sensing, 2014, 35(16):5984-6003.(SCI)
+                                                            <br>[34]. J. Zhao, M. Xu, S.L. Lu, C.X. Cao. Human Settlement Evaluation in Mountain Areas Based on Remote Sensing, GIS and Ecological Niche Modeling. Journal of Mountain Science, 2013, 10(3):378-387.(SCI)
+                                                            <br>[33]. Wei Chen, Tetsuro Sakai, Kazuyuki Moriya, Lina Koyama, Chunxiang Cao. Estimation of Vegetation Coverage in Semi-arid Sandy Land Based on Multivariate Statistical Modeling Using Remote Sensing Data. Environmental Modeling & Assessment, 2013:1-12.(SCI)
+                                                            <br>[32]. Hai-bing Xiang, Jin-song Liu, Chun-xiang Cao, Min Xu. Algorithms for Moderate Resolution Imaging Spectroradiometer cloud-free image compositing. Journal of Applied Remote Sensing, 2013, 7(21): 7874-7886.(SCI)
+                                                            <br>[31]. Jia Huicong, Pan Donghua, On the Spatial and Temporal Patterns of Flood and Drought Hazards of China. Disaster Advances, 2013, 6(3): 12-18.(SCI)
+                                                            <br>[30]. Xu M. Cao C.X., Wang D.C., Kan B., Jia H.C., Xu Y.F., Li X.W. District prediction of cholera risk in China based on environmental factors. Chinese Science Bulletin, 2013, 58(23): 2798-2804.(SCI)
+                                                            <br>[29]. Sungho Choi, Xiliang Ni, Yuli Shi, Sangram Ganguly, Gong Zhang, Hieu V. Duong, Michael A. Lefsky, Marc Simard, Sassan S. Saatchi, Shihyan Lee, Wenge Ni-Meister, Shilong Piao, Chunxiang Cao, Ramakrishna R. Nemani  and Ranga B. Myneni. Allometric Scaling and Resource Limitations Model of Tree Heights: Part 2. Site based testing of the Model. Remote Sensing, 2013, 5(1): 202-223.(SCI)
+                                                            <br>[28]. Yuli Shi, Sungho Choi, Xiliang Ni, Sangram Ganguly, Gong Zhang, Hieu V. Duong, Michael A. Lefsky, Marc Simard, Sassan S. Saatchi, Shihyan Lee, Wenge Ni-Meister, Shilong Piao, Chunxiang Cao, Ramakrishna R. Nemani  and Ranga B. Myneni. Allometric scaling and resource limitations model of tree heights: Part 1. Model optimization and testing over continental USA. Remote Sensing, 2013, 5(1): 284-306.(SCI)
+                                                            <br>[27]. L. Xu, R. B. Myneni, F. S. Chapin, T. V. Callaghan, J. E. Pinzon, C. J. Tucker, Z. Zhu, J. Bi, P. Ciais, H. Tømmervik, E. S. Euskirchen, B. C. Forbes, S. L. Piao, B. T. Anderson, S. Ganguly, R. R. Nemani, S. J. Goetz, P. S. A. Beck, A. G. Bunn, C. Cao and J. C. Stroeve. Temperature and Vegetation Seasonality Diminishment over Northern Lands. Nature Climate Change, 2013, 3(6): 581-586.(SCI)
+                                                            <br>[26]. Wei Chen, Chunxiang Cao. Topographic correction-based retrieval of leaf area index in mountain areas. Journal of Mountain Science, 2012, 9(2): 166-174.(SCI)
+                                                            <br>[25]. C. X. Cao, J. Zhao, P. Gong, G. R. Ma, D. M. Bao, K.Tian, R. Tian, Z. G. Niu, H. Zhang, M. Xu, M. X. Gao, S. Zheng, W. Chen, Q. S. He & X. W. Li. Wetland changes and droughts in southwestern China. Geomatics, Natural Hazards and Risk, 2012,3(1): 79-95. (SCI)
+                                                            <br>[24]. Chunxiang Cao, Yunfei Bao, Wei Chen, Yongfeng Dang, Lin Li, Rong Tian and Guanghe Li. Extraction of forest structural parameters based on the intensity information of high-density airborne LiDAR. Journal of Applied Remote Sensing, 2012, 6(1): 063533.(SCI)
+                                                            <br>[23]. Chunxiang Cao, Yunfei Bao, Min Xu, Wei Chen, Hao Zhang, Qisheng He, Zengyuan Li, Huadong Guo, Jiahong Li, Xiaowen Li & Guanghe Li. Retrieval of forest canopy attributes based on a Geomeric-Optical model using airborne LiDAR and optical remote sensing data. International Journal of Remote Sensing, 2010, 33(3): 692-709.(SCI)
+                                                            <br>[22]. Yunfei Bao, Shengbo Chen, Qinhuo Liu, Qing Xiao, and Chunxiang Cao. Land surface temperature and emissivity retrieval by integrating MODIS data onboard Terra and Aqua satellites. International Journal of Remote Sensing, 2011, 32(5):1449-1469.(SCI)
+                                                            <br>[21]. Shushi Peng, Anping Chen, Liang Xu, Chunxiang Cao, Jingyun Fang, Ranga B Myneni, Jorge E Pinzon, Compton J Tucker and Shilong Piao. Recent change of vegetation growth trend in China. Environmental Research Letters, 2011, 6(4): 044027.(SCI)
+                                                            <br>[20]. Huabing Huang, Zhan Li, Peng Gong, Xiao Cheng, Nick Clinton, Chunxiang Cao, Wenjian Ni, and Lei Wang. Automated Methods for Measuring DBH and Tree Heights with a Commercial Scanning Lidar. ASPRS, 2011,77(3): 219-227.(SCI)
+                                                            <br>[19]. S. Zheng, C. X. Cao, H. Zhang, M. X. Gao, M. Xu, J. Zhao, W. Chen, X. W. Li. Assessment of Building damage degree using satellite and airborne data in the case of the 2010 Yushu earthquake, China. Geomatics, Natural Hazards and Risk, 2011, 2(2): 141-157.(SCI)
+                                                            <br>[18]. XU Min, Cao Chunxiang, TONG QingXi, LI ZengYuan, ZHANG Hao, HE QiSheng, GAO MengXu, ZHAO Jian, ZHENG Sheng, CHEN Wei & ZHENG LanFen. Remote sensing based shrub above-ground biomass and carbon storage mapping in Mu Us desert, China. Science in China series E: Technological Sciences, 2010,53(Suppl.I): 176-183.(SCI)
+                                                            <br>[17]. LUO HuanMin, LI XiaoWen, CHEN ErXue, CHENG Jian, Cao Chunxiang. Analysis of forest backscattering characteristics based on Polarization coherence tomography. Science in China series E: Technological Sciences, 2010, 53(Suppl.I): 166-175.(SCI)
+                                                            <br>[16]. Huicong Jia, Jingai Wang, Chunxiang Cao, Donghua Pan & Peijun Shi. Maize drought disaster risk assessment of China based on EPIC model. International Journal of Digital Earth, 2011, 5(6):488-515.(SCI)
+                                                            <br>[15]. Qi-Sheng He, Chun-Xiang Cao, Er-Xue Chen, Guo-Qing Sun, Fei-Long Ling, Yong Pang, Hao Zhang, Wen-Jian Ni, Min Xu, Zeng-Yuan Li & Xiao-Wen Li. Forest Stand Biomass Estimation Using ALOS PALSAR data based on LiDAR-derived prior knowledge in the Qilian Mountain, western China. International Journal of Remote Sensing,2012, 33(3): 710-729.(SCI)
+                                                            <br>[14]. ZHANG Hao, LI XiaoWen, Cao Chunxiang, YANG Hua, GAO MengXu, ZHENG Sheng, XU Min, XIE DongHui, JIA HuiCong, JI Wei, ZHAO Jian, CHEN Wei & NI XiLiang. Scale Effect of LAI Inversion Based on Environment and Disaster Monitor Satellite. Science in China, 2010, 53(suppl. I): 92-98.(SCI)
+                                                            <br>[13]. GAO MengXu, LI XiaoWen, Cao Chunxiang, ZHANG Hao, LI Qun, ZHOU Hang, HE QiSheng, XU Min, ZHAO Jian, ZHENG Sheng & CHEN Wei. Spatial prediction and analysis of Himalayan marmot plague natural epidemic foci in China based on HJ-1 satellite data. Science in China, 2010, 53(suppl. I): 8-15.(SCI)
+                                                            <br>[12]. Min Xu, Chunxiang Cao, Hao Zhang, Jianping Guo, Kaneyuki Nakane, Qisheng He, Jianghong Guo, Chaoyi Chang, Yunfei Bao, Mengxu Gao, Xiaowen Li. Change detection of earthquake-induced barrier lake based on remote sensing image classification. International Journal of Remote Sensing, 2010, 31(13): 3521-3534.(SCI)
+                                                            <br>[11]. CHEN Wei, Cao Chunxiang, HE QiSheng, GUO HuaDong, ZHANG Hao, LI RenQiang, ZHENG Sheng, XU Min, GAO MengXu, ZHAO Jian, LI Sha,NI XiLiang, JIA HuiCong, JI Wei, TIAN Rong, LIU Cheng, ZHAO YuXing & LI JingLu. Quantitative Estimation of Shrub Canopy LAI from Atmosphere-corrected HJ-1 CCD Data in Mu Us Sandland. Science China Earth Science, 2010, 53(suppl. I): 26-33.(SCI)
+                                                            <br>[10]. CHANG ChaoYi, Cao Chunxiang, WANG Qiao, CHEN Yu, CAO ZhiDong, ZHANG Hao, DONG Lei1, ZHAO Jian, XU Min, GAO MengXu, ZHONG ShaoBo, HE QiSheng, WANG JinFeng & LI XiaoWen. The novel H1N1 Influenza A global airline transmission and early warning without travel containments. Chinese Science Bulletin, 2010, 55(26): 3030–3036.(SCI)
+                                                            <br>[9]. Cao Chunxiang, XU Min, CHANG ChaoYi, XUE Yong, ZHONG ShaoBo, FANG LiQun, CAO WuChun, ZHANG Hao, GAO MengXu, HE QiSheng, ZHAO Jian, CHEN Wei, ZHENG Sheng & LI XiaoWen. Risk analysis for the highly pathogenic avian influenza in mainland china using meta-modeling. Chinese Science Bulletin, 2010, 55(36): 4168-4178.(SCI)
+                                                            <br>[8]. Chunxiang Cao, Chaoyi Chang, Min Xu, Jian Zhao, Mengxu Gao, Hao Zhang, Jianping Guo, Jianghong Guo, Lei Dong, Qisheng He, Linyan Bai, Yunfei Bao, Wei Chen, Sheng Zheng, Yifei Tian, Wenxiu Li, Xiaowen Li. Epidemic risk analysis after Wenchuan earthquake by using the technology of remote sensing. International Journal of Remote Sensing, 2010,  31(13): 3631-3642.(SCI)
+                                                            <br>[7]. Chunxiang Cao, Wei Chen, Guanghe Li, Huicong Jia, Wei Ji, Min Xu, Mengxu Gao, Xiliang Ni, Jian Zhao, Sheng Zheng, Rong Tian, Cheng Liu and Sha Li. The retrieval of shrub fractional cover based on a geometric-optical model in combination with linear spectral mixture analysis. Canadian Journal of Remote Sensing, 2011, 37(4): 1-11. (SCI)
+                                                            <br>[6]. Guo, J. P., Y. Xue, C. X. Cao, H. Zhang, J. Guang, X. Y. Zhang, and X. W. Li. A synergic algorithm for retrieval of aerosol optical depth over land[J]. Adv. Atmos. Sci., 2009, 26(5): 973-983.(SCI)
+                                                            <br>[5]. ZHANG Hao, Cao Chunxiang, LI GuoPing, YANG Hua, LI XiaoWen & QIN Jun. Down-scaling LUCC based on the histo-variogram. Science in China(E), 2009, 52(5): 1348-1353.(SCI)
+                                                            <br>[4]. Jian-Ping Guo, Xiao-Ye Zhang, Hui-Zheng Che, Sun-Ling Gong, Xingqin An, Chun-Xiang Cao, Jie Guang, Hao Zhang, Ya-Qiang Wang, Xiao-Chun Zhang, Min Xue, Xiao-Wen Li. Correlation between PM Concentrations and Aerosol Optical Depth in Eastern China. Atmospheric Environment, 2009,43(37): 5876–5886.(SCI)
+                                                            <br>[3]. BAO YunFei, Cao Chunxiang, ZHANG Hao, CHEN ErXue, HE QiSheng, HUANG HuaBing, LI ZengYuan, LI XiaoWen, & GONG Peng. Synchronous estimation of DTM and fractional vegetation cover in forested area from airborne LiDAR height and intensity data. Science in China(E),2008, Vol 51(supp. II): 176-187. (SCI)
+                                                            <br>[2]. Jianping Guo, Yong Xue, Shaobo Zhong, Chunxiang Cao, Wuchun Cao, Xiaowen Li, and Liqun Fang. Preliminary Study of Avian Influenza A Infection Using Remote Sensing and GIS Techniques. Lecture Notes in Computer Science, 2006, 3993: 9-12.(SCI)
+                                                            <br>[1]. Jianping Guo, Yong Xue, Chunxiang Cao, Wuchun Cao, Xiaowen Li, Jianqin Wang, and Liqun Fang. eMicrob: a Grid-based Spatial Epidemiology Application. Lecture Notes in Computer Science, 2005, 3516: 472-475.(SCI)
+                                                           
+                                                            <p>工程索引（The Engineering Index，EI）</p>
+
+                                                            <p>[54]. 张 新、林 晖、朱长明、王劲峰、李满春、徐成东、胡茂桂、孟 斌、曹春香. COVID19 疫情早期中国确诊时间的 时空特征及动态过程分析, 武汉大学学报 · 信息科学版 第 45 卷 第 6 期 2020 年 6 月
+                                                            <br>[53]. 张 新、林 晖、王劲峰、徐成东、胡茂桂、孟 斌、刘冬林、徐 敏、朱长明、王 刚、 曹春香、骆剑承、肖桂荣、卢毅敏、杨 宇. 智国庆中国数字化公共卫生应急管理体系建设的 科技策略建议, 武汉大学学报 · 信息科学版 第 45 卷 第 5 期 2020 年 5 月 
+                                                            <br>[52]. 张敏、曹春香、陈伟. 基于MODIS NDVI数据的广西植被覆盖时空变化遥感诊断. 林业科学,2019,55(10): 1001-7488.(EI)
+                                                            <br>[51]. M. Xu, C. X. Cao, H. F. Guo. Spatiotemporal analysis of the Ebola hemorrhagic fever in West Africa in 2014. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences. 2017, XLII-2/W7, 1413-1417. (EI)
+                                                            <br>[50]. Shanning Bao, Chunxiang Cao, Xiliang Ni, Min Xu, Hongrun Ju, Qisheng He, Si Zhou. Crop yield variation trend and distribution pattern in recent ten years. In Proceedings of IEEE IGARSS 2017. (EI)
+                                                            <br>[49]. Houzhi Jiang, Chunxiang Cao, Wei Chen, Yuxing Zhang, Yongfeng Dang, Xuejun Wang, Wei Wang. Prediction and analysis of Sudden Oak Death (SOD) risk in the west coast of America based on Maxent model. In Proceedings of IEEE IGARSS 2017. (EI)
+                                                            <br>[48]. Shanning Bao, Chunxiang Cao, Xiliang Ni, Min Xu et al. CROP YIELD VARIATION TREND AND DISTRIBUTION PATTERN IN RECENT TEN YEARS [C] //IGARSS. 2017. (EI)
+                                                            <br>[47]. H.Z. Jiang, C.X. Cao, W. Chen, et al., Prediction and analysis of Sudden Oak Death (SOD) risk in the west coast of America based on Maxent model. IGARSS 2017. (EI)
+                                                            <br>[46]. Cao Chunxiang, FANG Zhou, CHEN Wei, JIANG Houzhi. Risk prediction and analysis for SOD in world and China based on spatial information technology. EOBAR 2016, Beijing, China. (EI)
+                                                            <br>[45]. Haifang Guo, Min Xu, Binbin, He, Cao Chunxiang. Analysis of land use change in the urbanization. EOBAR 2016, Beijing, China. (EI)
+                                                            <br>[44]. Shanning Bao, Chunxiang Cao, Jianxi Huang, Xiliang Ni, Min Xu. RESEARCH ON YIELDS ESTIMATION AND YIELDS INCREASING POTENTIAL BY IRRIGATION OF SPRING MAIZE IN NORTHEAST CHINA[C]//IGARSS. 2016. (EI)
+                                                            <br>[43]. H.Z. Jiang, C.X. Cao, W. Chen, et al., .Simulation and prediction of the spatiotemporal transmission of sudden oak death (SOD) based on spatial information technology. IGARSS 2016, China. (EI)
+                                                            <br>[42]. W. Chen, K. Moriya, T. Sakai, C.X. Cao. Monitoring of post-fire forest recovery under different restoration treatments based on time-series ALOS/PALSAR data. IEEE International Geoscience and Remote Sensing Symposium (IGARSS2016), July 10-15, 2016, Beijing, China. (EI, Oral)
+                                                            <br>[41]. C.Y. Wu, C.X. Cao, et al. CONSTRUCTION AND APPLICATION OF THE DIAGNOSTIC INDICATOR SYSTEM OF WETLAND HEALTH BASED ON REMOTE SENSING, IGARSS 2016. (EI, Oral)
+                                                            <br>[40]. Insom, Patcharin, Cao, Chunxiang, Boonsrimuang, Pisit et al. A SUPPORT VECTOR MACHINE-BASED PARTICLE FILTER FOR IMPROVED LAND COVER CLASSIFICATION APPLIED TO MODIS DATA [C]. IEEE International Geoscience and Remote Sensing Symposium (IGARSS2016), July 10-15, 2016, Beijing, China. (EI)
+                                                            <br>[39]. Chen, Wei, Moriya, Kazuyuki, Sakai, Tetsuro, Koyama, Lina, Cao, Chunxiang Temporal and spatial monitoring of post-fire forest dynamics using time-series MODIS data[C]. International Geoscience and Remote Sensing Symposium (IGARSS), p 772-775, November 4, 2014.
+                                                            <br>[38]. Xuejun Wang, Yuxing Zhang, Enping Yan, Guosheng Huang, Chunxiang Cao, Xiliang Ni, DEFORESTATION AREA ESTIMATION IN CHINA BASED ON LANDSAT DATA, IGARSS 2014.(EI)
+                                                            <br>[37]. M. Xu, C.X. Cao, et al. The use of environmental variables to predict cholera hazard, IGARSS 2013. (EI)
+                                                            <br>[36]. A. SAOKARN, C.X. Cao, et al. URBAN AREA TEMPORAL CHANGING ANALYSIS AND MODELING IN CHIANG MAI, THAILAND', IGARSS 2013. (EI)
+                                                            <br>[35]. H.J. Tian, C.X. Cao, et al. TEMPORAL CHANGING ANALYSIS OF FOREST CROWN CLOSURE OF ANSHAN CITY BASED ON SPECTRAL MIXTURE ANALYSIS, IGARSS 2013. (EI)
+                                                            <br>[34]. D. Liu, C.X. Cao, et al. MONITORING THE DYNAMICS OF FOREST AREA BASED ON TM IMAGES, IGARSS 2013. (EI)
+                                                            <br>[33]. C. Liu, C.X. Cao, et al. A STUDY ON SITE QUALITY EVALUATION OF LARIX GMELINI IN ANSHAN CITY BASED ON SITE INDEX, IGARSS 2013. (EI)
+                                                            <br>[32]. H.B. Xiang, C.X. Cao, et al. THE AUTOMATIC TREE DETECTION AND DELINEATION FROM AIRBORNE LIDAR, IGARSS 2013. (EI)
+                                                            <br>[31]. W. Chen, T. Sakai, C.X. Cao, et al. EXTRACTION OF BURNED FOREST AREA IN THE GREATER HINGGAN MOUNTAIN OF CHINA BASED ON LANDSAT TM DATA, IGARSS 2013. (EI, Oral)
+                                                            <br>[30]. S. Zheng, C.X. Cao, et al. LAND SURFACE TEMPERATURE RETRIEVAL USING HJ-1B/IRS DATA AND ANALYSIS OF ITS EFFECT, IGARSS 2013. (EI, Oral)
+                                                            <br>[29]. J. Zhao, C.X. Cao, et al, HUMAN SETTLEMENT SUITABILITY ASSESSMENT CONSIDERING CLIMATE AND DEM, IGARSS 2013. (EI, Oral)
+                                                            <br>[28]. J. Zhao, C.X. Cao, et al, THE USE OF ENVIRONMENTAL VARIABLES TO PREDICT CHOLERA HAZARD, IGARSS 2013. (EI)
+                                                            <br>[27]. Fang Zhou, Cao Chunxiang, Ji Wei et al. Study on forest aboveground biomass synergy inversion from GLAS and HJ-1 data[C]. Proceedings of SPIE(2012) - The International Society for Optical Engineering.
+                                                            <br>[26]. Cao Chunxiang, Xu Min, Chen Wei, Tian Rong. A framework for diagnosis of environmental health based on remote sensing [C]. Proceedings of SPIE(2012) - The International Society for Optical Engineering.
+                                                            <br>[25]. Yomwan, P., Cao, C. X., Zhao, J., Tian, R. and Suphamitmongkol, W., Epidemic risk assessment of acute watery diarrhea for the 2011 Ayutthaya flood disaster using remote sensing and water quality. The 33rd Asian Conference on Remote Sensing (ACRS2012), Pattaya, Thailand, November 26-30, 2012. (Oral)
+                                                            <br>[24]. J. Zhao, C.X. Cao, P. Yomwan. Aboveground Shrub Biomass Estimation Based on Landsat Data in Mu Us Sandy Land, China. The 33th Asia Conference of Remote Sensing, 2012. (EI, Oral)
+                                                            <br>[23]. Zhou Fang, Chunxiang Cao, Wanshou Jiang, Shilei Lu, Wei Ji, Min Xu. Multi-spectral Image Inter-band Registration Technology Research. IGARSS, 2012. (EI, Accepted)
+                                                            <br>[22]. Peera Yomwan, Chunxiang Cao, Preesan Rakwatin, Pakorn Apaphant, The risk analysis for infectious disease outbreaks in flood disaster based on spatial information technologies. IGARSS, 2012. (EI, Oral)
+                                                            <br>[21]. Rong Tian, Chunxiang Cao, Guangchun Lei, Kun Tian, Jingnong Weng, Huicong Jia, Min Xu, Haibing Xiang.Health assessment of the water-level-fluctuation zone(WLFZ) in the Three Gorges area based on spatial information technology. IGARSS, 2012. (EI, Oral)
+                                                            <br>[20]. Cheng Liu, Chunxiang Cao,Tetsuro Sakai, Jianlong Zhang, Aiguo Ma, Wei Chen, Min Xu. Predicting the adaptability of sudden oak death in China using spatial information techology. IGARSS, 2012. (EI, Oral)
+                                                            <br>[19]. Haibing Xiang, Chunxiang Cao, Huicong Jia, Min Xu, Ranga B. Myneni. The analysis and study on the accuracy of dem retrieval by the ground lidar point cloud data extraction methods in mountain forest areas. IGARSS, 2012. (EI, Accepted)
+                                                            <br>[18]. Sheng Zheng, Chunxiang Cao, Guanghe Li, Shilei Lu, Min Xu, Huicong Jia. Incidence prediction of communicable diseases after the Wenchuan earthquake using remote sensing. IGARSS, 2012. (EI, Oral)
+                                                            <br>[17]. Xiliang Ni, Sungho Choi, Yuli Shi, Chunxiang Cao, Ranga B. Myneni. Forest biomass estimation of Northeastern USA using GLAS and TM data. IGARSS, 2012. (EI, Oral)
+                                                            <br>[16]. Wei Chen, Tetsuro Sakai, Chunxiang Cao, Kazuyuki Moriya, Lina Koyama. Detection of forest disturbance in the Greater Hinggan Mountain of China based on Landsat time-series data. IGARSS, 2012. (EI, Oral))
+                                                            <br>[15]. Mengya Wang, Chunxiang Cao, Jianhong Guo, Shilei Lu, Sheng Zheng, Min Xu, Huicong Jia, Yunfei Xu, Bo Xu, Yiheng Zheng. Research on Urban Heat Island Effect during Beijing Urbanization Process by Remote Sensing and Its Impact on Environmental Health. IGARSS, 2012. (EI, Oral)
+                                                            <br>[14]. Chunxiang Cao, Guanghe Li, Sheng Zheng, Jinquan Cheng, Guangchun Lei, Kun Tian,  Yongsheng Wu, Xu Xie, Min Xu, Wei Ji. Research on the environmental impact factors of Hand-Foot-Mouth Disease in Shenzhen, China using RS and GIS technologies. IGARSS, 2012. (EI, Oral))
+                                                            <br>[13]. Wei Chen, Chunxiang Cao, Hao Zhang, Huicong Jia, Wei Ji, Min Xu, Mengxu Gao, Xiliang Ni, Jian Zhao, Sheng Zheng, Rong Tian, Cheng Liu. Estimation of shrub canopy cover based on a geometric-optical model using HJ-1 data. IGARSS, 2011, 1922-1925. (EI)
+                                                            <br>[12]. Zheng Sheng, Cao Chunxiang, Chen Jinquan, Wu Yongsheng, Xie Xu, Zhang Hao, Ji Wei, Xu Min, Jia Huicong, Gao Mengxu, Zhao Jian, Ni Xiliang, Chen Wei, Tian Rong, Liu Cheng & Li Xiaowen. Application of CCD data of HJ-1 satellite in PM10 evaluation in Shenzhen, China. IGARSS, 2011, 3312-3315. (EI)
+                                                            <br>[11]. Jian Zhao, Chunxiang Cao, Hao Zhang, Sheng Zheng, Huicong Jia, Wei Ji, Mengxu Gao, Min Xu, Xiliang Ni, Wei Chen, Rong Tian, Cheng Liu, Xiaowen Li. Shrub biomass estimation in mu us sandland using simple go model and multi-angle observations. IGARSS, 2011, 3046-3049. (EI)
+                                                            <br>[10]. C.X. CAO, J. ZHAO, P. GONG et al. Wetland changes and droughts in southwestern China [J]. Geomatics, Natural Hazards and Risk. 2011, (EI, Oral)
+                                                            <br>[9]. Chunxiang Cao, Min Xu, Yunfei Bao, Hao Zhang. SYNCHRONOUS RETRIEVAL OF FOREST CANOPY COVER BY AIRBORNE LIDAR AND OPTICAL REMOTE SENSING[C]. IGARSS, 2010: 2660 – 2663.(EI, Oral)
+                                                            <br>[8]. Min Xu, Chunxiang Cao, Hao Zhang, Yong Xue, Yingjie Li, JianPing Guo , Caoyi Chang, Qisheng He, Mengxu Gao, Xiaowen Li. Change Detection of The tangjiashan Barrier Lake based on multi-source remote sensing data[C]. IGARSS, 2009, 4: 303-306.[EI]
+                                                            <br>[7]. Qisheng He, Chunxiang Cao, Erxue Chen, Feilong Ling, Hao Zhang. Relationship between SAR and Biomass Derived from LiDAR in Mountain Areas[C]. APSAR, 2009: 136 - 139 (EI and ISTP)
+                                                            <br>[6]. Jianping Guo, Jinsong Shen, Zenglin Yi, Xiaodong Jin, Yong Xue, Chunxiang Cao, Jiahua Zhang, Xiaoye Zhang. Monitoring of Air Pollution over Urban Area from MODIS[C]. Proceeding of the 2nd IEEE International Conference on Bioinformatics and Biomedical Engineering, May16-18, 2008, Shanghai.[EI]
+                                                            <br>[5]. Jianping Guo, Huadong Xiao, Chunxiang Cao, Yong Xue, Jie Guang, Jianwen Ai. Fast Aerosol Optical Depth Retrieval from MODIS[C]. Proceedings of IEEE/IGARSS held at Boston, MA, USA, 2008. [EI]
+                                                            <br>[4]. Y. Bao, C. Cao, E. Chen, Z. Li, C. Chang, X. Li, 2007.Segmentation to the point clouds of LIDAR data based on change of Kurtosis[C]. International Symposium on Photo-electronic Detection and Imaging. ISPDI 2007, Beijing. [EI]
+                                                            <br>[3]. Jianping Guo, Yong Xue, Shaobo Zhong, Chunxiang Cao, Wuchun Cao, Xiaowen Li, and Liqun Fang, 2006, Risk Factors Analysis of High Pathogenic Avian Influenza in Mainland China Using GIS and Remote Sensing[C]. Proceedings of IEEE/IGARSS held at Denver, Colorado, USA, 31 July-04 August 2006. [EI]
+                                                            <br>[2]. Shaobo Zhong, Yong Xue, Chunxiang Cao, Wuchun Cao, Xiaowen Li, Jianping Guo, and Liqun Fang, 2005, The application of space/time analysis tools of GIS in spatial epidemiology: A case study of Hepatitis B in China using GIS[C]. Proceedings of IGARSS 2005, Seoul, South Korea, 2005, 1612 - 1615. [EI]
+                                                            <br>[1]. Jianping Guo, Yong Xue, Chunxiang Cao, Wuchun Cao, Shaobo Zhong, Guoyin Cai, Xiaowen Li, Liqun Fang. Study on the Highly Pathogenic Avian Influenza Epidemic Using Land Surface Temperature from MODIS Data[C]. Proceedings of IEEE/IGARSS held at Soul, Korea, 25-29 July 2005, pp.3599- 3602. [EI]
+                                                            </p> 
+                                                            <p>中国科学引文数据库（Chinese Science Citation Database，CSCD）</p>
+
+                                                            <p>[41]. 杨欣慰,曹春香,徐敏,等.基于Li-Strahler几何光学模型的区域人工林郁闭度反演[J].航天返回与遥感,2024,45(03):137-149.
+                                                            <br>[40]. 江厚志，曹春香，陈伟，党永峰等. 基于Maxent模型的美国西海岸树流感爆发风险时空分析. 世界林业研究, 2017, 30(4): 68-72.
+                                                            <br>[39]. 江厚志, 曹春香. 基于Hysplit模型的树流感传播路径预测. 生态学杂志, 2017（出版中）.
+                                                            <br>[38]. 吴春莹, 陈伟, 刘迪, 杨天宇, 田蓉 & 曹春香. 北京市重要湿地生态系统健康评价. 湿地科学, 2017, 15(4): 516-521.
+                                                            <br>[37]. Fang Z, Cao C X, Wei J I. Spatiotemporal transmission for Sudden Oak Death in Yunnan[J]. Chinese Science Bulletin, 2016.
+                                                            <br>[36]. Yuan Zhongqiang, Cao Chunxiang, Bao Daming et al. Inversion on Contents of Heavy Metals in Soils of Wetlands in Zoigê Plateau based on Remote Sensing Data [J]. Wetland Sciences, 2016, 14(1):113-116.
+                                                            <br>[35]. Bao Shanning, Cao Chunxinag, Huang Jianxi et al. Research on Winter Wheat Yield Estimation Based on Assimilation of Leaf Area Index and Evapotranspiration Data [J]. Journal of Geo-Information Science, 2015, 17(7): 871-881. [CSCD]
+                                                            <br>[34]. Wang Mengya, Cao Chunxiang. Time sequence Analysis on the concentration of PM10 in Xi'an City [J]. Journal of Northwest University (Natural Science Edition), 2015, 45(4): 670-674. [CSCD]
+                                                            <br>[33]. Deng Fuliang, Yang Chongjun, Cao Chunxiang et al. An Improved Method of FNEA for High Resolution Remote Sensing Image Segmentation[J]. JOURNAL OF GEO-INFORMATION SCIENCE, 2014,16(1): 95-101.[CSCD]
+                                                            <br>[32]. Tian Haijing, Cao Chunxiang, Dai Shengmao et al. Analysis of Vegetation Fractional Cover in Jungar Banner Based on Time-series Remote Sensing Data[J]. JOURNAL OF GEO-INFORMATION SCIENCE, 2014,16(1): 126-133.[CSCD]
+                                                            <br>[31]. YANG Bin, Cao Chunxiang, TIAN Rong et al. Recovery of evaluation the eco-environmental quality after the Wenchuan Earthquake[J]. Journal of Remote Sensing, 2014(04): 946-956.[CSCD]
+                                                            <br>[30]. LIU Cheng, Cao Chunxiang. Prediction of potentially suitable distributions of sudden oak death in China based on GIS technology. Chinese Science Bulletin, 2014, 59(18): 1732-1747.[CSCD]
+                                                            <br>[29]. Jian Zhao, Chunxiang Cao，et al.,Spatial and temporal dynamic analysis of Land use / cover change in arid areas: A typical example in Zhungeer, Journal of arid land resources and environment, 2013, 27(004): 99-105. (in Chinese)(CSCD)
+                                                            <br>[28]. Huicong Jia，Yi Yuan，Chunxiang Caoet al., Quick assessment model for water difficult population based on geographic factor -- Taking the drought of Yunnan province in 2012 as an example[J]. Disaster science, 2013，28（1）：92-97. (in Chinese)(CSCD)
+                                                            <br>[27]. NI Xi-Liang, Cao Chun-xiang, DING Lin et al. A fully automatic registration approach based on contour and SIFT for HJ-1 images[J]. Science China: Earch Sciences, 2012(55): 1679-1687.
+                                                            <br>[26]. Wei Ji, Xincai Wu, Chunxiang Cao et al., A dynamic modeling technology of spatial analysis model[J]. Science of Surveying and Mapping,2012,04:49-51. (InChinese) [CSCD]
+                                                            <br>[25]. Wei Ji, Xincai Wu, Chunxiang Cao. Research on dynamic catalog tree for land resources data center[J]. Bulletin of surveying,2012, 02:74-76+102. (InChinese) [CSCD]
+                                                            <br>[24]. Wei Ji, Chunxiang Cao et al.,Data integration mode of diseases monitoring and early warning and emergency response system[J]. Science of Surveying and Mapping,2012, 06:66-68. (InChinese) [CSCD]
+                                                            <br>[23]. Sheng Zheng, Chunxiang Cao et al., A study on land use/cover change during urbanization in Shen zhen using China-made satellite data[J]. Science China: information science, 2011, 41:140-152. (In Chinese) (CSCD)
+                                                            <br>[22]. Huicong Jia, Jingai Wang，Donghua Pan，Chunxiang Cao. Maize Drought Disaster Risk Assessment Based on EPIC Model:A Case Study of Maize Region in Northern China [J]. ACTA GEOGRAPHICA SINICA, 2011, 66(5): 643-652. (in Chinese)(CSCD)
+                                                            <br>[21]. Huicong Jia, Chuxiang Cao et al., Assessment of Wetland Ecosystem Health in the Source Region of Yangtze, Yellow and Yalu Tsangpo Rivers of Qinghai Province [J]. WETLAND SCIENCE, 2011, 9(3): 209-217.(In Chinese) (CSCD)
+                                                            <br>[20]. Shouxun Yan，Xiaobo Wu，Chaoxian Zhou，Chaohui Liu，Yongcheng Zhuang，Chunxiang Cao et al., Advances in remote sensing and spectroscopy and the use of remote sensing in geological and mineral exploration of practice[J]. Advances in earth science, 2011, 26(1): P624-627.(In Chinese)(CSCD)
+                                                            <br>[19]. Sheng Zheng, Xiang Zhao，Hao Zhang，Qisheng He，Chunxiang Cao，Liangfu Chen. Atmospheric correction on CCD data of HJ-1 satellite and analysis of its effect [J]. Journal of Remote Sensing, 2011, 15(4): 709-721. (In Chinese)(CSCD)
+                                                            <br>[18]. Rong Tian, Chuxiang Cao et al., Changes and Driving Factors of Plateau Wetlands in Maduo County[J]. WETLAND SCIENCE，2011，9（1）：61-68. (In Chinese) (CSCD)
+                                                            <br>[17]. Chang Chaoyi, Cao Chunxiang, Wang Qiao et al. The novel H1N1 influenza A global airline transmission and early warning without travel containments. Chinese Science Bulletin, 2010, 55.
+                                                            <br>[16]. Xu Min, Cao Chunxiang, Cheng Jinquan et al. Space-time Cluster Detection of Pandem ic H1N1 Influenza A U sing GIS[J]. JOURNAL OF GEOINFORMATION SC IENCE, 2010,12(5):707-712[CSCD]
+                                                            <br>[15]. Mengxu Gao，Chunxiang Cao et al., Application of spatial information technology in the research of plague. Journal of endemic disease Chinese Science, 2010，29（6）：706-708. (In Chinese)(CSCD)
+                                                            <br>[14]. Qisheng He, Chunxiang Cao et al., Study on the Extraction of Saline Soil Information in Arid Area Based on Multiple Source Data [J]. REMOTE SENSING TECHNOLOGY AND APPLICATION, 2010. 25(2): 209-215. (in Chinese) (CSCD)
+                                                            <br>[13]. Qisheng He, Chunxiang Cao et al., Response of Satellite SAR Images to the Ions of Saline Soi ls[J]. Bulletin of Soil and Water Conservation,2009，29（5）：17-20. (CSCD)
+                                                            <br>[12]. Qisheng He, Erxue Chen, Chunxiang Cao et al., A Study of Forest Parameters Mapping Technique Using Airborne LIDAR Data [J]. ADVANCES IN EARTH SCIENCE，2009，24（7）: 748-755. (CSCD)
+                                                            <br>[11]. Chunxiang Cao，Min Xu et al., Trends Analysis on Forest Health Research Using Multi-Source Remote Sensing Data [J]. Journal of Remote Sensing, 2009, 13 (supplement): 401-407. (CSCD)
+                                                            <br>[10]. Xiaowen Li, Chunxiang Cao, Hao Zhang. Progress in the study of scale problem [J]. Journal of Remote Sensing, 2009, 13 (supplement): 12-20. (CSCD)
+                                                            <br>[9]. Jianping Guo, Min Xu, Kun Qin, Chunxiang Cao et al., On the precipitation classifications based on uncertainty theory[J]. Journal of Computer Applications，2009.12. (CSCD)
+                                                            <br>[8]. Jianping Guo, Huadong Xiao, Shaohua Liua, Yong Xue, Chunxiang Cao et al., Parallel implementation of aerosol optical depth retrieval algorithm[J]. Journal of Computer Applications，2009. 6: 1665-1668. (CSCD)
+                                                            <br>[7]. Xiaowen Li, Chunxiang Cao, Chaoyi Chang. The first law of geography and spatial temporal proximity [J]. Nature magazine, 2007,29 (2):69-71. (CSCD)
+                                                            <br>[6]. Liqun Fang, Chunxiang Caoet al., Application of geoinformation in the spatial distribution and environmental factors of China highly pathogenic avian influenza [J]. Chinese Journal of Epidemiology, 2005, 26（11）：839-842. (CSCD)
+                                                            <br>[5]. Gong Jianhua, SUN war profits, Li Xiaowen, Cao Chunxiang, LI Xiao-ying, Chen Qian Guo, Zhoujie Ping, SARS epidemic control simulation analysis [J] Journal of Remote Sensing, 2003, 7 (4):... 260-265 (CSCD) 
+                                                            <br>[4]. Yan Shou Yong, Liu Yalan, Li Xiaowen, Cao Chunxiang, Jin Shui Gao, SARS-space propagation model and its application in disease surveillance information system design [J] Remote Sensing, 2003, 7 (4): 266-272. (CSCD) 
+                                                            <br>[3]. Liu Yalan, Yan Shou Yong, Li Xiaowen, Cao Chunxiang, Xiao Chunsheng, Jin Shui Gao. Law of the mainland Chinese population in SARS control flow space and macroeconomic policy-making in the application [J]. Remote Sensing, 2003, 7 (4) :. 273-276 (CSCD) 
+                                                            <br>[2]. Cao Chunxiang, Li Xiaowen, Yan Jun, geospatial information and the SARS epidemic trend [J] Journal of Remote Sensing, 2003, 7 (4):241-244 (CSCD)
+                                                            <br>[1]. Lixin Zhang, Chunxiang Cao. Construction technology and economic benefit of larch wood forest [J]. Inner Mongolia forestry science and technology, 1993, 2: 39-40. (CSCD)
+                                                            </p> 
+                                                            <p>其他论文</p>
+
+                                                            <p>[67]. Hang Yin, Chunxiang Cao, Wei Chen.2017.Snow Cover Spatio-temporal Patterns in the Tibetan Plateau based on Long Term Satellite Data. JpGU-AGU Joint Meeting 2017.
+                                                            <br>[66]. H.Z. Jiang, C.X. Cao, W. Chen, D. Liu, Y.X. Zhang, Y.F. Dang, X.J. Wang, W. Wang. Risk Prediction of Sudden Oak Death (SOD) in China under Different Trends of Future Climate Change. JpGU-AGU Joint Meeting 2017.
+                                                                <br>[65]. Tianyu Yang, Chunxiang Cao et al. Differences in degradation degree of Napahai and Bitahai wetlands in Yunnan based on remote sensing [C] The 6th China Lake Forum in Nanchang, 2016.
+                                                                <br>[64]. Di Liu, Chunxiang Cao et al. Evaluation on Ecological Vulnerability of Sanjiangyuan Wetland in Qinghai Province [C]. The 6th China Lake Forum in Nanchang, 2016.
+                                                                <br>[63]. Haijing Tian, Chunxiang Cao et al. Evaluation on the Important Wetland Ecosystem of Dalai Lake in Inner Mongolia [C]. The 6th China Lake Forum in Nanchang, 2016.
+                                                                <br>[62]. Chunxiang Cao, Bin yang, Wei Chen, Min Xu. Research on classification integrating airborne images and LiDAR data[C]. The Third Conference about LiDAR in Shanghai, 2015
+                                                                <br>[61]. Tianyu Yang, Chunxiang Cao. The effect of the distribution of Jiangsu Province on the incidence of diarrhea based on linear regression analysis. The Fifth International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2015.
+                                                                <br>[60]. Zhongqiang Yuan, Chunxiang Cao. Remote sensing inversion of heavy metal elements in soil of Ruoergai wetland based on HJ-HSI image. The Fifth International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2015.
+                                                                <br>[59]. Xujuan Chen, Chunxiang Cao. Spectral Discrimination of Rhododendrons in Karst Region Based on Mahalanobis Distance. The Fifth International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2015.
+                                                                <br>[58]. Xiliang Ni, Chunxiang Cao. Mapping Forest Canopy Height over Continental China Using Multi-Source Remote Sensing Data. The Fifth International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2015.
+                                                                <br>[57]. Haifang Guo, Chunxiang Cao. Spatio-temporal analysis of Ebola hemorrhagic fever. The Fifth International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2015.
+                                                                <br>[56]. Zhongqiang Yuan, Chunxiang Cao. Wetland soil heavy metal pollution evaluation of Laizhou bay. The Forth International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2014.
+                                                                <br>[55]. Di Liu, Chunxiang Cao. Assessment of Wetland Ecological Vulnerability in the Region of Yangtze, Yellow and Yulu Tsangpo Rivers of Qinghai Province. The Forth International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2014.
+                                                                <br>[54]. Shanning Bao, Chunxiang Cao. The Analysis of Wetland Plant Spectral Characteristics. The Forth International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2014.
+                                                                <br>[53]. Haijing Tian, Chunxiang Cao. Vegetation activity dynamic from 2000 to 2012 in Ejin Banner and its response to ecological restoration programs. The Forth International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2014.
+                                                                <br>[52]. Apitach Saokarn, Chunxiang Cao. Surveillance of waterborne diseases during flooding using an expert system diagnosis. The Forth International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2014.
+                                                                <br>[51]. Patcharin Insom, Chunxiang Cao. Flood classification by nearest neighbor based on NDWI of HJ-satellite data. The Forth International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2014.
+                                                                <br>[50]. Haifang Guo, Chunxiang Cao. 2014 Spatial Analysis of Ebola haemorrhagic fever in West Africa. The Forth International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2014.
+                                                                <br>[49]. Bin Yang, Chunxiang Cao. Assessment of ecological environment quality restoration after five years in Wenchuan County. The Third International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2013.
+                                                                <br>[48]. Haibing Xiang, Chunxiang Cao. Functional assessment and analysis of wetland habitat in Honghu based on multi temporal TM and HJ-1A data. The Third International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2013.
+                                                                <br>[47]. Mengya Wang, Chunxiang Cao. aerosol thickness Retrieval of MODIS data. The Third International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2013.
+                                                                <br>[46]. Haijing Tian, Chunxiang Cao. Deriving regional crown closure using spectral mixture analysis based on up-scaling endmember extraction approach. The Third International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2013.
+                                                                <br>[45]. Di Liu, Chunxiang Cao. Analysis of earthquake disaster in Lushan based on aerial remote sensing images. The Third International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2013.
+                                                                <br>[44]. Apitach Saokarn, Chunxiang Cao. URBAN AREA TEMPORAL CHANGING ANALYSIS AND MODELING  IN CHIANG MAI, THAILAND. The Third International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2013.
+                                                                <br>[43]. Zhou Fang, Chunxiang Cao. Prediction of global potancial distribution area of Sudden Oak Death bacteria based on GIS and Maxtent. The Third International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2013.
+                                                                <br>[42]. Xiaojie Zhao, Chunxiang Cao. Retrieval method of Albedo based on HJ-CCD1 and MODIS BRDF data. The Third International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2013.
+                                                                <br>[41]. Rong Tian, Chunxiang Cao. A comprehensive assessment of the environmental comprehensive assessment of the agro pastoral transitional zone in the Southwest Mountainous Region -- a case study of Ruoergai. The Third International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2013.
+                                                                <br>[40]. Peera Yomwan, Chunxiang Cao. Using Radarsat-2 and back propagation neural network to assess a waterborne disease risk due to flooding. The Third International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2013.
+                                                                <br>[39]. Xiliang Ni, Chunxiang Cao, Ranga Myneni, Zaichun Zhu, Min Xu, Yunfei Xu. Allometric Scaling and Resource Limitations (ASRL) Model Based Estimation of Forest Biomass over China. The Third International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2013.
+                                                                <br>[38]. Zaichun Zhu, Chunxiang Cao, Ranga Myneni, Xiliang Ni, Min Xu, Yunfei Xu. Global Data Sets of LAI3g and FPAR3g Derived from GIMMS NDVI3g for the Period 1981 to 2011. The Third International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2013.
+                                                                <br>[37]. Huicong Jia, Chunxiang Cao. Rapid Assessment Model of Population in Drinking Water Access Difficulties Because of Drought — A Case Study of 2012 Yunnan Extreme Drought. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[36]. Min Xu, Chunxiang Cao. Analysis of temporal and spatial aggregation of cholera in the world. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[35]. Yunfei Xu, Chunxiang Cao. Research on the indexing method of global scale massive multi-source remote sensing data. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[34]. Shanning Bao, Chunxiang Cao. Analysis of urban heat island effect of Beijing based on Remote Sensing data. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[33]. Haijing Tian, Chunxiang Cao. Monitoring and driving force analysis of vegetation coverage in Zhungeer Qi based on time series remote sensing images. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[32]. Xiaojie Zhao, Chunxiang Cao. Forest area extraction based on high spatial resolution data and object oriented method. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[31]. Di Liu, Chunxiang Cao. Extracting forest area of Anshan city based on a variety of methods. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[30]. Mengya Wang, Chunxiang Cao. Dynamic monitoring of forest area in Anshan based on MODIS images. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[29]. Cheng Liu, Chunxiang Cao. Research on forest site classification based on GIS in Anshan City. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[28]. Zhou Fang, Chunxiang Cao. Classification of remote sensing image based on BP neural network. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[27]. Peera Yomwan, Chunxiang Cao. Modeling the Outbreak Risk of Acute Watery Diarrhea in Flood Disaster based on Remote Sensing and Machine Learning Technique. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[26]. Xiliang Ni, Chunxiang Cao. Estimation of Maximum Forest Biomass Based on Allometric Scaling Theory in Three Gorges Reservoir Regionx. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[25]. Apitach Saokarn, Chunxiang Cao. Development of Simulation Modeling For Estimation of Leaf Area Index Based on A Vegetation Index. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[24]. Bin Yang, Chunxiang Cao. Canopy Segmentation Based on Watershed Algorithm. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[23]. Rong Tian, Chunxiang Cao. The response of water area changes of the wetland towards drought and flood disasters in the middle and lower reaches of the Yangtze River of five province in 2010~2011. The Second International Workshop on Diagnosis of Environmental Health by Remote Sensing, 2012.
+                                                                <br>[22]. Shaobo Zhong, Zhanhui Sun, Quanyi Huang, Chunxiang Cao. A framework for geographical surveillance of disease in China [J]. International Journal of Disaster Resilience in the Built Environment, 2011, 2(3): 256-267.
+                                                                <br>[21]. M. Xu, C.X. Cao, H. Zhang, Q.S. He, M.X. Gao. Study on vegetation fractional coverage and its dynamic change in Mu Us desert based on SMA[C]. ISDE’06, 2009.
+                                                                <br>[20]. M. X. Gao, C. X. Cao, H. Zhang, et.al. The Valuation of Ecological Security in the City of Xi’an Based on GIS[C].  ISDE6, 2009.
+                                                                <br>[19]. Qisheng He, Chunxiang Cao, Erxue Chen , Qingwang Liu, Hao Zhang. Estimation of Stand-Level Forest Biophysical Parameters in Picea crassifolia Stand Using Small-Footprint Airborne LIDAR Data[C].  ISDE6.2009.
+                                                                <br>[18]. HE Binbin, CHEN Cuihua , ZHUANG Yongcheng, YAN Souxun, WU Xiaobo, HE Qisheng, Cao Chunxiang, LI Xiaowen. Metallizing Information Extraction and Metallogenic Prognosis by Fusing Beijing-1 Microsatellite Data and Geochemistry Abnormal Data in the Middle of Eastern Kunlun in Qinghai Province[C]. Proceedings of SPIE.
+                                                                <br>[17]. Linyan Bai, Chunxiang Cao, et al. A new fast and synthytic methodology for interpreting geological fracture structure, based on multi-source remotely sensed data: a case of Wulonggou zone in NQDM-EKL region[C]. 9th PORSEC,2008.
+                                                                <br>[16]. Qisheng He，Chunxiang Cao, et al. Spectrum Analysis and Information Extraction of Mineralized and Altered Rocks in the East Kunlun Area, Qinghai Using ASTER Data[C]. 9th PORSEC.
+                                                                <br>[15]. Mengxu Gao, Chunxiang Cao.et al. The correlativity analysis between infectious disease and ecological environment changes in WenChuan earthquake disaster areas based on RS and GIS[C]. 9th PORSEC.
+                                                                <br>[14]. Chaoyi Chang, Chunxiang Cao, et al. Risk Analysis and Prediction: The Highly Pathogenic Avian Influenza in Mainland China Using Meta-Modelling Incorporating Spatial and Temporal Autocorrelation[C]. 9th PORSEC.
+                                                                <br>[13]. Yunfei Bao, Chunxiang Cao, et al.  A new approach for DTM generation in forested area using airborne LIDAR height and intensity data[C]. 9th PORSEC.
+                                                                <br>[12]. He Q S, Li G P, CAO C X, et al. Quantitative Estimation of Desertification Degree Based on PCA Fusion and SVM using CBERS-02B[C]. ISPRS 2008 Beijing, China. (ISTP)
+                                                                <br>[11]. Bao Y., Li G., CAO C. Li X., Zhang H., He Q., et al.. Classification of LIDAR point Cloud and generation of DTM from LIDAR height and intensity data in forested area[C]. ISPRS 2008, Beijing, China.
+                                                                <br>[10]. Shaobo Zhong, Yong Xue, Chunxiang Cao, Jianqin Wang, Jianping Guo, Yanguang Wang, Yincui Hu, Ying Luo, Guoyin Cai, and Jiakui Tang. Explore Disease Mapping of Hepatitis B Using Geostatistical Analysis Techniques[J]. Lecture Notes in Computer Science, 2005, Vol.3516，pp.464-471.（ISTP）
+                                                                <br>[9]. Cao Chunxiang, Evaluation of forest resources by remote sensing data, Ⅳ science ed Hiroshima University Faculty of Integrated Arts Bulletin, Volume 26 P141-144. (In Japanese)
+                                                                <br>[8]. Cao Chunxiang, Maio Toshio, Diagnosis of vegetation recovery following major forest fire in Daxinganling, China, using NOAA/AVHRR data (2000), the Japanese Journal of ecology 50, pp.1-11. (In Japanese)
+                                                                <br>[7]. Cao Chunxiang, Analysis of vegetation index (Band 4/Band 3) change and pine forest damage in  the western part of Hiroshima Prefecture in 1987, 1992 and 1996 using satellite imagery Ⅱ(1999), Oxidants / Acidic Species and Forest Decline in East Asia.International Symposium, P-35.
+                                                                <br>[6]. Cao Chunxiang, Analysis of vegetation index (Band 4/Band 3) change and pine forest damage in the western part of Hiroshima Prefecture in 1987, 1992 and 1996 using satellite imagery Ⅰ (1999), Proceedings of the 46th Japanese Conference on Ecological Research. pp256. (In Japanese)
+                                                                <br>[5]. Cao Chunxiang, a multi period, no rotating RA those do not, TM data, or graduate with ICDRG: Hiroshima prefectural? Polar music Temple Hill week Daosong blight motions geography? Period column change of presumption (1998), forest decline in guys in the Department of atmospheric pollutant of measurement, dynamic, control studies in Japan in Japanese studies, JST: force based research as the Tokyo Danish human communication.Pp173-175.
+                                                                <br>[4]. Cao Chunxiang. Estimation of time serial and geographical change in the pine forest damage by the blight around /in Mt. Gokurakuji, Hiroshima, based on several Landsat TM Data[C]. Proceedings of the 44th Japanese Conference on Ecological Research, 1997, pp287. (In Japanese)
+                                                                <br>[3]. C. Cao, T. Yoshikawa, T. Senoo. Diagnosis of vegetation recovery stage of forest burned area using NOAA/ AVHRR and JERS-1/OPS data[C]. Proceedings of the 20th Japanese Conference on Remote Sensing, 1996, pp33-34. (In Japanese)
+                                                                <br>[2]. Toshio Senoo, Cao Chunxiang, Change and Preservation of Environmental in Tanngouhanntou of Japan[J]. Kyoto Pref. Univ. region science observation research center annual report, 1995, No.2, pp43-53. (In Japanese)
+                                                                <br>[1]. Cao Chunxiang. Assesment of Forest Resources using Remote Sensing Data-Case studies on forest fire and pine forest blight [D]. Hiroshima University, 2000.
+
+                                                            </p>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                            </div>
+                                        </div>
+                    
+ 
+                                    </div>
+                                </div>
+                            </div>
+
+                        </header>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+<!-- Begin footer -->
+<footer class="footer footer-minimal">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row items align-items-center">
+                <div class="col-lg-3 col-md-4 col-12 item">
+                    <div class="widget-brand-info">
+                        <div class="widget-brand-info-main">
+                            <a href="../../index.html" class="logo" title="HiGISX">
+                                <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md item">
+                    <div class="footer-item">
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu footer-mnu-line">
+                                <li><a href="../../index.html" class="hover-link" data-title="Home"><span>Home</span></a></li>
+                                <li><a href="../about-us.html" class="hover-link" data-title="About Us"><span>About Us</span></a></li>
+                                <li><a href="../ourteam.html" class="hover-link" data-title="Our Team"><span>Our Team</span></a></li>
+                                <li><a href="../publication.html" class="hover-link" data-title="Publications"><span>Publications</span></a></li>
+                                <li><a href="../news.html" class="hover-link" data-title="News"><span>News</span></a></li>
+                                <li><a href="../contacts.html" class="hover-link" data-title="Contacts"><span>Contacts</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between items">
+                <div class="col-md-auto col-12 item">
+                    <nav class="footer-links">
+                        <ul>
+                            <li><a>HiGISX</a></li>
+                            <!-- <li><a href="privacy-policy.html">Privacy Policy</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-auto col-12 item">
+                    <div class="copyright">© 2023 HiGISX. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End footer -->
+
+	</main><!-- End main -->
+
+	<script src="../../assets/libs/jquery/jquery.min.js"></script>
+    <script src="../../assets/libs/lozad/lozad.min.js"></script>
+    <script src="../../assets/libs/device/device.js"></script>
+    <script src="../../assets/libs/spincrement/jquery.spincrement.min.js"></script>
+    <script src="../../assets/libs/pristine/pristine.min.js"></script>
+    <script src="../../assets/js/custom.js"></script>
+    <script src="../../assets/js/forms.js"></script>
+	
+	<script type="text/javascript">
+		function f(str){
+                var sub_menu = document.getElementById(str);
+                var dis_v = sub_menu.style.display;
+                
+                if(dis_v == "block")
+                    sub_menu.style.display = "none";
+                else
+                    sub_menu.style.display = "block";
+                    
+            }
+	</script>
+
+</body>
+
+</html>
