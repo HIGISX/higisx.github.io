@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>HISPCRT | High Intelligence Spatial Computing Research Team</title>
+
+    <meta name="description" content="Description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+        
+    <link rel="icon" href="../../assets/img/favicon/logo-ico.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="../../assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+	<style type="text/css">
+		#sub_menu{
+			display: none;
+
+		}
+		ul li:hover{
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+
+	<main class="main">
+
+		<div class="main-inner">
+
+			<!-- Begin mobile main menu -->
+			<nav class="mmm">
+				<div class="mmm-content">	
+					<ul class="mmm-list">
+						<li>
+							<a href="../../index.html">首页</a>
+						</li>
+						<li>
+							<a href="../about-us.html">关于我们</a>
+						</li>
+						<li>
+							<a href="../ourteam.html">团队成员</a>
+						</li>
+						<li>
+							<a href="../publication.html">发表著作</a>
+						</li>
+						<!-- <li>
+							<a href="tabs-and-accordions.html">Tabs & Accordions</a>
+						</li> -->
+						<li>
+							<a href="../news.html">近期动态</a>
+						</li>
+						<li>
+							<a href="../contacts.html">联系我们</a>
+						</li>
+						<li class="sub_menu" onclick = "f('sub_menu')" >语言
+                            <ul id="sub_menu">
+                                <li><a class="sub_menu" href="../../en/index.html">English</a></li>
+                                <li><a class="sub_menu" href="../../index.html">简体中文</a></li>
+                            </ul>
+                        </li>
+					</ul>
+				</div>
+			</nav><!-- End mobile main menu -->
+            
+            <header class="header header-minimal">
+                <nav class="header-fixed">
+                    <div class="container">
+                        <div class="row flex-nowrap align-items-center justify-content-between">
+                            <div class="col-auto header-fixed-col logo-wrapper">
+                                <a href="../../index.html" class="logo" title="HiGISX">
+                                    <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                    <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                                </a>
+                            </div>
+                            <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
+                                <div class="row flex-nowrap align-items-center justify-content-end">
+                                    <div class="col header-fixed-col d-none d-xl-block col-static">
+                                        <!-- Begin main menu -->
+                                        <nav class="main-mnu">
+                                            <ul class="main-mnu-list">
+                                                <li>
+                                                    <a href="../../index.html" data-title="首页">
+                                                        <span>首页</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../about-us.html" data-title="关于我们">
+                                                        <span>关于我们</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../ourteam.html" data-title="团队成员">
+                                                        <span>团队成员</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../publication.html" data-title="出版专著">
+                                                        <span>出版专著</span>
+                                                    </a>
+                                                </li>
+                                                <!-- <li>
+                                                    <a href="tabs-and-accordions.html" data-title="Tabs & Accordions">
+                                                        <span>Tabs & Accordions</span>
+                                                    </a>
+                                                </li> -->
+                                                <li>
+                                                    <a href="../news.html" data-title="新闻动态">
+                                                        <span>新闻动态</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="../contacts.html" data-title="联系我们">
+                                                        <span>联系我们</span>
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <button class="earth">
+                                                        <img src="../../assets\img\earth.png" width="20" alt="">
+                                                    </button>
+                                                    <div class="dropdown-content">
+                                                      <a href="../../en/index.html">English</a>
+                                                      <a href="../../index.html">简体中文</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </nav><!-- End main menu -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-block d-xl-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+		<!-- Begin bread crumbs -->
+			<nav class="bread-crumbs">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<ul class="bread-crumbs-list">
+								<li>
+									<a href="../../index.html">首页</a>
+									<i class="material-icons md-18">chevron_right</i>
+								</li>
+                                <li>
+									<a href="../ourteam.html">团队成员</a>
+									<i class="material-icons md-18">chevron_right</i>
+								</li>
+								<li>梁浩健</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav><!-- End bread crumbs -->
+			<div class="section">
+				<div class="container">
+					<div class="row items">
+						<header class="col-12">
+							<div class="section-heading heading-center">
+								<div class="section-subheading">Teacher</div>
+								<h1>周静怡</h1>
+							</div>
+                            <div id="about" class="about-area section-top-spacing">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 ">
+                                            <div class="img-box">
+                                                <img src="../../assets/img/people_img/zhoujingyi.jpg" alt="about" height="400">
+                                                <h5>周静怡</h5>
+                                                <h6>中国科学院空天信息创新研究院</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 ">
+                                            <div class="content-area">
+                                                <div class="inner-tile">
+                                                    <h3 class="inner-content-title"> 个人简介</h3>
+                                                    <p>周静怡，博士，中国科学院空天信息创新研究院特别研究助理。研究方向主要为可持续城市服务设施配置优化、城市时空大数据分析与室内导航地图设计等。</p>
+                                                </div>
+                                                <hr>
+                                                <div class="personal-info">
+                                                    <h3 class="inner-content-title"> 研究方向</h3>
+                                                    <div class="content">
+                                                        <ol>
+                                                            <li>可持续城市服务设施配置优化</li>
+                                                            <li>城市时空大数据分析</li>
+                                                            <li>室内导航地图设计</li>
+                                                        </ol>
+                                                    </div>
+                                                    <hr>
+                                                    <h3>教育经历</h3>
+                                                    <div class="info-list d-flex justify-content-between align-items-center">
+                                                        <ul>
+                                                            <li>
+                                                                <p><span>2019-09至2025-09，  </span> 南京师范大学 地理科学学院 地图学与地理信息系统 硕博连读获理学博士</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2023-01至2023-12，  </span> 苏黎世大学 地理系 博士生联合培养（CSC资助）</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span>2015-06至2019-09，  </span> 江西师范大学 地理与环境学院 地理信息科学 理学学士</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                 <hr>
+                                                    <div class="personal-info">
+                                                        <h3>从业经历</h3>
+                                                        <div class="info-list d-flex justify-content-between align-items-center">
+                                                            <ul>
+                                                                <li>
+                                                                    <p><span>2025-10至今，  </span> 中国科学院空天信息创新研究院 特别研究助理</p>
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="personal-info">
+                                                        <h3>研究成果</h3>
+                                                        <h5>期刊论文</h5>
+                                                        <div class="content-paper">
+                                                            <ol>
+                                                                <li>Zhou J, Shen J*, Fu C, Weibel R, & Zhou Z*. Quantifying indoor navigation map information considering the dynamic map elements for scale adaptation[J]. International Journal of Applied Earth Observation and Geoinformation, 2025, 136: 104323.</li>
+                                                                <li>Zhou J, Yang H, Shen J*, & Zhu, L. Indoor navigation map design based on spatial complexity[J]. Cartography and Geographic Information Science, 2025, 52(1): 69-81.</li>
+                                                                <li>刘晓艳, 田兆炜, 周静怡*, 赵天浩, 徐颖, 徐家鹏, 沈婕. 河道健康管理本体模型构建与数据存储方法设计[J]. 同济大学学报 (自然科学版), 2023, 51(7): 1018-1024.</li>
+                                                                <li>Zhu L, Shen J, Zhou J, Stachoň Z, Hong S, & Wang X. Personalized landmark adaptive visualization method for pedestrian navigation maps: Considering user familiarity[J]. Transactions in GIS, 2022, 26(2): 669-690.</li>
+                                                                <li>Zhou J, Shen J, Zang K, Shi X, Du Y, & Šilhák P. Spatio-temporal visualization method for urban waterlogging warning based on dynamic grading[J]. ISPRS International Journal of Geo-Information, 2020, 9(8): 471.</li>
+                                                                <li>Shen J, Zhou J*, Zhou J, Herman L, & Reznik T. Constructing the CityGML ADE for the multi-source data integration of urban flooding[J]. ISPRS International Journal of Geo-Information, 2020, 9(6): 359.</li>
+                                                                <li>周静怡, 胡碧松*, 邱文清. 基于腾讯位置数据的南昌市活动空间凝聚结构与区划研究[J]. 世界地理研究, 2020, 29(05): 973-984.</li>
+                                                            </ol>
+                                                        </div>
+                                                        <h5>会议论文</h5>
+                                                        <div class="content-paper">
+                                                            <ol>
+                                                                <li>Zhou J, Weibel R, Fu C, Zhou Z, Zhu L, & Shen J. (2023). Enhancing indoor spatial knowledge through navigation map design with landmark hierarchy. In Proceedings of the 18th International Conference on Location Based Services (pp. 19-24).</li>
+                                                                <li>Zhou J, Weibel R, Fu C, Zhou Z, Zhu L, & Shen J. (2023). Indoor navigation map design based on the analysis of space characteristics. Abstracts of the ICA, 6, 291.</li>
+                                                                <li>Zhou J, Shen, J.*, Zhu, L., Yan, X. & Sun, W. (2022). Preliminary study of indoor emergency path planning based on fire emergency knowledge graph. In Proceedings of the 17th International Conference on Location Based Services, pages pending.</li>
+                                                                <li>Shen J*, Zhou J, & Yang J. (2021). Preliminary study on knowledge graph construction based on the coupling mechanism of urban disaster and emergency response. Abstracts of the ICA, 3: 265.</li>
+                                                                <li>Zhou J, Shen J *, Shi J, & Zhu L. (2021). Indoor navigation path visualization method considering the spatial characteristics. In Proceedings of 16th International Conference on Location Based Services (pp. 19-22).</li>
+                                                                <li>Zhu L, Shen J*, Zhou W, & Zhou J. (2020). Preliminary study on ontology construction for hospital navigation. In Proceedings of the 8th International Conference on Cartography and GIS (pp. 613-618).</li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</header>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+<!-- Begin footer -->
+<footer class="footer footer-minimal">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row items align-items-center">
+                <div class="col-lg-3 col-md-4 col-12 item">
+                    <div class="widget-brand-info">
+                        <div class="widget-brand-info-main">
+                            <a href="../../index.html" class="logo" title="HiGISX">
+                                <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
+                                <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md item">
+                    <div class="footer-item">
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu footer-mnu-line">
+                                <li><a href="../../index.html" class="hover-link" data-title="Home"><span>Home</span></a></li>
+                                <li><a href="../about-us.html" class="hover-link" data-title="About Us"><span>About Us</span></a></li>
+                                <li><a href="../ourteam.html" class="hover-link" data-title="Our Team"><span>Our Team</span></a></li>
+                                <li><a href="../publication.html" class="hover-link" data-title="Publications"><span>Publications</span></a></li>
+                                <li><a href="../news.html" class="hover-link" data-title="News"><span>News</span></a></li>
+                                <li><a href="../contacts.html" class="hover-link" data-title="Contacts"><span>Contacts</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between items">
+                <div class="col-md-auto col-12 item">
+                    <nav class="footer-links">
+                        <ul>
+                            <li><a>HiGISX</a></li>
+                            <!-- <li><a href="privacy-policy.html">Privacy Policy</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-auto col-12 item">
+                    <div class="copyright">© 2023 HiGISX. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End footer -->
+
+	</main><!-- End main -->
+
+	<script src="../../assets/libs/jquery/jquery.min.js"></script>
+    <script src="../../assets/libs/lozad/lozad.min.js"></script>
+    <script src="../../assets/libs/device/device.js"></script>
+    <script src="../../assets/libs/spincrement/jquery.spincrement.min.js"></script>
+    <script src="../../assets/libs/pristine/pristine.min.js"></script>
+    <script src="../../assets/js/custom.js"></script>
+    <script src="../../assets/js/forms.js"></script>
+	
+	<script type="text/javascript">
+		function f(str){
+                var sub_menu = document.getElementById(str);
+                var dis_v = sub_menu.style.display;
+                
+                if(dis_v == "block")
+                    sub_menu.style.display = "none";
+                else
+                    sub_menu.style.display = "block";
+                    
+            }
+	</script>
+
+</body>
+
+</html>
